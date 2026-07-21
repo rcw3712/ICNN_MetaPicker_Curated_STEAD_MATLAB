@@ -1,0 +1,25 @@
+[Channel-statistics schema diagnostic]
+  statRows class          : cell
+  statRows size           : 1 x 15
+  Nested cell rows        : YES
+  Row field counts        : [11 11 11 11 11 11 11 11 11 11 11 11 11 11 11]
+  All row lengths equal   : 1
+  Expected N_STAT_FIELDS  : 11
+  Actual row length       : 11
+  VariableNames count     : 11
+     1. ChannelIndex
+     2. FeatureName
+     3. FeatureGroup
+     4. Minimum
+     5. Maximum
+     6. Mean
+     7. StdDev
+     8. NaNCount
+     9. InfCount
+    10. ProbabilitySumError
+    11. Status
+
+First 3 row contents:
+  Row 1: {1, "P_STA", "Probability", 0, 1, 0.006267, 0.06627, 0, 0, 0.003644, "PASS"}
+  Row 2: {2, "S_STA", "Probability", 0, 1, 0.006267, 0.06627, 0, 0, 0.003644, "PASS"}
+  Row 3: {3, "Noise_STA", "Probability", 0, 1, 0.9911, 0.0803, 0, 0, 0.003644, "PASS"}

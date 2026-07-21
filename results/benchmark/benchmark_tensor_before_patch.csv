@@ -1,0 +1,21 @@
+channel_index,feature_name,feature_source,feature_group,expected_in_locked_model,status
+1,P_STA,physicsAwarePicker/STA_LTA,base_picker_probability,YES,CORRECT
+2,S_STA,physicsAwarePicker/STA_LTA,base_picker_probability,YES,CORRECT
+3,Noise_STA,physicsAwarePicker/STA_LTA,base_picker_probability,YES,CORRECT
+4,P_AIC,AIC picker,base_picker_probability,YES,CORRECT
+5,S_AIC,AIC picker,base_picker_probability,YES,CORRECT
+6,Noise_AIC,AIC picker,base_picker_probability,YES,CORRECT
+7,P_CNN,CNN base picker,base_picker_probability,YES,CORRECT
+8,S_CNN,CNN base picker,base_picker_probability,YES,CORRECT
+9,Noise_CNN,CNN base picker,base_picker_probability,YES,CORRECT
+10,P_TCN,TCN base picker,base_picker_probability,YES,CORRECT
+11,S_TCN,TCN base picker,base_picker_probability,YES,CORRECT
+12,Noise_TCN,TCN base picker,base_picker_probability,YES,CORRECT
+13,E_conditioned,buildEnhancedRepresentation/waveform,waveform_context,YES,CORRECT
+14,N_conditioned,buildEnhancedRepresentation/waveform,waveform_context,YES,CORRECT
+15,Z_conditioned,buildEnhancedRepresentation/waveform,waveform_context,YES,CORRECT
+16,E_envelope,buildEnhancedRepresentation/envelope,enhanced_representation,NO,EXTRA_CHANNEL
+17,N_envelope,buildEnhancedRepresentation/envelope,enhanced_representation,NO,EXTRA_CHANNEL
+18,Z_envelope,buildEnhancedRepresentation/envelope,enhanced_representation,NO,EXTRA_CHANNEL
+19,E_STA_char,buildEnhancedRepresentation/sta_characteristic,enhanced_representation,NO,EXTRA_CHANNEL
+20,Z_STA_char,buildEnhancedRepresentation/sta_characteristic,enhanced_representation,NO,EXTRA_CHANNEL

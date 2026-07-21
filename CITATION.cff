@@ -1,0 +1,77 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below, and cite the associated article once published."
+type: software
+title: "I-CNN MetaPicker: Leakage-Free Temporal Meta-Learning Framework for Seismic Phase Picking"
+version: 1.0.0
+date-released: "2026-07-21"
+abstract: >
+  A reproducible MATLAB framework implementing a leakage-free, two-level
+  stacking ensemble for automatic P- and S-wave phase picking, trained and
+  evaluated on 2,234 curated STEAD-derived waveform records (2,114 unique
+  earthquake sources) with strict source-level train/validation/test
+  partitioning. Four base pickers (STA/LTA, AIC, a baseline CNN, and a
+  dilated TCN) generate probability curves via leakage-free out-of-fold
+  prediction; an Integrated CNN (I-CNN) meta-learner fuses these with
+  conditioned three-component waveform context into a final pick, followed
+  by a deterministic physics-aware deployment safeguard. A matched Z-only
+  configuration quantifies the contribution of horizontal-component
+  information. Companion software for the manuscript submitted to
+  Computers & Geosciences.
+license: MIT
+repository-code: "https://github.com/<GITHUB_USERNAME>/ICNN_MetaPicker_Curated_STEAD_MATLAB"
+keywords:
+  - seismic phase picking
+  - P-wave
+  - S-wave
+  - STEAD
+  - stacking ensemble
+  - meta-learning
+  - CNN
+  - TCN
+  - deep learning
+  - MATLAB
+  - seismology
+  - source-level validation
+  - data leakage
+authors:
+  - family-names: "Wibowo"
+    given-names: "Rahmat Catur"
+    affiliation: "Universitas Lampung"
+    email: "<CORRESPONDING_AUTHOR_EMAIL>"
+  - family-names: "Mahli"
+    given-names: "Razki Alfatah Kahiru"
+    affiliation: "Universitas Lampung"
+  - name: "Karyanto"
+    affiliation: "Universitas Lampung"
+  - family-names: "Amijaya"
+    given-names: "Hendra"
+    affiliation: "Universitas Lampung"
+  - name: "Aristoteles"
+    affiliation: "Universitas Lampung"
+  - family-names: "Hermana"
+    given-names: "Maman"
+    affiliation: "Universitas Lampung"
+  - family-names: "Sarkowi"
+    given-names: "Muh"
+    affiliation: "Universitas Lampung"
+preferred-citation:
+  type: article
+  title: >
+    Leakage-Free Temporal Meta-Learning for Seismic Phase Picking: An I-CNN
+    Framework with Source-Level Validation
+  authors:
+    - family-names: "Wibowo"
+      given-names: "Rahmat Catur"
+    - family-names: "Mahli"
+      given-names: "Razki Alfatah Kahiru"
+    - name: "Karyanto"
+    - family-names: "Amijaya"
+      given-names: "Hendra"
+    - name: "Aristoteles"
+    - family-names: "Hermana"
+      given-names: "Maman"
+    - family-names: "Sarkowi"
+      given-names: "Muh"
+  journal: "Computers & Geosciences"
+  year: 2026
+  doi: "<ARTICLE_DOI_ONCE_PUBLISHED>"

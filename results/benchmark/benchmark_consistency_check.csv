@@ -1,0 +1,7 @@
+Check,Status,Detail
+TestIDs,WARN,"ref has 335 records but split has 317 IDs -- possible duplicate source_ids"
+GroundTruthLabels,PASS,"p_true: 0 NaN of 335; s_true: 0 NaN of 335; p_range=[1.51,12.51]s"
+MetaFeatureTensors,PASS,"C_model=15, C_config=15 -- consistent"
+Scaling,PASS,"Meta-features are softmax outputs in [0,1]; no external scaling needed"
+PhysicsAwarePicker,PASS,"minSPTime=0.10s, sr=100Hz, nSamples=6000"
+EvaluationFormula,PASS,"P F1@100ms: saved=0.9211 recomputed=0.9211; S F1@100ms: saved=0.7453 recomputed=0.7453"

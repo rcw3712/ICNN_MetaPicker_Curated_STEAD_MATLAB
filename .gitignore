@@ -1,0 +1,13 @@
+# Raw waveform data (too large / not redistributed - see README §7)
+data/csv_stead_filtered/*
+!data/csv_stead_filtered/.gitkeep
+
+# MATLAB
+*.asv
+*.m~
+slprj/
+*.autosave
+
+# OS
+.DS_Store
+Thumbs.db

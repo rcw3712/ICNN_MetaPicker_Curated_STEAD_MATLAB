@@ -1,0 +1,16 @@
+channel_index,feature_name,feature_source,feature_group,expected_in_locked_model,status
+1,P_STA,STA/LTA base picker,base_picker_probability,YES,CORRECT
+2,S_STA,STA/LTA base picker,base_picker_probability,YES,CORRECT
+3,Noise_STA,STA/LTA base picker,base_picker_probability,YES,CORRECT
+4,P_AIC,AIC base picker,base_picker_probability,YES,CORRECT
+5,S_AIC,AIC base picker,base_picker_probability,YES,CORRECT
+6,Noise_AIC,AIC base picker,base_picker_probability,YES,CORRECT
+7,P_CNN,CNN base picker,base_picker_probability,YES,CORRECT
+8,S_CNN,CNN base picker,base_picker_probability,YES,CORRECT
+9,Noise_CNN,CNN base picker,base_picker_probability,YES,CORRECT
+10,P_TCN,TCN base picker,base_picker_probability,YES,CORRECT
+11,S_TCN,TCN base picker,base_picker_probability,YES,CORRECT
+12,Noise_TCN,TCN base picker,base_picker_probability,YES,CORRECT
+13,E_conditioned,conditioned waveform channel E,waveform_context,YES,CORRECT
+14,N_conditioned,conditioned waveform channel N,waveform_context,YES,CORRECT
+15,Z_conditioned,conditioned waveform channel Z,waveform_context,YES,CORRECT

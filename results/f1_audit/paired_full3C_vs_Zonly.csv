@@ -1,0 +1,4 @@
+Phase,Tolerance_ms,N_total,Both_correct,Full3C_only,Zonly_only,Neither_correct
+S,50,335,40,95,17,183
+S,100,335,86,113,19,117
+S,200,335,136,103,15,81
