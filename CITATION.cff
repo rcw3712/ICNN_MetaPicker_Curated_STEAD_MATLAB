@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it using the metadata below, and cite the associated article once published."
 type: software
-title: "I-CNN MetaPicker: Leakage-Free Temporal Meta-Learning Framework for Seismic Phase Picking"
+title: "I-CNN MetaPicker: Leakage-Controlled Temporal Meta-Learning Framework for Seismic Phase Picking"
 version: 1.0.0
 date-released: "2026-07-21"
 abstract: >
@@ -57,8 +57,8 @@ authors:
 preferred-citation:
   type: article
   title: >
-    Leakage-Free Temporal Meta-Learning for Seismic Phase Picking: An I-CNN
-    Framework with Source-Level Validation
+    Leakage-Controlled Temporal Meta-Learning for Seismic Phase Picking: An I-CNN
+    Framework with Source-Level Validation Using Three-Component Seismic Data
   authors:
     - family-names: "Wibowo"
       given-names: "Rahmat Catur"
