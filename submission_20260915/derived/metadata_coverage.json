@@ -1,0 +1,85 @@
+{
+  "subsets": [
+    {
+      "Subset": "train",
+      "Records": 1556,
+      "Sources": 1480,
+      "Station_keys": 61,
+      "Network_codes": 21,
+      "Network_counts": {
+        "PB": 703,
+        "HV": 656,
+        "MN": 85,
+        "AV": 67,
+        "TA": 5,
+        "HA": 5,
+        "CI": 5,
+        "HL": 5,
+        "NI": 3,
+        "AT": 3,
+        "KR": 3,
+        "AK": 3,
+        "GO": 2,
+        "HT": 2,
+        "SN": 2,
+        "FR": 2,
+        "C1": 1,
+        "IV": 1,
+        "HP": 1,
+        "NM": 1,
+        "CC": 1
+      }
+    },
+    {
+      "Subset": "val",
+      "Records": 343,
+      "Sources": 317,
+      "Station_keys": 39,
+      "Network_codes": 17,
+      "Network_counts": {
+        "PB": 161,
+        "HV": 131,
+        "MN": 17,
+        "AV": 10,
+        "FR": 5,
+        "CI": 4,
+        "HT": 3,
+        "AT": 2,
+        "HL": 2,
+        "TA": 1,
+        "LD": 1,
+        "PR": 1,
+        "SN": 1,
+        "KR": 1,
+        "CC": 1,
+        "HA": 1,
+        "S": 1
+      }
+    },
+    {
+      "Subset": "test",
+      "Records": 335,
+      "Sources": 317,
+      "Station_keys": 37,
+      "Network_codes": 13,
+      "Network_counts": {
+        "PB": 147,
+        "HV": 138,
+        "MN": 29,
+        "AV": 9,
+        "TA": 2,
+        "NI": 2,
+        "ET": 2,
+        "AT": 1,
+        "HP": 1,
+        "HT": 1,
+        "KR": 1,
+        "CI": 1,
+        "AK": 1
+      }
+    }
+  ],
+  "test_station_keys_shared_with_training": 30,
+  "test_station_keys_total": 37,
+  "coordinate_columns_available": false
+}

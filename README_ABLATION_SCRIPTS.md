@@ -1,3 +1,9 @@
+# Legacy ablation documentation
+
+This file describes historical scripts and is not the current manuscript protocol. Use [submission_20260915](submission_20260915/README.md). Current ablation is Table S6, uses 10,000-draw paired source-cluster intervals, and makes no two-SD significance calls.
+
+<details><summary>Historical text retained for provenance</summary>
+
 # Ablation scripts — standalone route (no patching of src/)
 
 ## Why this route
@@ -140,3 +146,5 @@ can be done next.
 2. Step 2 verifies record count *and* order against the checkpoint.
 3. Step 3 re-seeds with `config.randomSeed` before each variant, so variants differ only in
    inputs and dilation setting, not weight initialization.
+
+</details>

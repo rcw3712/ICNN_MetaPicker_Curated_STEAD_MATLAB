@@ -1,0 +1,5 @@
+regenerated/
+__pycache__/
+runner/results_clean/
+inputs/data/
+*.pyc

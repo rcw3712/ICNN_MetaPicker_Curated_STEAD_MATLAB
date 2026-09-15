@@ -1,24 +1,16 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it using the metadata below, and cite the associated article once published."
 type: software
-title: "I-CNN MetaPicker: Leakage-Controlled Temporal Meta-Learning Framework for Seismic Phase Picking"
-version: 1.0.0
-date-released: "2026-07-21"
+title: "Source-Grouped Evaluation of Temporal Stacking for Seismic Phase Picking with Three-Component Data"
+version: "2026.09.15"
+date-released: "2026-09-15"
 abstract: >
-  A reproducible MATLAB framework implementing a leakage-free, two-level
-  stacking ensemble for automatic P- and S-wave phase picking, trained and
-  evaluated on 2,234 curated STEAD-derived waveform records (2,114 unique
-  earthquake sources) with strict source-level train/validation/test
-  partitioning. Four base pickers (STA/LTA, AIC, a baseline CNN, and a
-  dilated TCN) generate probability curves via leakage-free out-of-fold
-  prediction; an Integrated CNN (I-CNN) meta-learner fuses these with
-  conditioned three-component waveform context into a final pick, followed
-  by a deterministic physics-aware deployment safeguard. A matched Z-only
-  configuration quantifies the contribution of horizontal-component
-  information. Companion software for the manuscript submitted to
-  Computers & Geosciences.
+  Source-grouped evaluation of temporal stacking on curated STEAD data.
+  The submission_20260915 package contains the current 40-fit runner,
+  frozen predictions, and portable analyses. Base seed is 42 and meta
+  seeds are 42-44. Findings condition on one split and fixed bases.
 license: MIT
-repository-code: "https://github.com/<GITHUB_USERNAME>/ICNN_MetaPicker_Curated_STEAD_MATLAB"
+repository-code: "https://github.com/rcw3712/ICNN_MetaPicker_Curated_STEAD_MATLAB"
 keywords:
   - seismic phase picking
   - P-wave

@@ -1,149 +1,34 @@
-# Leakage-Controlled I-CNN Meta-Learning Framework for Seismic Phase Picking
+# Source-grouped evaluation of temporal stacking for seismic phase picking
 
-[![MATLAB](https://img.shields.io/badge/MATLAB-R2024a-blue.svg)](https://www.mathworks.com)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Journal](https://img.shields.io/badge/Target-Computers%20%26%20Geosciences-orange.svg)](https://www.sciencedirect.com/journal/computers-and-geosciences)
+This repository accompanies **Source-Grouped Evaluation of Temporal Stacking for Seismic Phase Picking with Three-Component Data** (submission revision 15 September 2026).
 
-> Software accompanying the manuscript **"Leakage-Free Temporal Meta-Learning for Seismic Phase Picking: An I-CNN Framework with Source-Level Validation"**, submitted to *Computers & Geosciences*.
+## Current manuscript version
 
----
+Use **[submission_20260915](submission_20260915/README.md)**. It contains the current 40-fit MATLAB runner, frozen record-level predictions, fixed source partitions, metadata, portable Python analyses, and an output-to-script reproduction map.
 
-## 1. Purpose
+**Root-level scripts, results, and older documentation are legacy material and do not reproduce the current manuscript.** They remain for provenance. In particular, the current analysis does not use the historical two-SD significance rule or treat the S-after-P constraint as an inactive deployment-only safeguard.
 
-This repository implements a two-level stacking ensemble (I-CNN MetaPicker) for automatic P- and S-wave phase picking. Four level-1 base pickers (STA/LTA, AIC, a baseline CNN, and a dilated TCN) each produce P/S/Noise probability curves; a level-2 Integrated CNN (I-CNN) meta-learner fuses these, together with conditioned three-component waveform context, into a final pick. A deterministic physics-aware constraint layer is applied afterward as a deployment safeguard only (it does not alter reported test metrics).
+## Current results and scope
 
-## 2. Data
+On 335 test records from 317 held-out earthquake sources, mean F1 at ±100 ms over three meta-learner seeds is:
 
-The framework is trained and evaluated on a curated subset of the STanford EArthquake Dataset (STEAD; Mousavi et al., 2019), filtered to:
+| Mode | P | S |
+|---|---:|---:|
+| Full3C | 0.8680 | 0.5737 |
+| Z-only | 0.8664 | 0.3296 |
 
-| Filter | Threshold |
-|---|---|
-| `trace_category` | local earthquake |
-| `source_distance_km` | ≤ 15 |
-| `source_magnitude` | ≥ 1.5 |
-| `min_snr_db` | ≥ 10 |
-| `p_status` / `s_status` | manual |
+The Full3C minus Z-only S difference is 0.2441 (conditional paired source-cluster interval 0.1892–0.2979). CNN/TCN bases use seed 42; neural meta-learners use 42, 43, and 44. Intervals and seed SD do not include base-training or partition uncertainty. Final base selection, meta early stopping, and ensemble weighting reuse outer validation; this limitation is explicit. Test sources enter neither weight fitting nor checkpoint selection.
 
-This yields **2,234 three-component waveform records from 2,114 unique earthquake sources**. Splitting is performed at the `source_id` level (not the trace level) to guarantee zero earthquake-source overlap between Train (1,480 sources / 1,556 records), Validation (317 sources / 343 records), and Test (317 sources / 335 records).
+The strongest TCN approaches the stacker. Ablations do not establish essential nonlinearity, waveform-context necessity, or a dilation benefit. The S search is part of evaluation: removing its 0.1–30 s window and P gate changes a small number of predictions and changes the quality-score domain. It is not an independently learned physical law.
 
-Raw STEAD waveforms are not redistributed in this repository (see [Data availability](#7-data-availability)); the curated metadata table and derived split assignments used to reproduce this study are included under `metadata/` and `results/splits/`.
+## Reproduction and access
 
-## 3. Canonical 15-channel meta-feature tensor
+- [Installation and commands](submission_20260915/README.md)
+- [Methods and validation roles](submission_20260915/docs/METHODS.md)
+- [Figure/table mapping and large-file requirements](submission_20260915/docs/REPRODUCTION.md)
+- [Frozen result tables](submission_20260915/frozen)
+- [Package hash manifest](submission_20260915/SHA256_manifest.json)
 
-The I-CNN meta-learner consumes a canonical tensor `Z_meta ∈ ℝ^(6000×15)`, with channels in this fixed order:
+The lightweight bundle checks reported metrics without waveform access or retraining. Raw STEAD waveforms, full probability curves, all meta caches, and trained checkpoints are not bundled here. Full training instructions and data identification are provided; exact historical checkpoint recovery is distinct from rerunning the protocol on different hardware. No existing Zenodo DOI is asserted to archive this submission state. Use the immutable Git commit containing this directory and its hash manifest for provenance.
 
-```
-1  P_STA        6  Noise_AIC     11 S_TCN
-2  S_STA        7  P_CNN         12 Noise_TCN
-3  Noise_STA    8  S_CNN         13 E_conditioned
-4  P_AIC        9  Noise_CNN     14 N_conditioned
-5  S_AIC        10 P_TCN         15 Z_conditioned
-```
-
-Channel count and ordering are validated automatically at runtime; execution halts if a mismatch is detected.
-
-## 4. Repository structure
-
-```
-ICNN_MetaPicker_Curated_STEAD_MATLAB/
-├── main_ICNN_MetaPicker.m           Top-level entry point
-├── config/config_ICNN_MetaPicker.m  Central configuration (paths, seed=42, hyperparameters)
-├── run_qc_and_metadata_build.m      Step 1: metadata build + QC        <- run first
-├── run_experiment_full3C_STEAD.m    Step 2a: Full 3C experiment
-├── run_experiment_Zonly_STEAD.m     Step 2b: Z-only experiment
-├── run_ablation_study.m             Physics-aware ablation
-├── runConventionalF1Audit.m         F1-definition audit (conventional TP/FP/FN vs legacy)
-├── runMetaLearnerBenchmark.m        I-CNN benchmark reproducibility check
-├── runBenchmarkConsistencyCheck.m   Cross-checks benchmark against locked results
-├── run_post_evaluation_diagnostics.m  Percentile / SNR-stratified / failure-case diagnostics
-├── run_generate_all_figures.m       Regenerates all publication figures from existing results
-├── run_reviewer_modules.m           Additional reviewer-requested diagnostics
-├── src/
-│   ├── data_loading/    CSV/metadata loading and validation
-│   ├── qc/              Waveform quality control
-│   ├── splitting/       Source-level train/val/test partitioning
-│   ├── preprocessing/   Waveform conditioning
-│   ├── labeling/        Gaussian arrival-time probability labels
-│   ├── augmentation/    Training-only waveform augmentation
-│   ├── base_pickers/    STA/LTA, AIC, CNN, TCN implementations
-│   ├── oof_stacking/    Out-of-fold prediction + meta-feature tensor construction
-│   ├── meta_learner/    I-CNN training and inference
-│   ├── physics_picker/  Physics-aware deployment safeguard
-│   ├── evaluation/      Conventional-F1 metrics, detection rate, percentile errors
-│   ├── f1_audit/        F1-definition audit routines
-│   ├── benchmark/       Meta-learner benchmark + consistency checks
-│   ├── diagnostics/     SNR-stratified, failure-case, percentile diagnostics
-│   ├── ablation/        Physics-aware ablation study
-│   └── visualization/   All Fig. 2-12 / Supplementary Fig. S1 plotting scripts
-├── examples/            Minimal usage demos (single CSV, small subset, synthetic waveform)
-├── data/csv_stead_filtered/   Place curated STEAD CSV files here (not included; see §7)
-├── metadata/             Curated metadata table (included)
-├── results/
-│   ├── splits/           Source-level train/val/test source_id assignments (included)
-│   ├── metrics/, predictions/, diagnostics/, f1_audit/, benchmark/, ablation/  (included)
-│   └── figures_publication/   Regenerated 300 dpi PNG/TIFF/PDF figures + captions
-├── docs/                 Workflow description, data format, reproducibility notes, method notes
-├── PATCH_CHANGELOG.md    Changelog of visualization-script fixes (rendering/data-source bugs)
-├── LICENSE               MIT
-└── CITATION.cff          Citation metadata
-```
-
-## 5. Running the pipeline
-
-```matlab
-run_qc_and_metadata_build      % 1. Build/validate metadata, run QC
-run_experiment_full3C_STEAD    % 2. Full 3C experiment
-run_experiment_Zonly_STEAD     % 3. Z-only experiment
-run_ablation_study             % 4. Physics-aware ablation
-runConventionalF1Audit         % 5. F1-definition audit
-run_post_evaluation_diagnostics % 6. Percentile / SNR-stratified / failure-case diagnostics
-run_generate_all_figures       % 7. Regenerate all publication figures + captions
-```
-
-All experiments use `config.randomSeed = 42`. Steps 2-6 write their outputs under `results/`; step 7 reads those cached results and does **not** retrain anything, so it can be re-run quickly after any visualization fix.
-
-### 5b. Meta-learner ablation (Supplementary Table S7)
-
-The channel- and architecture-level ablation reported in Supplementary Table S7 and
-interpreted in Section 4.4 is produced by a separate set of scripts that reuse the cached
-out-of-fold meta-features rather than retraining the base pickers:
-
-```matlab
-run_recover_oof_from_fold_models     % 1. Rebuild OOF predictions from saved fold models (no retraining)
-run_export_oof_meta_features_v2      % 2. Assemble the 15-channel meta-feature cache
-run_metalearner_ablations_multiseed  % 3. Train probonly_12ch / waveonly_3ch / nodilation / full15ch
-                                      %    across 3 seeds each, plus the logistic stacker once;
-                                      %    writes results/ablation_metalearner/multiseed_summary.csv
-```
-
-`run_control_full15ch` and `run_metalearner_ablations` (single-seed versions of the same
-variants) are also included for reference; `run_metalearner_ablations_multiseed` supersedes
-both and is what produced the reported means, standard deviations, and the |Δ / SD| > 2
-significance calls in Table S7.
-
-The intermediate caches these scripts depend on
-(`results/models/trained_base_models/oof_predictions_checkpoint.mat`,
-`results/predictions/oof_meta_features.mat`) are regenerated by step 1-2 above and are not
-included in this repository, since they are large, deterministic given the fixed seed, and
-straightforward to reproduce from the base-picker fold models already under `results/models/`.
-The result files that Table S7 was built from **are** included directly, so the reported
-numbers can be checked without re-running anything:
-`results/ablation_metalearner/multiseed_summary.csv` (final, cited in the manuscript) and
-`results/ablation_metalearner/control_full15ch_f1.csv` (an earlier single-seed run, superseded
-by the multiseed result and kept only for the version history).
-
-## 6. Reproducing the published results
-
-`results/f1_audit/f1_conventional_summary.csv` and `results/diagnostics/percentile_metrics/percentile_metrics_{Full3C,Zonly}.csv` contain the exact locked values reported in the manuscript's Tables 4-5 and Supplementary Tables S2/S4. `results/splits/{train,val,test}_source_ids.csv` document the exact source-level partition (zero overlap, verified programmatically).
-
-## 7. Data availability
-
-Raw STEAD waveforms are publicly available from the original authors (Mousavi et al., 2019) and are not redistributed here. The curated metadata table, source-level split assignments, model predictions, and all intermediate results needed to reproduce the manuscript's figures and tables are included in `metadata/` and `results/`.
-
-## 8. License
-
-MIT License — see [LICENSE](LICENSE).
-
-## 9. Citation
-
-See [CITATION.cff](CITATION.cff).
+Code is MIT licensed. Original STEAD data remain subject to their own distribution terms. This repository has not been uploaded to a journal by the revision process.

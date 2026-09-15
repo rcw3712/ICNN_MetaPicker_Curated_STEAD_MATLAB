@@ -1,0 +1,29 @@
+Category,Parameter,Value
+Dataset,Population,2234 records / 2114 sources
+Dataset,Sampling; duration,100 Hz; 6000 samples; 60 s
+Curation,Distance; magnitude; SNR,≤15 km; ≥1.5; ≥10 dB
+Curation,Reference arrivals,Manual P and S
+Partition,Train sources / records,1480 / 1556
+Partition,Validation sources / records,317 / 343
+Partition,Test sources / records,317 / 335
+Partition,Source intersections,Zero for every pair
+OOF,Grouping; folds; inner validation,source_id; 5; 15% of non-held sources
+Meta input,Augmented training records,3112 per mode
+Meta input,Full / prob-only / waveform-only,6000×15 / 6000×12 / 6000×3
+Training,Completed fits,40 (25 Full3C; 15 Z-only)
+Seeds,Base / neural meta,"42 / 42,43,44"
+Augmentation,Noise; amplitude range,20 dB; 0.5–2.0
+Augmentation,Horizontal dropout,Probability 0.20
+Augmentation,Time shift / polarity flip,Disabled / disabled
+Logistic,Heads; target,"P,S binary; phase mask >0.3"
+Logistic,Normalization,OOF-training mean and sample SD
+Logistic,Subsampling / ridge penalty,Every 10th sample / 0.01
+Logistic,Optimization,Newton; ≤100 iterations; gradient∞<1×10⁻⁶
+Evaluation,Accepted / strict masks,Detected+uncertain / detected; finite
+Evaluation,Tolerances,"±50, ±100, ±200 ms"
+Evaluation,MAE denominator,"All accepted, including outliers"
+Bootstrap,Mean intervals,"10,000 source draws; NumPy seed 42"
+Software,Training,MATLAB R2024a
+Software,Tables / figures,"Python; NumPy, pandas, Matplotlib"
+Provenance,Frozen results,submission40_v5_oofstream
+Provenance,Manifest at audit,2279 file hashes matched

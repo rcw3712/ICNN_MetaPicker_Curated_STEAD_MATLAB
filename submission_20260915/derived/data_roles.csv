@@ -1,0 +1,9 @@
+Stage,Weight fitting / feature source,Selection / evaluation
+OOF bases (each fold),85% of non-held training sources; augmented fitting records,15% non-held sources for early stopping; held fold excluded from both
+OOF meta features,Held-fold originals and augmented copies; matching fold bases,No held source in base fitting or inner validation
+Final CNN/TCN,Outer training only; original + augmented,Outer validation for base checkpoint
+Neural meta models,OOF features from outer training,Outer validation features from final bases for checkpoint
+Logistic comparator,Subsampled OOF training; training-only scaling,Convergence criterion; no validation checkpoint
+Weighted ensemble,Phase-specific validation F1 fixes coefficients,Outer validation reused; no test fitting
+Decoder,Fixed archived thresholds and S window,No new threshold optimization in diagnostic analyses
+Final evaluation,335 test records / 317 sources,Fixed predictions; source-cluster bootstrap and diagnostic scoring

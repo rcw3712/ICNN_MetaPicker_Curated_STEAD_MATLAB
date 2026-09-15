@@ -1,0 +1,13 @@
+{
+  "metric_checks": 1389,
+  "metric_failures": 0,
+  "derived_values_reproduced": true,
+  "checkpoint_history_receipts_verified": true,
+  "CG_MainText_figures": 12,
+  "main_words_including_tables_approx": 5630,
+  "abstract_words_approx": 183,
+  "CG_Supplementary_figures": 5,
+  "twelve_equations_sequential": true,
+  "matlab_synthetic_protocol_passed": true,
+  "original_result_tables_preserved": true
+}

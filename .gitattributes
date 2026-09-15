@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Preserve byte hashes in the submission provenance bundle.
+submission_20260915/** -text
