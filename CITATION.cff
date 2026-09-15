@@ -2,7 +2,8 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it using the metadata below, and cite the associated article once published."
 type: software
 title: "Source-Grouped Evaluation of Temporal Stacking for Seismic Phase Picking with Three-Component Data"
-version: "2026.09.15"
+version: "1.2.0"
+doi: "10.5281/zenodo.22760733"
 date-released: "2026-09-15"
 abstract: >
   Source-grouped evaluation of temporal stacking on curated STEAD data.
@@ -46,24 +47,3 @@ authors:
   - family-names: "Sarkowi"
     given-names: "Muh"
     affiliation: "Universitas Lampung"
-preferred-citation:
-  type: article
-  title: >
-    Leakage-Controlled Temporal Meta-Learning for Seismic Phase Picking: An I-CNN
-    Framework with Source-Level Validation Using Three-Component Seismic Data
-  authors:
-    - family-names: "Wibowo"
-      given-names: "Rahmat Catur"
-    - family-names: "Mahli"
-      given-names: "Razki Alfatah Khairu"
-    - name: "Karyanto"
-    - family-names: "Amijaya"
-      given-names: "Hendra"
-    - name: "Aristoteles"
-    - family-names: "Hermana"
-      given-names: "Maman"
-    - family-names: "Sarkowi"
-      given-names: "Muh"
-  journal: "Computers & Geosciences"
-  year: 2026
-  doi: "<ARTICLE_DOI_ONCE_PUBLISHED>"
