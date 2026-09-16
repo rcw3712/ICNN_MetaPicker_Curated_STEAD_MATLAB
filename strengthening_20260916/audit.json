@@ -1,0 +1,491 @@
+{
+  "issues": [],
+  "manifest_entries_checked": 22830,
+  "unique_hashed_files": 2283,
+  "prediction_tables": 24,
+  "metric_rows_checked": 288,
+  "summary": [
+    {
+      "Method": "Stack",
+      "Mode": "Full3C",
+      "Phase": "P",
+      "Tolerance_ms": 50,
+      "F1": 0.7258222550503927,
+      "SD_between_base_means": 0.009499834615721245,
+      "Minimum": 0.7095808383233533,
+      "Maximum": 0.7414050822122571,
+      "MAE_ms": 81.07483778949792,
+      "Coverage": 0.9960199004975124
+    },
+    {
+      "Method": "PhaseNetMatched",
+      "Mode": "Full3C",
+      "Phase": "P",
+      "Tolerance_ms": 50,
+      "F1": 0.9491525170883942,
+      "SD_between_base_means": 0.0014954135695294268,
+      "Minimum": 0.9476831091180867,
+      "Maximum": 0.9506726457399103,
+      "MAE_ms": 21.897855939772025,
+      "Coverage": 0.9960199004975124
+    },
+    {
+      "Method": "Stack",
+      "Mode": "Full3C",
+      "Phase": "P",
+      "Tolerance_ms": 100,
+      "F1": 0.8693931830840398,
+      "SD_between_base_means": 0.007795365933302704,
+      "Minimum": 0.8490284005979073,
+      "Maximum": 0.8819133034379671,
+      "MAE_ms": 81.07483778949792,
+      "Coverage": 0.9960199004975124
+    },
+    {
+      "Method": "PhaseNetMatched",
+      "Mode": "Full3C",
+      "Phase": "P",
+      "Tolerance_ms": 100,
+      "F1": 0.9661051588899928,
+      "SD_between_base_means": 0.006719449407183799,
+      "Minimum": 0.9596412556053812,
+      "Maximum": 0.9730538922155688,
+      "MAE_ms": 21.897855939772025,
+      "Coverage": 0.9960199004975124
+    },
+    {
+      "Method": "Stack",
+      "Mode": "Full3C",
+      "Phase": "P",
+      "Tolerance_ms": 200,
+      "F1": 0.9302102945942367,
+      "SD_between_base_means": 0.0037504764454657563,
+      "Minimum": 0.9207772795216741,
+      "Maximum": 0.9357249626307922,
+      "MAE_ms": 81.07483778949792,
+      "Coverage": 0.9960199004975124
+    },
+    {
+      "Method": "PhaseNetMatched",
+      "Mode": "Full3C",
+      "Phase": "P",
+      "Tolerance_ms": 200,
+      "F1": 0.9830503417678842,
+      "SD_between_base_means": 0.0031159437517232816,
+      "Minimum": 0.9805680119581465,
+      "Maximum": 0.9865470852017937,
+      "MAE_ms": 21.897855939772025,
+      "Coverage": 0.9960199004975124
+    },
+    {
+      "Method": "Stack",
+      "Mode": "Full3C",
+      "Phase": "S",
+      "Tolerance_ms": 50,
+      "F1": 0.4288796423902617,
+      "SD_between_base_means": 0.007363910542634049,
+      "Minimum": 0.4144144144144144,
+      "Maximum": 0.44744744744744747,
+      "MAE_ms": 682.1367220742541,
+      "Coverage": 0.9844112769485903
+    },
+    {
+      "Method": "PhaseNetMatched",
+      "Mode": "Full3C",
+      "Phase": "S",
+      "Tolerance_ms": 50,
+      "F1": 0.4281437125748503,
+      "SD_between_base_means": 0.01963304947395807,
+      "Minimum": 0.4101796407185629,
+      "Maximum": 0.4491017964071856,
+      "MAE_ms": 216.76676676676675,
+      "Coverage": 0.9940298507462687
+    },
+    {
+      "Method": "Stack",
+      "Mode": "Full3C",
+      "Phase": "S",
+      "Tolerance_ms": 100,
+      "F1": 0.5779683181648699,
+      "SD_between_base_means": 0.006409397598504486,
+      "Minimum": 0.5580693815987934,
+      "Maximum": 0.5933734939759037,
+      "MAE_ms": 682.1367220742541,
+      "Coverage": 0.9844112769485903
+    },
+    {
+      "Method": "PhaseNetMatched",
+      "Mode": "Full3C",
+      "Phase": "S",
+      "Tolerance_ms": 100,
+      "F1": 0.626746506986028,
+      "SD_between_base_means": 0.018293715349125085,
+      "Minimum": 0.6107784431137725,
+      "Maximum": 0.6467065868263473,
+      "MAE_ms": 216.76676676676675,
+      "Coverage": 0.9940298507462687
+    },
+    {
+      "Method": "Stack",
+      "Mode": "Full3C",
+      "Phase": "S",
+      "Tolerance_ms": 200,
+      "F1": 0.7103495066553609,
+      "SD_between_base_means": 0.010870738529323843,
+      "Minimum": 0.6877828054298643,
+      "Maximum": 0.7409638554216867,
+      "MAE_ms": 682.1367220742541,
+      "Coverage": 0.9844112769485903
+    },
+    {
+      "Method": "PhaseNetMatched",
+      "Mode": "Full3C",
+      "Phase": "S",
+      "Tolerance_ms": 200,
+      "F1": 0.781437125748503,
+      "SD_between_base_means": 0.026611360530885007,
+      "Minimum": 0.7514970059880239,
+      "Maximum": 0.8023952095808383,
+      "MAE_ms": 216.76676676676675,
+      "Coverage": 0.9940298507462687
+    },
+    {
+      "Method": "Stack",
+      "Mode": "Zonly",
+      "Phase": "P",
+      "Tolerance_ms": 50,
+      "F1": 0.740075147951277,
+      "SD_between_base_means": 0.005188487020342159,
+      "Minimum": 0.7343283582089553,
+      "Maximum": 0.7492537313432835,
+      "MAE_ms": 126.37329855252209,
+      "Coverage": 0.9970149253731343
+    },
+    {
+      "Method": "PhaseNetMatched",
+      "Mode": "Zonly",
+      "Phase": "P",
+      "Tolerance_ms": 50,
+      "F1": 0.939767530062691,
+      "SD_between_base_means": 0.010829769171981404,
+      "Minimum": 0.9327354260089686,
+      "Maximum": 0.9522388059701492,
+      "MAE_ms": 26.07748681740981,
+      "Coverage": 0.9990049751243781
+    },
+    {
+      "Method": "Stack",
+      "Mode": "Zonly",
+      "Phase": "P",
+      "Tolerance_ms": 100,
+      "F1": 0.8722787356297527,
+      "SD_between_base_means": 0.00604904869503618,
+      "Minimum": 0.8639760837070254,
+      "Maximum": 0.8805970149253731,
+      "MAE_ms": 126.37329855252209,
+      "Coverage": 0.9970149253731343
+    },
+    {
+      "Method": "PhaseNetMatched",
+      "Mode": "Zonly",
+      "Phase": "P",
+      "Tolerance_ms": 100,
+      "F1": 0.9636615130624903,
+      "SD_between_base_means": 0.008234897893466132,
+      "Minimum": 0.9582089552238806,
+      "Maximum": 0.9731343283582089,
+      "MAE_ms": 26.07748681740981,
+      "Coverage": 0.9990049751243781
+    },
+    {
+      "Method": "Stack",
+      "Mode": "Zonly",
+      "Phase": "P",
+      "Tolerance_ms": 200,
+      "F1": 0.9334006952073142,
+      "SD_between_base_means": 0.0015732880653960444,
+      "Minimum": 0.9253731343283582,
+      "Maximum": 0.9417040358744395,
+      "MAE_ms": 126.37329855252209,
+      "Coverage": 0.9970149253731343
+    },
+    {
+      "Method": "PhaseNetMatched",
+      "Mode": "Zonly",
+      "Phase": "P",
+      "Tolerance_ms": 200,
+      "F1": 0.9845674467721185,
+      "SD_between_base_means": 0.0037715085516803106,
+      "Minimum": 0.9805680119581465,
+      "Maximum": 0.9880597014925373,
+      "MAE_ms": 26.07748681740981,
+      "Coverage": 0.9990049751243781
+    },
+    {
+      "Method": "Stack",
+      "Mode": "Zonly",
+      "Phase": "S",
+      "Tolerance_ms": 50,
+      "F1": 0.2017021899063414,
+      "SD_between_base_means": 0.014453417213248063,
+      "Minimum": 0.17896389324960754,
+      "Maximum": 0.22427035330261136,
+      "MAE_ms": 939.9687233589295,
+      "Coverage": 0.9330016583747927
+    },
+    {
+      "Method": "PhaseNetMatched",
+      "Mode": "Zonly",
+      "Phase": "S",
+      "Tolerance_ms": 50,
+      "F1": 0.23530517440455412,
+      "SD_between_base_means": 0.0211989494221516,
+      "Minimum": 0.21524663677130046,
+      "Maximum": 0.25748502994011974,
+      "MAE_ms": 469.591897286508,
+      "Coverage": 0.9960199004975124
+    },
+    {
+      "Method": "Stack",
+      "Mode": "Zonly",
+      "Phase": "S",
+      "Tolerance_ms": 100,
+      "F1": 0.33836965674005853,
+      "SD_between_base_means": 0.009586869771208434,
+      "Minimum": 0.32565284178187404,
+      "Maximum": 0.35348837209302325,
+      "MAE_ms": 939.9687233589295,
+      "Coverage": 0.9330016583747927
+    },
+    {
+      "Method": "PhaseNetMatched",
+      "Mode": "Zonly",
+      "Phase": "S",
+      "Tolerance_ms": 100,
+      "F1": 0.36889897335374094,
+      "SD_between_base_means": 0.01665643814092834,
+      "Minimum": 0.34977578475336324,
+      "Maximum": 0.38023952095808383,
+      "MAE_ms": 469.591897286508,
+      "Coverage": 0.9960199004975124
+    },
+    {
+      "Method": "Stack",
+      "Mode": "Zonly",
+      "Phase": "S",
+      "Tolerance_ms": 200,
+      "F1": 0.48109172905651654,
+      "SD_between_base_means": 0.014175200359534162,
+      "Minimum": 0.46105919003115264,
+      "Maximum": 0.5054263565891473,
+      "MAE_ms": 939.9687233589295,
+      "Coverage": 0.9330016583747927
+    },
+    {
+      "Method": "PhaseNetMatched",
+      "Mode": "Zonly",
+      "Phase": "S",
+      "Tolerance_ms": 200,
+      "F1": 0.56730485217905,
+      "SD_between_base_means": 0.011815264018267432,
+      "Minimum": 0.5590433482810164,
+      "Maximum": 0.5808383233532934,
+      "MAE_ms": 469.591897286508,
+      "Coverage": 0.9960199004975124
+    }
+  ],
+  "intervals": [
+    {
+      "Comparison": "Stack Full3C minus Zonly",
+      "Phase": "P",
+      "Tolerance_ms": 50,
+      "Delta": -0.014252892900884384,
+      "Low": -0.029824643598152515,
+      "High": 0.00035291794013093643
+    },
+    {
+      "Comparison": "PhaseNetMatched Full3C minus Zonly",
+      "Phase": "P",
+      "Tolerance_ms": 50,
+      "Delta": 0.009384987025703229,
+      "Low": -0.0026863668196131507,
+      "High": 0.02199281373728872
+    },
+    {
+      "Comparison": "Stack minus PhaseNetMatched Full3C",
+      "Phase": "P",
+      "Tolerance_ms": 50,
+      "Delta": -0.22333026203800155,
+      "Low": -0.2715654323898622,
+      "High": -0.17553868607958523
+    },
+    {
+      "Comparison": "Stack minus PhaseNetMatched Zonly",
+      "Phase": "P",
+      "Tolerance_ms": 50,
+      "Delta": -0.19969238211141394,
+      "Low": -0.24903292909866012,
+      "High": -0.15056295603427697
+    },
+    {
+      "Comparison": "Stack Full3C minus Zonly",
+      "Phase": "P",
+      "Tolerance_ms": 100,
+      "Delta": -0.0028855525457128772,
+      "Low": -0.013470649264334797,
+      "High": 0.007642704301227118
+    },
+    {
+      "Comparison": "PhaseNetMatched Full3C minus Zonly",
+      "Phase": "P",
+      "Tolerance_ms": 100,
+      "Delta": 0.0024436458275025608,
+      "Low": -0.0074909407517437495,
+      "High": 0.012508903293201343
+    },
+    {
+      "Comparison": "Stack minus PhaseNetMatched Full3C",
+      "Phase": "P",
+      "Tolerance_ms": 100,
+      "Delta": -0.09671197580595303,
+      "Low": -0.13401286881220334,
+      "High": -0.06136557206864553
+    },
+    {
+      "Comparison": "Stack minus PhaseNetMatched Zonly",
+      "Phase": "P",
+      "Tolerance_ms": 100,
+      "Delta": -0.0913827774327376,
+      "Low": -0.1284471517849798,
+      "High": -0.056894872919904665
+    },
+    {
+      "Comparison": "Stack Full3C minus Zonly",
+      "Phase": "P",
+      "Tolerance_ms": 200,
+      "Delta": -0.0031904006130775153,
+      "Low": -0.010775146355943658,
+      "High": 0.004415558464849123
+    },
+    {
+      "Comparison": "PhaseNetMatched Full3C minus Zonly",
+      "Phase": "P",
+      "Tolerance_ms": 200,
+      "Delta": -0.0015171050042342982,
+      "Low": -0.009161792302627656,
+      "High": 0.006240851218800909
+    },
+    {
+      "Comparison": "Stack minus PhaseNetMatched Full3C",
+      "Phase": "P",
+      "Tolerance_ms": 200,
+      "Delta": -0.05284004717364754,
+      "Low": -0.07952122845897909,
+      "High": -0.02851056623349642
+    },
+    {
+      "Comparison": "Stack minus PhaseNetMatched Zonly",
+      "Phase": "P",
+      "Tolerance_ms": 200,
+      "Delta": -0.051166751564804325,
+      "Low": -0.0751779938655831,
+      "High": -0.029322578417680083
+    },
+    {
+      "Comparison": "Stack Full3C minus Zonly",
+      "Phase": "S",
+      "Tolerance_ms": 50,
+      "Delta": 0.22717745248392032,
+      "Low": 0.18401436930626935,
+      "High": 0.27172221829978327
+    },
+    {
+      "Comparison": "PhaseNetMatched Full3C minus Zonly",
+      "Phase": "S",
+      "Tolerance_ms": 50,
+      "Delta": 0.19283853817029617,
+      "Low": 0.14698817795801697,
+      "High": 0.2375842375093461
+    },
+    {
+      "Comparison": "Stack minus PhaseNetMatched Full3C",
+      "Phase": "S",
+      "Tolerance_ms": 50,
+      "Delta": 0.0007359298154114291,
+      "Low": -0.03391486784039537,
+      "High": 0.03561911004170841
+    },
+    {
+      "Comparison": "Stack minus PhaseNetMatched Zonly",
+      "Phase": "S",
+      "Tolerance_ms": 50,
+      "Delta": -0.033602984498212723,
+      "Low": -0.06758538879902179,
+      "High": 0.00010173519075175612
+    },
+    {
+      "Comparison": "Stack Full3C minus Zonly",
+      "Phase": "S",
+      "Tolerance_ms": 100,
+      "Delta": 0.2395986614248114,
+      "Low": 0.18739099371705725,
+      "High": 0.2904839846757648
+    },
+    {
+      "Comparison": "PhaseNetMatched Full3C minus Zonly",
+      "Phase": "S",
+      "Tolerance_ms": 100,
+      "Delta": 0.257847533632287,
+      "Low": 0.20935351755971135,
+      "High": 0.30572454980191077
+    },
+    {
+      "Comparison": "Stack minus PhaseNetMatched Full3C",
+      "Phase": "S",
+      "Tolerance_ms": 100,
+      "Delta": -0.04877818882115803,
+      "Low": -0.08214534602013666,
+      "High": -0.014766356859637361
+    },
+    {
+      "Comparison": "Stack minus PhaseNetMatched Zonly",
+      "Phase": "S",
+      "Tolerance_ms": 100,
+      "Delta": -0.03052931661368241,
+      "Low": -0.07119399108129684,
+      "High": 0.010136593736131258
+    },
+    {
+      "Comparison": "Stack Full3C minus Zonly",
+      "Phase": "S",
+      "Tolerance_ms": 200,
+      "Delta": 0.22925777759884436,
+      "Low": 0.17847905087354687,
+      "High": 0.2806472864859104
+    },
+    {
+      "Comparison": "PhaseNetMatched Full3C minus Zonly",
+      "Phase": "S",
+      "Tolerance_ms": 200,
+      "Delta": 0.21413227356945297,
+      "Low": 0.16594345389802356,
+      "High": 0.2625676544760849
+    },
+    {
+      "Comparison": "Stack minus PhaseNetMatched Full3C",
+      "Phase": "S",
+      "Tolerance_ms": 200,
+      "Delta": -0.0710876190931421,
+      "Low": -0.10569324893282216,
+      "High": -0.03848650429587296
+    },
+    {
+      "Comparison": "Stack minus PhaseNetMatched Zonly",
+      "Phase": "S",
+      "Tolerance_ms": 200,
+      "Delta": -0.08621312312253349,
+      "Low": -0.1255989212946257,
+      "High": -0.04805728142603515
+    }
+  ]
+}

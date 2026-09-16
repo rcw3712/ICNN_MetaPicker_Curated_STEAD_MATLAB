@@ -1,0 +1,16 @@
+id,mode,kind,seed,fold,seconds
+Zonly_CNN_fold1_seed44,Zonly,CNN,44,1,188.4745911
+Zonly_TCN_fold1_seed44,Zonly,TCN,44,1,242.8068024
+Zonly_CNN_fold2_seed44,Zonly,CNN,44,2,178.3256931
+Zonly_TCN_fold2_seed44,Zonly,TCN,44,2,215.1343905
+Zonly_CNN_fold3_seed44,Zonly,CNN,44,3,177.7937222
+Zonly_TCN_fold3_seed44,Zonly,TCN,44,3,246.7541365
+Zonly_CNN_fold4_seed44,Zonly,CNN,44,4,178.4593718
+Zonly_TCN_fold4_seed44,Zonly,TCN,44,4,249.7809993
+Zonly_CNN_fold5_seed44,Zonly,CNN,44,5,178.8082079
+Zonly_TCN_fold5_seed44,Zonly,TCN,44,5,250.8834657
+Zonly_CNN_fold0_seed44,Zonly,CNN,44,0,256.614443
+Zonly_TCN_fold0_seed44,Zonly,TCN,44,0,369.5691395
+Zonly_full15ch_fold-1_seed42,Zonly,full15ch,42,-1,925.8602823
+Zonly_full15ch_fold-1_seed43,Zonly,full15ch,43,-1,1110.4785439
+Zonly_full15ch_fold-1_seed44,Zonly,full15ch,44,-1,441.5865401
