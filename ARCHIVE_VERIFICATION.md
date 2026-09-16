@@ -1,3 +1,7 @@
+# Model replay release v1.4.0
+
+This release adds all 106 trained checkpoints and portable replay under reproducibility_20260916. Its local SHA-256 manifest covers 265 files. The published Zenodo identifier and downloaded-archive verification will be recorded after release publication; no new DOI is asserted in this pre-publication snapshot. Historical v1.3.0/v1.2.0 exclusions below describe those immutable older releases, not the new checkpoint package.
+
 # Verification of release v1.3.0
 
 Verified 16 September 2026.

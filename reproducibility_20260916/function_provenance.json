@@ -1,0 +1,104 @@
+[
+  {
+    "source": "strengthening_20260916/runner/clean/predictCurves.m",
+    "source_sha256": "1e414e469197e5ae1db45b7f960829dac1d0baf4632c27cf1911e6535a4de9c6",
+    "inference_copy": "matlab/predictCurves.m",
+    "change": "Comment-only lines removed; executable lines retained."
+  },
+  {
+    "source": "strengthening_20260916/runner/clean/prepareMode.m",
+    "source_sha256": "9fb8ac9efaf5cb34ef413c567300edd2e3ac3b643c4d03de4be96c351f858bd0",
+    "inference_copy": "matlab/prepareMode.m",
+    "change": "Comment-only lines removed; executable lines retained."
+  },
+  {
+    "source": "strengthening_20260916/runner/clean/assertRepresentation.m",
+    "source_sha256": "4cd8f6b97113cde502ca724d1794403579cbed1f2d29b5ff84fed23348d1b4c8",
+    "inference_copy": "matlab/assertRepresentation.m",
+    "change": "Comment-only lines removed; executable lines retained."
+  },
+  {
+    "source": "strengthening_20260916/runner/clean/makeMeta.m",
+    "source_sha256": "551e8dc0a29232afb049a7f8fa6b58ff9a5131fea0d73d98f934785914da2e4e",
+    "inference_copy": "matlab/makeMeta.m",
+    "change": "Comment-only lines removed; executable lines retained."
+  },
+  {
+    "source": "strengthening_20260916/runner/clean/decodeClean.m",
+    "source_sha256": "73774ba8f47f9fa4a97f7c1248b46ae8cbb14f9b7b959b586efb69f6fc4a0275",
+    "inference_copy": "matlab/decodeClean.m",
+    "change": "Comment-only lines removed; executable lines retained."
+  },
+  {
+    "source": "strengthening_20260916/runner/clean/predictionTable.m",
+    "source_sha256": "1ae0e149b74278bd26fc59d4152e01675722f032c6da980cbf001ae589d95e81",
+    "inference_copy": "matlab/predictionTable.m",
+    "change": "Comment-only lines removed; executable lines retained."
+  },
+  {
+    "source": "strengthening_20260916/runner/clean/evaluateClean.m",
+    "source_sha256": "bb4cb4b8d535964c726d2eddacb347ea00740aab82f06b2c83b200c8fc77d53d",
+    "inference_copy": "matlab/evaluateClean.m",
+    "change": "Comment-only lines removed; executable lines retained."
+  },
+  {
+    "source": "strengthening_20260916/runner/config/config_ICNN_MetaPicker.m",
+    "source_sha256": "5687937e7809f3ae22f28d982a40539bb6eb658b4f4e70eb934ee09f54770fbd",
+    "inference_copy": "matlab/config_ICNN_MetaPicker.m",
+    "change": "Comment-only lines and inline comments removed; executable statements retained."
+  },
+  {
+    "source": "strengthening_20260916/runner/src/data_loading/loadSingleSTEADCSV.m",
+    "source_sha256": "f39a698ab5baf3fd95df2f49aff629d3b6a69df55427fd09867003d22d657732",
+    "inference_copy": "matlab/loadSingleSTEADCSV.m",
+    "change": "Comment-only lines removed; executable lines retained."
+  },
+  {
+    "source": "strengthening_20260916/runner/src/preprocessing/applyPreprocessing.m",
+    "source_sha256": "2fae829b5f5e3765281196f75939acf08e056523f7b5ef39656a442245eff5c4",
+    "inference_copy": "matlab/applyPreprocessing.m",
+    "change": "Comment-only lines removed; executable lines retained."
+  },
+  {
+    "source": "strengthening_20260916/runner/src/preprocessing/conditionWaveform.m",
+    "source_sha256": "c2464340255da5ae74baa9da7f6eef45e47d0544e49cf9bec5bc2ca2718a347a",
+    "inference_copy": "matlab/conditionWaveform.m",
+    "change": "Comment-only lines removed; executable lines retained."
+  },
+  {
+    "source": "strengthening_20260916/runner/src/preprocessing/buildEnhancedRepresentation.m",
+    "source_sha256": "224d0a6d75131032537f436baab26e179e844dccd581b5a908be34c78720246f",
+    "inference_copy": "matlab/buildEnhancedRepresentation.m",
+    "change": "Comment-only lines removed; executable lines retained."
+  },
+  {
+    "source": "strengthening_20260916/runner/src/labeling/addGaussianLabels.m",
+    "source_sha256": "052dbc5843cd36330b96f9c8600994493ec5f39ee9998e677dc7bc9c72233ece",
+    "inference_copy": "matlab/addGaussianLabels.m",
+    "change": "Comment-only lines removed; executable lines retained."
+  },
+  {
+    "source": "strengthening_20260916/runner/src/labeling/generateGaussianMasks.m",
+    "source_sha256": "b637ad5d444dddacc1fe687951340d696996fb34fb9787eafd063d1ca19f5d5e",
+    "inference_copy": "matlab/generateGaussianMasks.m",
+    "change": "Comment-only lines removed; executable lines retained."
+  },
+  {
+    "source": "strengthening_20260916/runner/src/base_pickers/runSTALTAPicker.m",
+    "source_sha256": "c7fa58be74aa5a748a281b56e7637ad19e8d8f81f5d846d0f73d047d63bbbaeb",
+    "inference_copy": "matlab/runSTALTAPicker.m",
+    "change": "Comment-only lines removed; executable lines retained."
+  },
+  {
+    "source": "strengthening_20260916/runner/src/base_pickers/runAICPicker.m",
+    "source_sha256": "ff358433aff8ef095281ab45794d131c7cb2bea1113327f55fc340a4fd5986de",
+    "inference_copy": "matlab/runAICPicker.m",
+    "change": "Comment-only lines removed; executable lines retained."
+  },
+  {
+    "source": "strengthening_20260916/runner/clean/PhaseSkipCrop.m",
+    "source_sha256": "f9558e7c64cd50bfe6d30379ec94a95a8cdcc7f63503d0276066a87580bb2fb7",
+    "inference_copy": "matlab/PhaseSkipCrop.m",
+    "change": "Unchanged custom layer required to deserialize PhaseNetMatched checkpoints."
+  }
+]

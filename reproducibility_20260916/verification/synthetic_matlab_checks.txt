@@ -1,0 +1,1 @@
+PASS: zero-channel conditioning; uncertain-P gating; rejected-P gating; upper S endpoint and exclusion; 106 checkpoint identities/source memberships.

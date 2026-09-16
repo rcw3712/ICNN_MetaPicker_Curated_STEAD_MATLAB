@@ -2,9 +2,15 @@
 
 This repository accompanies **Source-Grouped Evaluation of Temporal Stacking for Seismic Phase Picking with Three-Component Data** (revision 16 September 2026).
 
-## Current manuscript and results
+## Executable workflow and saved models
 
-Use **[strengthening_20260916](strengthening_20260916/README.md)** for the expanded experiment, numerical audit and revised manuscripts. It extends the original **[submission_20260915](submission_20260915/README.md)** package with 66 fits (106 overall): two additional CNN/TCN base seeds in both modes, crossed with three meta seeds, plus six standalone PhaseNet-style baseline fits.
+Use **[reproducibility_20260916](reproducibility_20260916/README.md)** for all 106 saved checkpoints (about 76 MB), portable MATLAB model replay, source/feature contracts, synthetic demonstrations and documented threshold history. The five negative-control cases are rejected, all 106 checkpoints load, and pick/status replay matches on the stated CPU/GPU smoke subsets. The contribution is inspectable software integration and reusable checks; grouped OOF itself is an established method. Exact waveform replay still requires the identified curated CSV exports; that limitation and the data-independent demonstrations are documented.
+
+Release **[v1.4.0](https://github.com/rcw3712/ICNN_MetaPicker_Curated_STEAD_MATLAB/releases/tag/v1.4.0)** packages this software, [current manuscripts](submission_documents_20260916) and [separate artwork](presentation_20260916). It introduces no new fits, split, calibration or predictive result. The publication record and archive verification are tracked separately from the immutable release snapshot.
+
+## Scientific results
+
+Use **[strengthening_20260916](strengthening_20260916/README.md)** for the frozen expanded experiment and numerical audit. Its manuscript snapshot predates the current software revision. It extends the original **[submission_20260915](submission_20260915/README.md)** package with 66 fits (106 overall): two additional CNN/TCN base seeds in both modes, crossed with three meta seeds, plus six standalone PhaseNet-style baseline fits.
 
 | Method | Mode | P F1 at Â±100 ms | S F1 at Â±100 ms |
 |---|---|---:|---:|
@@ -22,6 +28,6 @@ The stacking S Full3C minus Z-only difference is 0.2396 (conditional 95% interva
 - [Original 40-fit protocol and frozen evidence](submission_20260915/README.md)
 - [Archive verification and version scope](ARCHIVE_VERIFICATION.md)
 
-Release v1.3.0 archives the expanded audit package and manuscript snapshot at **[DOI 10.5281/zenodo.22782746](https://doi.org/10.5281/zenodo.22782746)**, commit `e235f749540a56b763eca5903abb9592b9ed02b8`. All 367 extension-manifest hashes were verified against the published ZIP. DOI 10.5281/zenodo.22760733 identifies v1.2.0 only. Current manuscript documents update availability wording after DOI assignment; their numerical results match the archived snapshot. See the archive-verification notice for exact scope.
+Release v1.3.0 archives the expanded audit package and manuscript snapshot at **[DOI 10.5281/zenodo.22782746](https://doi.org/10.5281/zenodo.22782746)**, commit `e235f749540a56b763eca5903abb9592b9ed02b8`. All 367 extension-manifest hashes were verified against the published ZIP. DOI 10.5281/zenodo.22760733 identifies v1.2.0 only. Current manuscript documents include the v1.4.0 software demonstration and Table 3 correction; their numerical results match the archived snapshot. See the archive-verification notice for exact scope.
 
-Root-level MATLAB scripts, results and older documentation are legacy material. The two dated packages define the current evidence. Raw STEAD waveforms, full probability curves and trained checkpoints are excluded; numerical checks can be replayed without them. Code is MIT licensed; STEAD inputs retain their original distribution terms. No journal submission has been made by this synchronization.
+Root-level MATLAB scripts, results and older documentation are legacy material. The dated packages define the evidence and software interfaces. Raw STEAD waveforms, full probability curves and large caches are excluded. All 106 trained checkpoints are supplied in reproducibility_20260916; numerical checks and synthetic demonstrations can run without external waveforms. Code is MIT licensed; STEAD inputs retain their original distribution terms. No journal submission has been made by this synchronization.

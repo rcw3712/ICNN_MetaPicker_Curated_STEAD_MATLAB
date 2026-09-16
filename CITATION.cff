@@ -2,13 +2,14 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it using the metadata below, and cite the associated article once published."
 type: software
 title: "Source-Grouped Evaluation of Temporal Stacking for Seismic Phase Picking with Three-Component Data"
-version: "1.3.0"
-doi: "10.5281/zenodo.22782746"
+version: "1.4.0"
 date-released: "2026-09-16"
 abstract: >
   Source-grouped evaluation of temporal stacking on curated STEAD data.
   The strengthening_20260916 package adds two base seeds and a PhaseNet-style
   baseline, totaling 106 fits including the original 40-fit experiment.
+  The reproducibility_20260916 package supplies all 106 checkpoints, portable
+  replay, executable contract demonstrations and threshold provenance.
   Numerical audits and revised manuscripts document baseline advantages
   and component-access differences conditional on one fixed source split.
 license: MIT
