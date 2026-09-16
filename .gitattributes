@@ -3,3 +3,6 @@
 
 # Preserve byte hashes in the submission provenance bundle.
 submission_20260915/** -text
+
+# Preserve byte hashes in the expanded experiment bundle.
+strengthening_20260916/** -text
