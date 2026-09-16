@@ -1,6 +1,18 @@
-# Model replay release v1.4.0
+# Verification of release v1.4.0
 
-This release adds all 106 trained checkpoints and portable replay under reproducibility_20260916. Its local SHA-256 manifest covers 265 files. The published Zenodo identifier and downloaded-archive verification will be recorded after release publication; no new DOI is asserted in this pre-publication snapshot. Historical v1.3.0/v1.2.0 exclusions below describe those immutable older releases, not the new checkpoint package.
+Verified 16 September 2026.
+
+- Release: https://github.com/rcw3712/ICNN_MetaPicker_Curated_STEAD_MATLAB/releases/tag/v1.4.0
+- Published DOI: https://doi.org/10.5281/zenodo.22784226
+- Immutable commit: `69bca5ce4e29475ecf590d2ad14a86d6f96b3f90`
+- Downloaded ZIP: 155,024,131 bytes; MD5 `c96cce407addeee2266f6310192e06d1`, matching Zenodo metadata.
+- All **265** checkpoint/replay package hashes, **51** artwork/source hashes, **5** current document hashes and **367** frozen extension hashes match the downloaded archive.
+
+The release contains all 106 trained checkpoints, portable inference, synthetic examples, threshold provenance, current manuscripts and separate artwork. CPU/GPU model verification is limited to the smoke subsets reported in the manuscripts; exact full waveform replay still requires the identified historical CSV exports. No new training or calibration was performed.
+
+The v1.4.0 manuscript cites the release URL because the Zenodo DOI was assigned after publication. Both identify the same release snapshot. This notice and updated citation metadata are post-release verification; the immutable tag and archived manuscripts are unchanged. Historical archive exclusions below apply to those older versions.
+
+## Historical verification
 
 # Verification of release v1.3.0
 

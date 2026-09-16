@@ -6,20 +6,20 @@ This repository accompanies **Source-Grouped Evaluation of Temporal Stacking for
 
 Use **[reproducibility_20260916](reproducibility_20260916/README.md)** for all 106 saved checkpoints (about 76 MB), portable MATLAB model replay, source/feature contracts, synthetic demonstrations and documented threshold history. The five negative-control cases are rejected, all 106 checkpoints load, and pick/status replay matches on the stated CPU/GPU smoke subsets. The contribution is inspectable software integration and reusable checks; grouped OOF itself is an established method. Exact waveform replay still requires the identified curated CSV exports; that limitation and the data-independent demonstrations are documented.
 
-Release **[v1.4.0](https://github.com/rcw3712/ICNN_MetaPicker_Curated_STEAD_MATLAB/releases/tag/v1.4.0)** packages this software, [current manuscripts](submission_documents_20260916) and [separate artwork](presentation_20260916). It introduces no new fits, split, calibration or predictive result. The publication record and archive verification are tracked separately from the immutable release snapshot.
+Release **[v1.4.0](https://github.com/rcw3712/ICNN_MetaPicker_Curated_STEAD_MATLAB/releases/tag/v1.4.0)** packages this software, [current manuscripts](submission_documents_20260916) and [separate artwork](presentation_20260916). It introduces no new fits, split, calibration or predictive result. The published archive is **[DOI 10.5281/zenodo.22784226](https://doi.org/10.5281/zenodo.22784226)**. Its ZIP checksum and all 265 model/replay, 51 artwork, 5 document and 367 extension-manifest hashes were verified after download. See [archive verification](ARCHIVE_VERIFICATION.md) for the immutable commit and exact scope.
 
 ## Scientific results
 
 Use **[strengthening_20260916](strengthening_20260916/README.md)** for the frozen expanded experiment and numerical audit. Its manuscript snapshot predates the current software revision. It extends the original **[submission_20260915](submission_20260915/README.md)** package with 66 fits (106 overall): two additional CNN/TCN base seeds in both modes, crossed with three meta seeds, plus six standalone PhaseNet-style baseline fits.
 
-| Method | Mode | P F1 at Â±100 ms | S F1 at Â±100 ms |
+| Method | Mode | P F1 at Ã‚Â±100 ms | S F1 at Ã‚Â±100 ms |
 |---|---|---:|---:|
 | Stacking | Full3C | 0.8694 | 0.5780 |
 | Stacking | Z-only | 0.8723 | 0.3384 |
 | PhaseNetMatched | Full3C | 0.9661 | 0.6267 |
 | PhaseNetMatched | Z-only | 0.9637 | 0.3689 |
 
-The stacking S Full3C minus Z-only difference is 0.2396 (conditional 95% interval 0.1874â€“0.2905). The baseline has higher mean F1 in both modes; the Z-only S advantage is not resolved by its interval. The contribution is an inspectable evaluation workflow and evidence about component access, not superior stacking performance. Findings condition on one curated source split; meta fits sharing a base are not independent pipelines, and source-cluster intervals exclude training/split uncertainty. PhaseNetMatched is a MATLAB adaptation trained from scratch, not official or pretrained PhaseNet.
+The stacking S Full3C minus Z-only difference is 0.2396 (conditional 95% interval 0.1874Ã¢â‚¬â€œ0.2905). The baseline has higher mean F1 in both modes; the Z-only S advantage is not resolved by its interval. The contribution is an inspectable evaluation workflow and evidence about component access, not superior stacking performance. Findings condition on one curated source split; meta fits sharing a base are not independent pipelines, and source-cluster intervals exclude training/split uncertainty. PhaseNetMatched is a MATLAB adaptation trained from scratch, not official or pretrained PhaseNet.
 
 ## Reproduction and archives
 

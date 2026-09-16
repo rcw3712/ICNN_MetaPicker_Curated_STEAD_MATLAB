@@ -3,6 +3,7 @@ message: "If you use this software, please cite it using the metadata below, and
 type: software
 title: "Source-Grouped Evaluation of Temporal Stacking for Seismic Phase Picking with Three-Component Data"
 version: "1.4.0"
+doi: "10.5281/zenodo.22784226"
 date-released: "2026-09-16"
 abstract: >
   Source-grouped evaluation of temporal stacking on curated STEAD data.
