@@ -1,0 +1,4 @@
+path,sha256,mode,kind,fold,seed,base
+D:\ICNN_source_verified_results\v2\strengthening\phasenet\Zonly\seed_42\models\Zonly\Zonly_PhaseNetMatched_fold-1_seed42.mat,942fc00bfe68f0bcfc7308a9f80ddf4e273a55cb4efc02af8b03f2ad15cecc64,Zonly,PhaseNetMatched,-1,42,42
+D:\ICNN_source_verified_results\v2\strengthening\phasenet\Zonly\seed_43\models\Zonly\Zonly_PhaseNetMatched_fold-1_seed43.mat,455e45565b1a7dd87cb73787b4baaac97e9e1c730929cbd6043b143a192feba2,Zonly,PhaseNetMatched,-1,43,43
+D:\ICNN_source_verified_results\v2\strengthening\phasenet\Zonly\seed_44\models\Zonly\Zonly_PhaseNetMatched_fold-1_seed44.mat,50cfa94a1378cea246f8588a6f8634eddc545ab76a5de3b245a61b474d8c50ce,Zonly,PhaseNetMatched,-1,44,44

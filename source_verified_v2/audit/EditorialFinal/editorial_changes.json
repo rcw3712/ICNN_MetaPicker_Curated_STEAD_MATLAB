@@ -1,0 +1,75 @@
+{
+  "highlights_characters": [
+    81,
+    78,
+    77,
+    84,
+    75
+  ],
+  "changes": [
+    {
+      "before": "The computational contribution connects unique waveform identity, grouped OOF construction, feature interfaces and model provenance. Fresh replay verifies all 106 checkpoints, OOF features and 70 test prediction sets; independent calculations reproduce all 1,260 metric rows. Manual-reference, threshold and station diagnostics qualify the findings. Established grouping and stacking methods are not presented as new algorithms. Historical data reuse prevents an independent-confirmation claim; the small unseen-station subset does not establish transfer. The original extraction recipe remains unavailable.",
+      "after": "The computational contribution connects unique waveform identity, grouped OOF construction, feature interfaces and model provenance. Fresh replay verifies all 106 checkpoints, OOF features and 70 test prediction sets; independent calculations reproduce all 1,260 metric rows. Manual-status, threshold and station diagnostics qualify the findings. Established grouping and stacking methods are not presented as new algorithms. Historical data reuse prevents an independent-confirmation claim; the small unseen-station subset does not establish transfer. The original extraction recipe remains unavailable."
+    },
+    {
+      "before": "This manuscript presents a source-grouped evaluation workflow with waveform identities recovered from STEAD. On 330 test records from 221 sources held out from v2 fitting and validation, three base seeds crossed with three meta seeds yielded Full3C stacking accepted-pick P/S F1@100 ms of 0.8268/0.5536, versus 0.8134/0.2686 for Z-only. A PhaseNet-style MATLAB baseline achieved 0.9833/0.5857 and 0.9833/0.2995, respectively. Conditional intervals support its P advantage in both modes; primary S method differences remain unresolved. Both approaches show an S component-access difference on this split.",
+      "after": "This manuscript presents a source-grouped evaluation workflow with waveform identities recovered from STEAD. On this fixed split of 330 test records from 221 sources held out from v2 fitting and validation, three base seeds crossed with three meta seeds yielded Full3C stacking accepted-pick P/S F1@100 ms of 0.8268/0.5536, versus 0.8134/0.2686 for Z-only. A PhaseNet-style MATLAB baseline achieved 0.9833/0.5857 and 0.9833/0.2995, respectively. Conditional intervals support its P advantage in both modes; primary S method differences remain unresolved. Both approaches show an S component-access difference on this fixed split."
+    },
+    {
+      "before": "The computational contribution connects unique waveform identity, grouped OOF construction, feature interfaces and model provenance. Fresh replay verifies all 106 checkpoints, OOF features and 70 test prediction sets; independent calculations reproduce all 1,260 metric rows. Manual-status, threshold and station diagnostics qualify the findings. Established grouping and stacking methods are not presented as new algorithms. Historical data reuse prevents an independent-confirmation claim; the small unseen-station subset does not establish transfer. The original extraction recipe remains unavailable.",
+      "after": "The computational contribution connects unique waveform identity, grouped OOF construction, feature interfaces and model provenance. Fresh replay loads all 106 checkpoints and reproduces OOF features and 70 test prediction sets; independent calculations reproduce all 1,260 metric rows. Manual-status, threshold and station diagnostics qualify the findings. Established grouping and stacking methods are not presented as new algorithms. Historical development exposure prevents an independent-confirmation claim; the small unseen-station subset does not establish transfer. The original extraction recipe remains unavailable."
+    },
+    {
+      "before": "Manual-reference sensitivity retains the Full3C advantage for S picking.",
+      "after": "Manual-status sensitivity retains the Full3C advantage for S picking."
+    },
+    {
+      "before": "An exhaustive STEAD fingerprint audit uniquely matches all 2234 retained records.",
+      "after": "Exhaustive local STEAD HDF5 auditing uniquely matches all 2,234 retained records."
+    },
+    {
+      "before": "Replay verifies OOF features and test predictions from 106 saved checkpoints.",
+      "after": "Fresh replay loads 106 checkpoints, reproducing OOF features and 70 test sets."
+    },
+    {
+      "before": "Manual-status sensitivity retains the Full3C advantage for S picking.",
+      "after": "Manual-status sensitivity retains the Full3C S advantage on this fixed split."
+    },
+    {
+      "before": "PhaseNet-style has higher P F1; primary S method intervals include zero.",
+      "after": "PhaseNet-style has higher P F1; primary conditional S method intervals include zero."
+    },
+    {
+      "before": "Historical data reuse limits claims of independent validation.",
+      "after": "Historical development exposure prevents an independent-confirmation claim."
+    },
+    {
+      "before": "The study uses one retrospectively recovered STEAD subset and fixed split. Initialization repetitions and source bootstrapping exclude partition and training uncertainty; base-42 ablations lack replication at other base seeds. Meta fits share OOF features, and outer validation is reused for base selection, meta stopping and ensemble weighting. Most current test sources had historical training/validation exposure. Manual-reference sensitivity does not quantify annotation error, and the unavailable extraction recipe limits assessment of selection bias. Twelve unseen-key records cannot establish station transfer. Threshold sensitivity does not prove validation-only calibration; multiple intervals remain exploratory. Regional transfer, continuous-stream false alarms, overlapping events and operational latency were not evaluated.",
+      "after": "The study uses one retrospectively recovered STEAD subset and fixed split. Initialization repetitions and source bootstrapping exclude partition and training uncertainty; base-42 ablations lack replication at other base seeds. Meta fits share OOF features, and outer validation is reused for base selection, meta stopping and ensemble weighting. Most current test sources had historical training/validation exposure. Manual-status sensitivity does not quantify annotation error, and the unavailable extraction recipe limits assessment of selection bias. Twelve unseen-key records cannot establish station transfer. Threshold sensitivity does not prove validation-only calibration; multiple intervals remain exploratory. Regional transfer, continuous-stream false alarms, overlapping events and operational latency were not evaluated."
+    },
+    {
+      "before": "The workflow links uniquely matched local STEAD identities, source-disjoint partitions, checkpoint memberships, fresh inference and reproducible metrics. The S component-access difference persists across tested initializations and manual-reference evaluation. Historical exposure remains; station, regional and independent-dataset generalization are not established.",
+      "after": "The workflow links uniquely matched local STEAD identities, source-disjoint partitions, checkpoint memberships, fresh inference and reproducible metrics. The S component-access difference persists across tested initializations and manual-status evaluation. Historical exposure remains; station, regional and independent-dataset generalization are not established."
+    },
+    {
+      "before": "Source overlap can compromise evaluation of seismic phase pickers and stacked models. We evaluate temporal stacking of STA/LTA, AIC, CNN and TCN outputs with waveform context using recovered STEAD earthquake identities. An exhaustive local-archive fingerprint audit uniquely matches 2,234 retained records from 1,477 sources. A fixed source-disjoint split assigns 330 records from 221 sources to testing, although historical development exposure prevents an independent-confirmation claim. Source-grouped out-of-fold predictions supply meta-training features. Three base seeds crossed with three meta seeds yielded Full3C accepted-pick mean F1 at \u00b1100 ms of 0.8268 for P and 0.5536 for S, versus 0.8134 and 0.2686 for Z-only. The S difference was 0.2850, with a conditional paired source-cluster 95% interval of 0.2293\u20130.3418. Restricting evaluation to 287 records with both arrivals marked manual retained an S difference of 0.2705 (0.2113\u20130.3299). A PhaseNet-style MATLAB baseline achieved Full3C P/S F1 of 0.9833/0.5857 and Z-only F1 of 0.9833/0.2995. Conditional intervals supported its P advantage in both modes, whereas both S method-comparison intervals included zero. Fresh inference replay verifies all 106 checkpoints, OOF features and 70 test prediction sets. The contribution is an inspectable workflow linking waveform identity, grouped feature generation, checkpoint provenance and evaluation. Historical data reuse, one fixed split and limited unseen-station observations constrain generalization.",
+      "after": "Source overlap can compromise evaluation of seismic phase pickers and stacked models. We evaluate temporal stacking of STA/LTA, AIC, CNN and TCN outputs with waveform context using recovered STEAD earthquake identities. An exhaustive fingerprint audit of the local STEAD HDF5 archive uniquely matches 2,234 retained records from 1,477 sources. A fixed source-disjoint split assigns 330 records from 221 sources to testing, although historical development exposure prevents an independent-confirmation claim. Source-grouped out-of-fold predictions supply meta-training features. On this fixed split, three base seeds crossed with three meta seeds yielded Full3C accepted-pick mean F1 at \u00b1100 ms of 0.8268 for P and 0.5536 for S, versus 0.8134 and 0.2686 for Z-only. The S difference was 0.2850, with a conditional paired source-cluster 95% interval of 0.2293\u20130.3418. Restricting evaluation to 287 records with both arrivals marked manual retained an S difference of 0.2705 (0.2113\u20130.3299). A PhaseNet-style MATLAB baseline achieved Full3C P/S F1 of 0.9833/0.5857 and Z-only F1 of 0.9833/0.2995. Conditional intervals supported its P advantage in both modes, whereas both S method-comparison intervals included zero. Fresh replay loads all 106 checkpoints and reproduces OOF features and 70 test prediction sets. The contribution is an inspectable workflow linking waveform identity, grouped feature generation, checkpoint provenance and evaluation. Historical data reuse, one fixed split and limited unseen-station observations constrain generalization."
+    },
+    {
+      "before": "The workflow links uniquely matched local STEAD identities, source-disjoint partitions, checkpoint memberships, fresh inference and reproducible metrics. The S component-access difference persists across tested initializations and manual-status evaluation. Historical exposure remains; station, regional and independent-dataset generalization are not established.",
+      "after": "The workflow links uniquely matched local STEAD identities, source-disjoint partitions, checkpoint memberships, fresh inference and reproducible metrics. The S component-access difference persists across tested initializations and manual-status evaluation. Historical development exposure prevents an independent-confirmation claim. Station, regional and independent-dataset generalization are not established."
+    },
+    {
+      "before": "On 330 records from 221 sources held out from v2 fitting and validation, accepted stacking P/S F1@100 ms was 0.8268/0.5536 for Full3C and 0.8134/0.2686 for Z-only. Between-base SDs were 0.0069/0.0127 and 0.0073/0.0152. Full3C accepted-pick MAE was 166.62/610.29 ms, with coverage 99.06%/98.01%. Acceptance combines detected and uncertain picks.",
+      "after": "On this fixed split of 330 records from 221 sources held out from v2 fitting and validation, accepted stacking P/S F1@100 ms was 0.8268/0.5536 for Full3C and 0.8134/0.2686 for Z-only. Between-base SDs were 0.0069/0.0127 and 0.0073/0.0152. Full3C accepted-pick MAE was 166.62/610.29 ms, with coverage 99.06%/98.01%. Acceptance combines detected and uncertain picks."
+    },
+    {
+      "before": "The S component difference was 0.2850 [0.2293, 0.3418]. PhaseNetMatched achieved P/S F1 of 0.9833/0.5857 (Full3C) and 0.9833/0.2995 (Z-only); primary intervals support its P advantage but include zero for both S method differences. Base-42 ablations support exploratory S context/dilation gains without isolating nonlinearity. Confirmation requires data kept outside prior development.",
+      "after": "The S component difference was 0.2850 (conditional 95% interval 0.2293\u20130.3418). PhaseNetMatched achieved P/S F1 of 0.9833/0.5857 (Full3C) and 0.9833/0.2995 (Z-only); primary conditional intervals support its P advantage but include zero for both S method differences. Base-42 ablations support exploratory S context/dilation gains without isolating nonlinearity. Confirmation requires data kept outside prior development."
+    },
+    {
+      "before": "The implementation repository is https://github.com/rcw3712/ICNN_MetaPicker_Curated_STEAD_MATLAB. The corrected source-verified v2 package comprises the recovery mapping, frozen partition and OOF protocol, training scripts, 106 checkpoints, predictions and independent audit outputs, fresh inference receipts and threshold/station diagnostics. Earlier archived releases contain historical models and partitions and must not be used to reproduce the corrected numbers in this revision. No existing release DOI is asserted to archive the corrected v2 state. Archival publication of the corrected package is pending.",
+      "after": "The implementation repository is https://github.com/rcw3712/ICNN_MetaPicker_Curated_STEAD_MATLAB. The source_verified_v2 directory provides the corrected run and comprises the recovery mapping, frozen partition and OOF protocol, training scripts, 106 checkpoints, predictions and independent audit outputs, fresh inference receipts and threshold/station diagnostics. Earlier archived releases contain historical models and partitions and must not be used to reproduce the corrected numbers in this revision. No existing release DOI is asserted to archive the corrected v2 state. The repository supplies an English user guide, runnable synthetic examples, checkpoint hashes and a manifest of the current package. Archival publication with a new release DOI is pending."
+    }
+  ]
+}

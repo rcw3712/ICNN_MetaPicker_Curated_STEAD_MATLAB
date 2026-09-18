@@ -1,0 +1,29 @@
+{
+  "all_pages_reviewed": true,
+  "pages": {
+    "CG_Cover_Letter_ReplayVerified": {
+      "pages": 1,
+      "outside": []
+    },
+    "CG_Highlights_ReplayVerified": {
+      "pages": 1,
+      "outside": []
+    },
+    "CG_MainText_ReplayVerified": {
+      "pages": 40,
+      "outside": []
+    },
+    "CG_Supplementary_ReplayVerified": {
+      "pages": 23,
+      "outside": []
+    }
+  },
+  "renderer": "Microsoft Word PDF export and PyMuPDF page images; LibreOffice unavailable",
+  "review": "All 65 final pages visually inspected. Main paragraph spacing and heading styles corrected; Supplementary symbol-font heading and body fonts corrected. All pages checked again after relevant edits. No clipping or out-of-page text.",
+  "documents": {
+    "MainText": "6844640f15a5be63058d1befadf4352f8bd158c995889cdc689874262ce17ef8",
+    "Supplementary": "b079992c9f13e97989062f172634a05dc0eeb4a0b79b1632fd233ce63edf641b",
+    "Cover_Letter": "3aef7d36022eadcf39dfca3b49f252d473de59d01908a943f85000dbe677c61d",
+    "Highlights": "b93d5122695ebd794012a6774604f691580b2fcc75d21cec51d0d75216cfac3a"
+  }
+}

@@ -1,0 +1,6 @@
+path,sha256,mode,kind,fold,seed,base
+D:\ICNN_source_verified_results\v2\strengthening\base_44\Zonly\models\Zonly\Zonly_full15ch_fold-1_seed42.mat,552b434767a218916089ea46f8c31ad7e53c990d410d248debb729e76e92ff5a,Zonly,full15ch,-1,42,44
+D:\ICNN_source_verified_results\v2\strengthening\base_44\Zonly\models\Zonly\Zonly_full15ch_fold-1_seed43.mat,488252069953acbed76b8c1e99e4149f3d7c8a2f046fc4c345e61adc5381744f,Zonly,full15ch,-1,43,44
+D:\ICNN_source_verified_results\v2\strengthening\base_44\Zonly\models\Zonly\Zonly_full15ch_fold-1_seed44.mat,d797632fd10b8da83888eb1e9fb9dcc9bfad4434f6a26337660efd4499f78bd9,Zonly,full15ch,-1,44,44
+D:\ICNN_source_verified_results\v2\strengthening\base_44\Zonly\models\Zonly\Zonly_CNN_fold0_seed44.mat,f47e009a7ec778d11df6a9336ba4694e2da13ce1104c508c3361f3f6049cf62b,Zonly,CNN,0,44,44
+D:\ICNN_source_verified_results\v2\strengthening\base_44\Zonly\models\Zonly\Zonly_TCN_fold0_seed44.mat,7c9c49b052105011a1d20dd3c5bf59aa4db471543a42a17f76d7b7cc1e1ecf87,Zonly,TCN,0,44,44

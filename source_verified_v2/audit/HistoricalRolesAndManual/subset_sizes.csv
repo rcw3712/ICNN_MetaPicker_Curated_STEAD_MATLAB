@@ -1,0 +1,7 @@
+subset,records,sources,development_naive_established
+all_test,330,221,False
+manual_both,287,188,False
+includes_nonmanual,43,36,False
+historical_test_records,51,48,False
+sources_without_historical_train_val,26,25,False
+manual_both_sources_without_historical_train_val,20,19,False

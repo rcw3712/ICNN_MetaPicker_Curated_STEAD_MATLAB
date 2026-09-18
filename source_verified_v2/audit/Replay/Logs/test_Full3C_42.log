@@ -1,0 +1,15 @@
+[Warning: Unable to locate a personal folder for $documents\MATLAB.] 
+[TEST REPLAY] Full3C_base42 25/330
+[TEST REPLAY] Full3C_base42 50/330
+[TEST REPLAY] Full3C_base42 75/330
+[TEST REPLAY] Full3C_base42 100/330
+[TEST REPLAY] Full3C_base42 125/330
+[TEST REPLAY] Full3C_base42 150/330
+[TEST REPLAY] Full3C_base42 175/330
+[TEST REPLAY] Full3C_base42 200/330
+[TEST REPLAY] Full3C_base42 225/330
+[TEST REPLAY] Full3C_base42 250/330
+[TEST REPLAY] Full3C_base42 275/330
+[TEST REPLAY] Full3C_base42 300/330
+[TEST REPLAY] Full3C_base42 325/330
+PASS TEST Full3C_base42 outputs=19 records=330 max_tensor_difference=0

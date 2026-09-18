@@ -1,0 +1,16 @@
+id,mode,kind,seed,fold
+Full3C_CNN_fold1_seed43,Full3C,CNN,43,1
+Full3C_TCN_fold1_seed43,Full3C,TCN,43,1
+Full3C_CNN_fold2_seed43,Full3C,CNN,43,2
+Full3C_TCN_fold2_seed43,Full3C,TCN,43,2
+Full3C_CNN_fold3_seed43,Full3C,CNN,43,3
+Full3C_TCN_fold3_seed43,Full3C,TCN,43,3
+Full3C_CNN_fold4_seed43,Full3C,CNN,43,4
+Full3C_TCN_fold4_seed43,Full3C,TCN,43,4
+Full3C_CNN_fold5_seed43,Full3C,CNN,43,5
+Full3C_TCN_fold5_seed43,Full3C,TCN,43,5
+Full3C_CNN_fold0_seed43,Full3C,CNN,43,0
+Full3C_TCN_fold0_seed43,Full3C,TCN,43,0
+Full3C_full15ch_fold-1_seed42,Full3C,full15ch,42,-1
+Full3C_full15ch_fold-1_seed43,Full3C,full15ch,43,-1
+Full3C_full15ch_fold-1_seed44,Full3C,full15ch,44,-1

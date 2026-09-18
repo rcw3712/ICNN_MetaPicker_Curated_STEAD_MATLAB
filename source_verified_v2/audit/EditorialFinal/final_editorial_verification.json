@@ -1,0 +1,41 @@
+{
+  "documents": {
+    "CG_Cover_Letter_ReplayVerified.docx": {
+      "sha256": "d0256a0ea12fb4c19a602125da8f881fa3eb20b42139a8d0a749b83c351298a4",
+      "tables": 0,
+      "images": 0,
+      "equations": 0
+    },
+    "CG_Highlights_ReplayVerified.docx": {
+      "sha256": "4d87a30ff958d237b6a866cb0154bcd6bccae22c7bfe658aab1316ebf51f12e7",
+      "tables": 0,
+      "images": 0,
+      "equations": 0
+    },
+    "CG_MainText_ReplayVerified.docx": {
+      "sha256": "ffef9ead8dacf8c7668ce73acfe7253a17ce097222ed6224900f8131ba7971a4",
+      "tables": 7,
+      "images": 14,
+      "equations": 23
+    },
+    "CG_Supplementary_ReplayVerified.docx": {
+      "sha256": "23473b0a88ed0afa9e28c483e423b03aa0bcb20ca446faa00a13b940b37da582",
+      "tables": 27,
+      "images": 7,
+      "equations": 0
+    }
+  },
+  "abstract_words": 214,
+  "highlights_characters": [
+    81,
+    78,
+    77,
+    84,
+    75
+  ],
+  "all_current_pages_reviewed": true,
+  "rendered_pages": 65,
+  "review_method": "Word/PyMuPDF; Main 40 and Cover/Highlights reviewed; all 23 Supplementary pages pixel-identical to previously reviewed final render.",
+  "numeric_tables_unchanged": true,
+  "equations_unchanged": true
+}

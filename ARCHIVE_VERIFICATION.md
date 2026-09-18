@@ -1,3 +1,5 @@
+> Historical archive verification only. The DOIs below do not archive corrected source-verified v2. Use [the current package](source_verified_v2/README.md) and its Git commit/manifest.
+
 # Verification of release v1.4.0
 
 Verified 16 September 2026.

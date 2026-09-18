@@ -1,0 +1,38 @@
+{
+  "key_definition": "network_code.receiver_code; not station epochs",
+  "counts": {
+    "train": 101,
+    "val": 59,
+    "test": 64
+  },
+  "test_keys_seen_train": 55,
+  "test_keys_unseen_train": 9,
+  "test_keys_unseen_train_and_val": 9,
+  "subsets": [
+    {
+      "subset": "all_test",
+      "records": 330,
+      "sources": 221,
+      "station_keys": 64
+    },
+    {
+      "subset": "station_seen_train",
+      "records": 318,
+      "sources": 211,
+      "station_keys": 55
+    },
+    {
+      "subset": "station_unseen_train",
+      "records": 12,
+      "sources": 10,
+      "station_keys": 9
+    },
+    {
+      "subset": "station_unseen_train_and_val",
+      "records": 12,
+      "sources": 10,
+      "station_keys": 9
+    }
+  ],
+  "scope": "Retrospective station-stratified diagnostics within the fixed source-held-out test; no station-held-out design, no causal domain effect."
+}

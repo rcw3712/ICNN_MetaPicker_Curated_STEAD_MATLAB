@@ -1,0 +1,16 @@
+split,p_status,s_status,records,sources,fraction
+train,automatic,automatic,4,4,0.0025906735751295338
+train,automatic,manual,5,5,0.003238341968911917
+train,autopicker,autopicker,166,117,0.10751295336787564
+train,autopicker,manual,16,12,0.010362694300518135
+train,manual,autopicker,129,95,0.08354922279792747
+train,manual,manual,1224,830,0.7927461139896373
+val,automatic,manual,2,2,0.005555555555555556
+val,autopicker,autopicker,25,17,0.06944444444444445
+val,autopicker,manual,3,2,0.008333333333333333
+val,manual,autopicker,24,19,0.06666666666666667
+val,manual,manual,306,187,0.85
+test,automatic,manual,2,2,0.006060606060606061
+test,autopicker,autopicker,25,21,0.07575757575757576
+test,manual,autopicker,16,13,0.048484848484848485
+test,manual,manual,287,188,0.8696969696969697

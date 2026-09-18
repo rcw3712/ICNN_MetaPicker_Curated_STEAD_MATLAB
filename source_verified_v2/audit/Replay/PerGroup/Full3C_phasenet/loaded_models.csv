@@ -1,0 +1,4 @@
+path,sha256,mode,kind,fold,seed,base
+D:\ICNN_source_verified_results\v2\strengthening\phasenet\Full3C\seed_42\models\Full3C\Full3C_PhaseNetMatched_fold-1_seed42.mat,c8c8123b7be07644565016210b4ae1032312901590acd20b2798855b4efded0c,Full3C,PhaseNetMatched,-1,42,42
+D:\ICNN_source_verified_results\v2\strengthening\phasenet\Full3C\seed_43\models\Full3C\Full3C_PhaseNetMatched_fold-1_seed43.mat,2cc1cf0709e2e10b12777e9697a47cc2d043c3ec8af189d2faad5a9baccc9cba,Full3C,PhaseNetMatched,-1,43,43
+D:\ICNN_source_verified_results\v2\strengthening\phasenet\Full3C\seed_44\models\Full3C\Full3C_PhaseNetMatched_fold-1_seed44.mat,bc2cadc3ab96bb03bd02c73787a9767cb8084effd99809e4290a7b5ba1ae6958,Full3C,PhaseNetMatched,-1,44,44

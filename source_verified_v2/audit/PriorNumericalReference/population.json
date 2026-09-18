@@ -1,0 +1,244 @@
+{
+  "all": {
+    "records": 2234,
+    "sources": 1477,
+    "networks": {
+      "TA": 40,
+      "CN": 7,
+      "II": 1,
+      "ZQ": 92,
+      "KZ": 4,
+      "PR": 13,
+      "C1": 19,
+      "LD": 1,
+      "IV": 15,
+      "AV": 245,
+      "NI": 9,
+      "HA": 113,
+      "CI": 27,
+      "KO": 12,
+      "HT": 89,
+      "US": 10,
+      "HV": 193,
+      "GO": 94,
+      "AT": 26,
+      "PO": 4,
+      "SN": 2,
+      "HP": 53,
+      "DK": 3,
+      "AK": 41,
+      "KR": 129,
+      "CU": 3,
+      "MN": 180,
+      "CA": 1,
+      "HL": 135,
+      "NM": 6,
+      "FR": 18,
+      "S": 1,
+      "PB": 648
+    },
+    "station_keys": 111,
+    "aic_late_P": 173,
+    "aic_late_S": 1655,
+    "distance_le15": 484,
+    "magnitude_ge1p5": 2234,
+    "snr_ge10": 2172,
+    "all_three_filters": 459,
+    "source_distance_km": {
+      "min": 0.0,
+      "max": 49.99,
+      "median": 29.74
+    },
+    "source_magnitude": {
+      "min": 2.5,
+      "max": 5.9,
+      "median": 2.9
+    },
+    "min_snr_db": {
+      "min": -1.70000005,
+      "max": 103.59999847,
+      "median": 44.70000076
+    },
+    "sp_time_sec": {
+      "min": 0.4,
+      "max": 20.57,
+      "median": 4.92
+    }
+  },
+  "train": {
+    "records": 1544,
+    "sources": 1034,
+    "networks": {
+      "TA": 30,
+      "CN": 5,
+      "II": 1,
+      "ZQ": 74,
+      "KZ": 4,
+      "C1": 19,
+      "AV": 158,
+      "NI": 8,
+      "HA": 83,
+      "CI": 16,
+      "KO": 6,
+      "HT": 57,
+      "PR": 9,
+      "US": 5,
+      "HV": 133,
+      "GO": 68,
+      "AT": 15,
+      "PO": 4,
+      "SN": 1,
+      "HP": 42,
+      "DK": 2,
+      "AK": 25,
+      "KR": 94,
+      "CU": 3,
+      "IV": 9,
+      "MN": 125,
+      "CA": 1,
+      "HL": 96,
+      "NM": 6,
+      "FR": 9,
+      "PB": 436
+    },
+    "station_keys": 101,
+    "aic_late_P": 128,
+    "aic_late_S": 1148,
+    "distance_le15": 332,
+    "magnitude_ge1p5": 1544,
+    "snr_ge10": 1494,
+    "all_three_filters": 313,
+    "source_distance_km": {
+      "min": 0.0,
+      "max": 49.94,
+      "median": 29.7
+    },
+    "source_magnitude": {
+      "min": 2.5,
+      "max": 5.5,
+      "median": 2.9
+    },
+    "min_snr_db": {
+      "min": -1.70000005,
+      "max": 103.59999847,
+      "median": 44.850000385
+    },
+    "sp_time_sec": {
+      "min": 0.4,
+      "max": 20.57,
+      "median": 4.91
+    }
+  },
+  "val": {
+    "records": 360,
+    "sources": 222,
+    "networks": {
+      "TA": 1,
+      "CN": 2,
+      "ZQ": 12,
+      "AV": 51,
+      "NI": 1,
+      "CI": 7,
+      "HT": 17,
+      "PR": 2,
+      "US": 1,
+      "HV": 34,
+      "GO": 11,
+      "AT": 6,
+      "HP": 5,
+      "DK": 1,
+      "AK": 14,
+      "IV": 2,
+      "MN": 32,
+      "HL": 18,
+      "KR": 17,
+      "KO": 1,
+      "HA": 11,
+      "FR": 1,
+      "PB": 113
+    },
+    "station_keys": 59,
+    "aic_late_P": 30,
+    "aic_late_S": 273,
+    "distance_le15": 80,
+    "magnitude_ge1p5": 360,
+    "snr_ge10": 356,
+    "all_three_filters": 77,
+    "source_distance_km": {
+      "min": 1.7,
+      "max": 49.98,
+      "median": 30.42
+    },
+    "source_magnitude": {
+      "min": 2.5,
+      "max": 5.8,
+      "median": 2.9
+    },
+    "min_snr_db": {
+      "min": -1.70000005,
+      "max": 89.30000305,
+      "median": 43.450000765
+    },
+    "sp_time_sec": {
+      "min": 0.73,
+      "max": 20.29,
+      "median": 5.28
+    }
+  },
+  "test": {
+    "records": 330,
+    "sources": 221,
+    "networks": {
+      "TA": 9,
+      "ZQ": 6,
+      "PR": 2,
+      "LD": 1,
+      "IV": 4,
+      "HA": 19,
+      "CI": 4,
+      "KO": 5,
+      "HT": 15,
+      "US": 4,
+      "HV": 26,
+      "AV": 36,
+      "GO": 15,
+      "AT": 5,
+      "SN": 1,
+      "HP": 6,
+      "KR": 18,
+      "MN": 23,
+      "HL": 21,
+      "FR": 8,
+      "AK": 2,
+      "S": 1,
+      "PB": 99
+    },
+    "station_keys": 64,
+    "aic_late_P": 15,
+    "aic_late_S": 234,
+    "distance_le15": 72,
+    "magnitude_ge1p5": 330,
+    "snr_ge10": 322,
+    "all_three_filters": 69,
+    "source_distance_km": {
+      "min": 2.09,
+      "max": 49.99,
+      "median": 29.03
+    },
+    "source_magnitude": {
+      "min": 2.5,
+      "max": 5.9,
+      "median": 2.9
+    },
+    "min_snr_db": {
+      "min": -1.70000005,
+      "max": 98.90000153,
+      "median": 46.799999235
+    },
+    "sp_time_sec": {
+      "min": 0.43,
+      "max": 18.92,
+      "median": 4.695
+    }
+  }
+}

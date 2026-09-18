@@ -1,0 +1,15 @@
+[Warning: Unable to locate a personal folder for $documents\MATLAB.] 
+[TEST REPLAY] Full3C_phasenet 25/330
+[TEST REPLAY] Full3C_phasenet 50/330
+[TEST REPLAY] Full3C_phasenet 75/330
+[TEST REPLAY] Full3C_phasenet 100/330
+[TEST REPLAY] Full3C_phasenet 125/330
+[TEST REPLAY] Full3C_phasenet 150/330
+[TEST REPLAY] Full3C_phasenet 175/330
+[TEST REPLAY] Full3C_phasenet 200/330
+[TEST REPLAY] Full3C_phasenet 225/330
+[TEST REPLAY] Full3C_phasenet 250/330
+[TEST REPLAY] Full3C_phasenet 275/330
+[TEST REPLAY] Full3C_phasenet 300/330
+[TEST REPLAY] Full3C_phasenet 325/330
+PASS TEST Full3C_phasenet outputs=3 records=330 max_tensor_difference=0

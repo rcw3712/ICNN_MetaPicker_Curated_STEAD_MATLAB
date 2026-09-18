@@ -11,3 +11,7 @@ slprj/
 # OS
 .DS_Store
 Thumbs.db
+
+# Generated Python bytecode is not part of the evidence package.
+__pycache__/
+*.pyc

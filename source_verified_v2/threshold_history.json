@@ -1,0 +1,54 @@
+[
+  {
+    "commit": "f566a26b3be54f204c28db7090219669ff1a8daa",
+    "author_date": "2026-07-21T11:21:16+07:00",
+    "path": "config/config_ICNN_MetaPicker.m",
+    "blob_sha256": "5687937e7809f3ae22f28d982a40539bb6eb658b4f4e70eb934ee09f54770fbd",
+    "assignments": [
+      "config.minSPTimeSec      = 0.1;",
+      "config.maxSPTimeSec      = 30.0;",
+      "config.qualityThresholdP = 3.0;",
+      "config.qualityThresholdS = 3.0;",
+      "config.pickProbThreshold = 0.30;"
+    ]
+  },
+  {
+    "commit": "2a3a87d95a2fd09c0eb2ef20f75e4888416a2194",
+    "author_date": "2026-08-12T10:23:35+07:00",
+    "path": "config/config_ICNN_MetaPicker.m",
+    "blob_sha256": "5687937e7809f3ae22f28d982a40539bb6eb658b4f4e70eb934ee09f54770fbd",
+    "assignments": [
+      "config.minSPTimeSec      = 0.1;",
+      "config.maxSPTimeSec      = 30.0;",
+      "config.qualityThresholdP = 3.0;",
+      "config.qualityThresholdS = 3.0;",
+      "config.pickProbThreshold = 0.30;"
+    ]
+  },
+  {
+    "commit": "767be754d415d0659b7426c926e87ac26f19eb55",
+    "author_date": "2026-09-15T08:45:26+07:00",
+    "path": "submission_20260915/runner/config/config_ICNN_MetaPicker.m",
+    "blob_sha256": "8be3b7f206253c4c052627064c9ab39d03dc0bbc50c83e81e3a3e966e8331a96",
+    "assignments": [
+      "config.minSPTimeSec      = 0.1;",
+      "config.maxSPTimeSec      = 30.0;",
+      "config.qualityThresholdP = 3.0;",
+      "config.qualityThresholdS = 3.0;",
+      "config.pickProbThreshold = 0.30;"
+    ]
+  },
+  {
+    "commit": "e235f749540a56b763eca5903abb9592b9ed02b8",
+    "author_date": "2026-09-16T08:59:44+07:00",
+    "path": "strengthening_20260916/runner/config/config_ICNN_MetaPicker.m",
+    "blob_sha256": "5687937e7809f3ae22f28d982a40539bb6eb658b4f4e70eb934ee09f54770fbd",
+    "assignments": [
+      "config.minSPTimeSec      = 0.1;",
+      "config.maxSPTimeSec      = 30.0;",
+      "config.qualityThresholdP = 3.0;",
+      "config.qualityThresholdS = 3.0;",
+      "config.pickProbThreshold = 0.30;"
+    ]
+  }
+]

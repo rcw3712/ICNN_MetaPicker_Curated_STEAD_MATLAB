@@ -11,3 +11,6 @@ reproducibility_20260916/** -text
 presentation_20260916/** -text
 submission_documents_20260916/** -text
 *.mat binary
+
+# Preserve exact provenance bytes for the corrected v2 package.
+source_verified_v2/** -text

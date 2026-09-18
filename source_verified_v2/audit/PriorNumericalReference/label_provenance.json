@@ -1,0 +1,47 @@
+{
+  "all": {
+    "N": 2234,
+    "both_manual": 1817,
+    "combinations": {
+      "manual / manual": 1817,
+      "autopicker / autopicker": 216,
+      "manual / autopicker": 169,
+      "automatic / manual": 9,
+      "autopicker / manual": 19,
+      "automatic / automatic": 4
+    }
+  },
+  "train": {
+    "N": 1544,
+    "both_manual": 1224,
+    "combinations": {
+      "manual / manual": 1224,
+      "autopicker / autopicker": 166,
+      "manual / autopicker": 129,
+      "automatic / manual": 5,
+      "autopicker / manual": 16,
+      "automatic / automatic": 4
+    }
+  },
+  "val": {
+    "N": 360,
+    "both_manual": 306,
+    "combinations": {
+      "manual / manual": 306,
+      "manual / autopicker": 24,
+      "autopicker / autopicker": 25,
+      "automatic / manual": 2,
+      "autopicker / manual": 3
+    }
+  },
+  "test": {
+    "N": 330,
+    "both_manual": 287,
+    "combinations": {
+      "manual / manual": 287,
+      "autopicker / autopicker": 25,
+      "automatic / manual": 2,
+      "manual / autopicker": 16
+    }
+  }
+}

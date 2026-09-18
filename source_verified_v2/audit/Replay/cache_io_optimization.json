@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-09-18T10:59:21.526116+07:00",
+  "single_cell_seconds": 0.36,
+  "block_128_seconds": 0.631,
+  "numerically_identical_probe": true,
+  "block_records": 128,
+  "estimated_extra_cache_memory_MiB": 88,
+  "reason": "Avoid repeated MAT-file indexing metadata overhead",
+  "eight_test_stages_retained": true,
+  "all_OOF_restarted": true,
+  "training_or_checkpoint_modified": false
+}

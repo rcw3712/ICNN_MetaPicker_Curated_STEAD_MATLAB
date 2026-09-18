@@ -1,0 +1,8 @@
+{
+  "original_protocol_sha256": "c31b9e9f1c988e5b5b06a565beaf0afd8abd444339db14a9b018ceaaa81f08ae",
+  "relocated_protocol_sha256": "c31b9e9f1c988e5b5b06a565beaf0afd8abd444339db14a9b018ceaaa81f08ae",
+  "membership_changed": false,
+  "waveform_files_verified": 2234,
+  "training_performed": false,
+  "note": "Path relocation changes run signatures. Use a new result directory; never overwrite archived runs."
+}

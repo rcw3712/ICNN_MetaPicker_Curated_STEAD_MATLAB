@@ -1,0 +1,11 @@
+# Corrected source-verified v2
+
+This is the current evidence package for *Source-Grouped Evaluation of Temporal Stacking for Seismic Phase Picking with Three-Component Data*. Begin with [USER_GUIDE.md](USER_GUIDE.md) and [TUTORIALS.md](TUTORIALS.md). No command in the no-training tutorials fits a model.
+
+The package contains the recovered identity mapping and frozen split/folds; 106 fitted checkpoints; 70 final prediction sets with constrained/unconstrained decoding; conditional summaries; manual-status, historical-role, threshold and station diagnostics; fresh replay receipts; and the revised manuscript documents and 21 figures in PNG/PDF. The models are the corrected run, not models relabelled from earlier releases.
+
+Fresh GPU replay on the recorded machine reproduced 18,528 OOF tensors and 1,980 test meta tensors exactly, and all 70 prediction sets without pick/status mismatches. The public replay entry point replaces large cache files with feature checksums and accepts explicit input/output paths. Its smoke tests are recorded separately from the exhaustive original replay. Training is complete: 40 main/ablation fits, 60 additional base/meta fits and six PhaseNet-style fits.
+
+The computational contribution is an inspectable integration of identity recovery, grouped feature generation, checkpoint provenance and dependency-aware evaluation. It does not claim a new grouped-OOF algorithm or best-performing picker. On this fixed split, conditional intervals support the baseline's P advantage; primary accepted-scoring S method differences remain unresolved. Component-access differences occur in both approaches. Historical development exposure prevents an independent-confirmation claim.
+
+See [COMPUTATIONAL_CONTRIBUTION.md](COMPUTATIONAL_CONTRIBUTION.md) for scope and [CG_REPOSITORY_CHECKLIST.md](CG_REPOSITORY_CHECKLIST.md) for repository requirements. Release DOI publication is pending; older DOIs do not identify this corrected package.

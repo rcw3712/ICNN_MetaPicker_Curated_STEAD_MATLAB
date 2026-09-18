@@ -1,0 +1,9 @@
+{
+  "prediction_sets": 70,
+  "metric_rows": 1260,
+  "mismatches": 0,
+  "test_records": 330,
+  "test_sources": 221,
+  "oof_manifests": 6,
+  "source_overlap": 0
+}

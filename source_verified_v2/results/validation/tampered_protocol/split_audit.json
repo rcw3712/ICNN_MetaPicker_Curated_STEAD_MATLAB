@@ -1,0 +1,87 @@
+{
+  "records": 2234,
+  "sources": 1477,
+  "outer": {
+    "train": {
+      "records": 1544,
+      "sources": 1034
+    },
+    "val": {
+      "records": 360,
+      "sources": 222
+    },
+    "test": {
+      "records": 330,
+      "sources": 221
+    }
+  },
+  "folds": [
+    {
+      "fold": 1,
+      "records": {
+        "fit": 1044,
+        "inner_val": 181,
+        "held": 319
+      },
+      "sources": {
+        "fit": 703,
+        "inner_val": 124,
+        "held": 207
+      }
+    },
+    {
+      "fold": 2,
+      "records": {
+        "fit": 1044,
+        "inner_val": 185,
+        "held": 315
+      },
+      "sources": {
+        "fit": 703,
+        "inner_val": 124,
+        "held": 207
+      }
+    },
+    {
+      "fold": 3,
+      "records": {
+        "fit": 1067,
+        "inner_val": 176,
+        "held": 301
+      },
+      "sources": {
+        "fit": 703,
+        "inner_val": 124,
+        "held": 207
+      }
+    },
+    {
+      "fold": 4,
+      "records": {
+        "fit": 1046,
+        "inner_val": 186,
+        "held": 312
+      },
+      "sources": {
+        "fit": 703,
+        "inner_val": 124,
+        "held": 207
+      }
+    },
+    {
+      "fold": 5,
+      "records": {
+        "fit": 1052,
+        "inner_val": 195,
+        "held": 297
+      },
+      "sources": {
+        "fit": 704,
+        "inner_val": 124,
+        "held": 206
+      }
+    }
+  ],
+  "source_overlap_pairs": 0,
+  "deterministic_under_reversed_input": true
+}

@@ -1,0 +1,7 @@
+Mode,Seed,Pblocked,UngatedCorrect,SChanged,AcceptedTimeChanged
+Full3C,42,3,0,3,0
+Full3C,43,4,0,4,0
+Full3C,44,1,0,5,0
+Zonly,42,2,0,3,1
+Zonly,43,6,0,6,0
+Zonly,44,4,0,5,1

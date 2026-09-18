@@ -1,0 +1,40 @@
+{
+  "abstract_words": 204,
+  "highlight_characters": [
+    81,
+    77,
+    72,
+    72,
+    62
+  ],
+  "files": [
+    {
+      "name": "CG_Cover_Letter_ReplayVerified.docx",
+      "tables": 0,
+      "images": 0,
+      "equations": 0,
+      "sha256": "3aef7d36022eadcf39dfca3b49f252d473de59d01908a943f85000dbe677c61d"
+    },
+    {
+      "name": "CG_Highlights_ReplayVerified.docx",
+      "tables": 0,
+      "images": 0,
+      "equations": 0,
+      "sha256": "b93d5122695ebd794012a6774604f691580b2fcc75d21cec51d0d75216cfac3a"
+    },
+    {
+      "name": "CG_MainText_ReplayVerified.docx",
+      "tables": 7,
+      "images": 14,
+      "equations": 23,
+      "sha256": "6844640f15a5be63058d1befadf4352f8bd158c995889cdc689874262ce17ef8"
+    },
+    {
+      "name": "CG_Supplementary_ReplayVerified.docx",
+      "tables": 27,
+      "images": 7,
+      "equations": 0,
+      "sha256": "b079992c9f13e97989062f172634a05dc0eeb4a0b79b1632fd233ce63edf641b"
+    }
+  ]
+}

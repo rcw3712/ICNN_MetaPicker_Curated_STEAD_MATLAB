@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "completed_utc": "2026-09-18T05:05:22.204902+00:00",
+  "test_prediction_sets": 70,
+  "records_per_prediction_set": 330,
+  "decoders": [
+    "constrained",
+    "unconstrained"
+  ],
+  "status_mismatches": 0,
+  "pick_mismatches": 0,
+  "max_pick_difference_seconds": 0.0,
+  "max_quality_difference": 5.11590769747272e-13,
+  "oof_tensors": 18528,
+  "test_meta_tensors": 1980,
+  "max_oof_feature_difference": 0.0,
+  "max_test_feature_difference": 0.0,
+  "unique_checkpoints": 106,
+  "checkpoint_hashes_unchanged": true,
+  "code_files": 89,
+  "code_hashes_unchanged": true,
+  "prior_audit_input_hash_entries": 381,
+  "prior_audit_inputs_unchanged": true,
+  "training_performed": false,
+  "checkpoint_selection_performed": false,
+  "ensemble_weights_refitted": false
+}

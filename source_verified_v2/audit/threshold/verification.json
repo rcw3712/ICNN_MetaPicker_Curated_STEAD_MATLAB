@@ -1,0 +1,10 @@
+{
+  "grid_configurations": 27,
+  "primary_decoder_output_sets_reproduced": 24,
+  "records_per_set": 330,
+  "primary_paired_bootstrap_reproduced": true,
+  "accepted_quality_invariance_verified": true,
+  "configuration_selected": false,
+  "training_performed": false,
+  "confidence_scope": "Pointwise exploratory source-cluster intervals, not simultaneous familywise intervals"
+}

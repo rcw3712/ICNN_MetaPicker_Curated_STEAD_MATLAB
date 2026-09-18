@@ -1,0 +1,71 @@
+{
+  "schema": "stead-source-verified-v2",
+  "records": 2234,
+  "sources": 1477,
+  "waveform_dir": "C:\\Drive E\\ICNN_MetaPicker_Curated_STEAD_MATLAB\\data\\csv_stead_filtered",
+  "outer_seed": 42,
+  "oof_seed": 42,
+  "oof_folds": 5,
+  "source_proportions": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "assignment_algorithm": "SHA256(stage|seed|source_id) rank; outer source counts rounded; OOF round-robin; inner 15 percent of remaining sources",
+  "label_policy": "Preserve historical CSV labels: floor(HDF5 arrival sample)/100",
+  "audit_mapping_sha256": "9a7ff7ccd23af9eeb8c5bd3d4ee2d612df2eca6498aafb485780a5a315b62c00",
+  "files": [
+    {
+      "relative_path": "folds/inner_fold_1.csv",
+      "sha256": "dd42746c35fda7b2d96bb55d6430a01a66558ba8378b6fee3c8ed179e7dd8ec0"
+    },
+    {
+      "relative_path": "folds/inner_fold_2.csv",
+      "sha256": "826703e608976e785cd6818ce3f30e13a2dd0a5a5ed883c02000de2876bd8a8c"
+    },
+    {
+      "relative_path": "folds/inner_fold_3.csv",
+      "sha256": "ca0ffe04738f81465fec2e5db37423633e32c94654f10e1a0cf341002299cfa0"
+    },
+    {
+      "relative_path": "folds/inner_fold_4.csv",
+      "sha256": "d0df05eb7ea5e075ef3e2f0c49a62c00c6d7ccfa48b9af360e532fbbe4ed4a72"
+    },
+    {
+      "relative_path": "folds/inner_fold_5.csv",
+      "sha256": "742f86fabb497422ca89fdf6870dce31eab6a2ad478dcbeffcd28bc54044175c"
+    },
+    {
+      "relative_path": "metadata/metadata_verified.csv",
+      "sha256": "f04e253f9a4e5ff3249a2ba08adde9edb3429d33f9fe247da270d93aeab6d4b3"
+    },
+    {
+      "relative_path": "partition_membership.csv",
+      "sha256": "b0e20e24530bef804a4d07a40836eac5e7dc68743cdc1c8f06b17a687f4bb1fb"
+    },
+    {
+      "relative_path": "recovered_mapping_2234.csv",
+      "sha256": "9a7ff7ccd23af9eeb8c5bd3d4ee2d612df2eca6498aafb485780a5a315b62c00"
+    },
+    {
+      "relative_path": "results/splits/test_source_ids.csv",
+      "sha256": "fee9cf00c9b8a5ab08fcdf2dc74b6364cb340ddcaaddb0868d973320e7756016"
+    },
+    {
+      "relative_path": "results/splits/train_source_ids.csv",
+      "sha256": "5cda0e2ef1bc0f4a707295b53764998f6b0005938c6f3e46a916b961ab228e89"
+    },
+    {
+      "relative_path": "results/splits/val_source_ids.csv",
+      "sha256": "0b96e18858290ae38673640e80ec61b66889a2a4fe9ac90410f4961a5e34f77c"
+    },
+    {
+      "relative_path": "split_audit.json",
+      "sha256": "b6418eaa70ecd75aba6a03520758d0576388dbc8be69c8d128e7a0e0688725ca"
+    },
+    {
+      "relative_path": "waveform_hashes.csv",
+      "sha256": "540b26cc1c747a2f35cc737788c0e6f61519838a1f832ab6f3c1b19a055a39be"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+id,mode,kind,seed,fold,seconds
+Full3C_CNN_fold1_seed44,Full3C,CNN,44,1,179.624519
+Full3C_TCN_fold1_seed44,Full3C,TCN,44,1,240.2447538
+Full3C_CNN_fold2_seed44,Full3C,CNN,44,2,174.7874519
+Full3C_TCN_fold2_seed44,Full3C,TCN,44,2,243.802433
+Full3C_CNN_fold3_seed44,Full3C,CNN,44,3,178.9188103
+Full3C_TCN_fold3_seed44,Full3C,TCN,44,3,248.4048221
+Full3C_CNN_fold4_seed44,Full3C,CNN,44,4,174.3129409
+Full3C_TCN_fold4_seed44,Full3C,TCN,44,4,244.0400295
+Full3C_CNN_fold5_seed44,Full3C,CNN,44,5,174.1121408
+Full3C_TCN_fold5_seed44,Full3C,TCN,44,5,247.4377377
+Full3C_CNN_fold0_seed44,Full3C,CNN,44,0,263.1451095
+Full3C_TCN_fold0_seed44,Full3C,TCN,44,0,365.677006
+Full3C_full15ch_fold-1_seed42,Full3C,full15ch,42,-1,1127.0083132
+Full3C_full15ch_fold-1_seed43,Full3C,full15ch,43,-1,742.7162953
+Full3C_full15ch_fold-1_seed44,Full3C,full15ch,44,-1,742.4538966

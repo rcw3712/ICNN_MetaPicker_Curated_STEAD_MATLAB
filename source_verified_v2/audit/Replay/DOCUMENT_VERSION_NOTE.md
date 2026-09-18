@@ -1,0 +1,1 @@
+The document checks in this Replay directory describe the preceding replay-integrated revision. Current document hashes, wording and layout checks are in ../EditorialFinal. Numerical replay results are unchanged.

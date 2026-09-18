@@ -1,0 +1,59 @@
+{
+  "records": 2234,
+  "sources": 1477,
+  "current_test_record_history": {
+    "test": 51,
+    "train": 233,
+    "val": 46
+  },
+  "current_test_source_history_nonexclusive": {
+    "train": 177,
+    "val": 44,
+    "test": 48
+  },
+  "current_test_records_from_sources_with_historical_train_val": 304,
+  "current_test_sources_with_historical_train_val": 196,
+  "sources_never_in_any_historical_role": 0,
+  "subsets": [
+    {
+      "subset": "all_test",
+      "records": 330,
+      "sources": 221,
+      "development_naive_established": false
+    },
+    {
+      "subset": "manual_both",
+      "records": 287,
+      "sources": 188,
+      "development_naive_established": false
+    },
+    {
+      "subset": "includes_nonmanual",
+      "records": 43,
+      "sources": 36,
+      "development_naive_established": false
+    },
+    {
+      "subset": "historical_test_records",
+      "records": 51,
+      "sources": 48,
+      "development_naive_established": false
+    },
+    {
+      "subset": "sources_without_historical_train_val",
+      "records": 26,
+      "sources": 25,
+      "development_naive_established": false
+    },
+    {
+      "subset": "manual_both_sources_without_historical_train_val",
+      "records": 20,
+      "sources": 19,
+      "development_naive_established": false
+    }
+  ],
+  "prior_all_test_summary_and_bootstrap_reproduced": true,
+  "prediction_sets": 24,
+  "metric_rows": 1728,
+  "scope": "Historical roles refer to the archived pre-v2 experiment, not a complete reconstruction of every earlier development decision. No development-naive subset is established."
+}

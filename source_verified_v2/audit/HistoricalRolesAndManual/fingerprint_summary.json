@@ -1,0 +1,20 @@
+{
+  "complete": true,
+  "scope": "Every direct dataset in /data of the local extracted merge.hdf5, including noise; no arrival-label or metadata selection filter. Not a claim about other STEAD archive versions.",
+  "archive": {
+    "bytes": 97808408528,
+    "mtime_ns": 1789559588902329400,
+    "path": "D:\\STEAD_identity_recovery\\merge.hdf5"
+  },
+  "datasets_total": 1265657,
+  "datasets_indexed": 1265657,
+  "read_errors": 0,
+  "selected_records": 2234,
+  "selected_unique_fingerprints": 2234,
+  "records_unique_match": 2234,
+  "records_multiple_matches": 0,
+  "records_conflicting_source_ids": 0,
+  "expected_mapping_found": 2234,
+  "elapsed_seconds": 826.3057079315186,
+  "hash_definition": "SHA256 of all samples, column-major E/N/Z, little-endian float32; shape retained separately. No normalization."
+}

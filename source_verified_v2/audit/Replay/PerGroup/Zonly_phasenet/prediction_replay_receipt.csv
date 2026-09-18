@@ -1,0 +1,7 @@
+Group,Output,Policy,Records,StatusMismatches,PickMismatches,MaxPickDifferenceSec,MaxQualityDifference
+Zonly_phasenet,PhaseNetMatched_seed42,constrained,330,0,0,0,5.11590769747272e-13
+Zonly_phasenet,PhaseNetMatched_seed42,unconstrained,330,0,0,0,5.11590769747272e-13
+Zonly_phasenet,PhaseNetMatched_seed43,constrained,330,0,0,0,5.11590769747272e-13
+Zonly_phasenet,PhaseNetMatched_seed43,unconstrained,330,0,0,0,5.11590769747272e-13
+Zonly_phasenet,PhaseNetMatched_seed44,constrained,330,0,0,0,5.11590769747272e-13
+Zonly_phasenet,PhaseNetMatched_seed44,unconstrained,330,0,0,0,5.11590769747272e-13

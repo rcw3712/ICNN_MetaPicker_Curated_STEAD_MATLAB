@@ -1,0 +1,39 @@
+{
+  "frozen_at": "2026-09-18T10:20:49.046096+07:00",
+  "training": false,
+  "selection": "No configuration chosen using test performance; retain original primary decoder.",
+  "pick_peak_thresholds": [
+    0.2,
+    0.3,
+    0.4
+  ],
+  "uncertain_multiplier": 0.5,
+  "quality_thresholds_P_and_S": [
+    2,
+    3,
+    4
+  ],
+  "min_SP_seconds": 0.1,
+  "max_SP_seconds": [
+    20,
+    30,
+    40
+  ],
+  "grid_configurations": 27,
+  "policies": [
+    "accepted",
+    "strict"
+  ],
+  "primary_tolerance_ms": 100,
+  "models": "18 full stackers and 6 PhaseNet-style fits",
+  "resampling": "10000 paired source-cluster draws, seed42, conditional fixed models/split; report selected predeclared contrasts and all configurations, no multiplicity adjustment",
+  "station_key": "network_code + receiver_code; compare test keys seen in outer train, separately seen in train-or-validation; not station epochs",
+  "replay": "All 70 final test prediction sets; regenerate all original and augmented OOF tensors from 60 OOF checkpoints.",
+  "bootstrap_contrasts_each_configuration": [
+    "Stack Full3C minus Zonly",
+    "PhaseNet Full3C minus Zonly",
+    "Stack minus PhaseNet Full3C",
+    "Stack minus PhaseNet Zonly"
+  ],
+  "invariance_check": "Accepted scoring must be invariant to quality threshold at fixed peak and window, because uncertain picks are accepted. Strict scoring may change."
+}

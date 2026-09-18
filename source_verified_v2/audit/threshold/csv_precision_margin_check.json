@@ -1,0 +1,6 @@
+{
+  "min_peak_distance_to_any_grid_cutoff": 5.1200389860062145e-06,
+  "min_quality_distance_to_any_grid_cutoff": 0.0021175957501200493,
+  "cutoff_margin_tolerance": 1e-10,
+  "passed": true
+}

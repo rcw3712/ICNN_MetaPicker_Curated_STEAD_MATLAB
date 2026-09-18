@@ -1,0 +1,6 @@
+{
+  "records": 2234,
+  "matched": 2234,
+  "elapsed_seconds": 31.079376459121704,
+  "definition": "CSV E/N/Z columns parsed float64 then cast little-endian float32, column-major E/N/Z SHA256, shape 6000x3"
+}

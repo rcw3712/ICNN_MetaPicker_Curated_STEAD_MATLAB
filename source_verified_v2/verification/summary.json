@@ -1,0 +1,10 @@
+{
+  "portable_smoke_groups": 14,
+  "original_records_per_group": 3,
+  "checkpoints_loaded": 106,
+  "numerical_metric_rows": 1260,
+  "synthetic_negative_controls_rejected": 5,
+  "feature_hashes": 20508,
+  "training_performed": false,
+  "new_experiments": false
+}

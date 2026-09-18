@@ -1,0 +1,4 @@
+p_pred_sec,s_pred_sec,p_status,s_status,p_quality,s_quality,event_id,source_id,p_true_sec,s_true_sec,p_error_ms,s_error_ms
+3.99,NaN,detected,not_detected,205.945185633067,10.1435572454084,stead_event_00007,12962350,4,7.63,-9.99999999999979,NaN
+8.99,12.06,detected,uncertain,234.831083655074,16.9077609499802,stead_event_00008,ci10279289,9,12.25,-9.99999999999979,-189.999999999999
+7.98,11.06,detected,uncertain,232.774347489991,16.8914879784311,stead_event_00009,12962332,8,11.44,-19.9999999999996,-379.999999999999

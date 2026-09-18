@@ -1,0 +1,16 @@
+[Warning: Unable to locate a personal folder for $documents\MATLAB.] 
+PASS TEST Full3C_base42 outputs=19 records=3 feature_hash_mismatch_max=0
+PASS OOF Full3C_base42_oof 6 tensors
+PASS TEST Full3C_base43 outputs=9 records=3 feature_hash_mismatch_max=0
+PASS OOF Full3C_base43_oof 6 tensors
+PASS TEST Full3C_base44 outputs=9 records=3 feature_hash_mismatch_max=0
+PASS OOF Full3C_base44_oof 6 tensors
+PASS TEST Full3C_phasenet outputs=3 records=3 feature_hash_mismatch_max=0
+PASS TEST Zonly_base42 outputs=9 records=3 feature_hash_mismatch_max=0
+PASS OOF Zonly_base42_oof 6 tensors
+PASS TEST Zonly_base43 outputs=9 records=3 feature_hash_mismatch_max=0
+PASS OOF Zonly_base43_oof 6 tensors
+PASS TEST Zonly_base44 outputs=9 records=3 feature_hash_mismatch_max=0
+PASS OOF Zonly_base44_oof 6 tensors
+PASS TEST Zonly_phasenet outputs=3 records=3 feature_hash_mismatch_max=0
+PASS portable v2: all 14 groups, three original records per group, no training.

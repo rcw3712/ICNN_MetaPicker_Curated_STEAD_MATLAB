@@ -1,0 +1,52 @@
+{
+  "crossed_seed_example": {
+    "base_means": [
+      2,
+      6,
+      10
+    ],
+    "mean": 6,
+    "between_base_sd": 4.0,
+    "independent_base_initializations": 3
+  },
+  "synthetic_records": 60,
+  "synthetic_sources": 20,
+  "outer_source_counts": [
+    14,
+    3,
+    3
+  ],
+  "OOF_folds": 3,
+  "augmentation_lineage_checks": 42,
+  "negative_controls": [
+    {
+      "case": "record_random_source_overlap",
+      "rejected": true,
+      "reason": "Source overlap: source_00"
+    },
+    {
+      "case": "augmentation_parent_mismatch",
+      "rejected": true,
+      "reason": "Augmentation changed lineage"
+    },
+    {
+      "case": "OOF_fit_contains_held_source",
+      "rejected": true,
+      "reason": "Source overlap: source_01,source_06,source_11,source_14,source_18"
+    },
+    {
+      "case": "feature_order_swap",
+      "rejected": true,
+      "reason": "Canonical feature order/width mismatch"
+    },
+    {
+      "case": "changed_artifact_bytes",
+      "rejected": true,
+      "reason": "Artifact hash mismatch"
+    }
+  ],
+  "published_prediction_sets": 70,
+  "published_test_records": 330,
+  "published_test_sources": 221,
+  "purpose": "Executable workflow invariants, not evidence of predictive improvement or new-source generalization."
+}

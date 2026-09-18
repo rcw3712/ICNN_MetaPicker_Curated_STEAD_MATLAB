@@ -1,33 +1,33 @@
 # Source-grouped evaluation of temporal stacking for seismic phase picking
 
-This repository accompanies **Source-Grouped Evaluation of Temporal Stacking for Seismic Phase Picking with Three-Component Data** (revision 16 September 2026).
+**Current manuscript and results: [source_verified_v2](source_verified_v2/README.md), revised 18 September 2026.** This corrected package supersedes the numerical results and source assignments in every earlier dated package and release. Use its models, inputs and commands together.
 
-## Executable workflow and saved models
+An exhaustive audit of the local STEAD HDF5 archive uniquely matches all 2,234 retained records to 1,477 sources. The fixed source-disjoint split contains 1,544 training records (1,034 sources), 360 validation records (222 sources), and 330 test records (221 sources). Fresh replay loads all 106 checkpoints and reproduces OOF features and 70 test prediction sets. These checks establish artifact consistency, not independent predictive confirmation.
 
-Use **[reproducibility_20260916](reproducibility_20260916/README.md)** for all 106 saved checkpoints (about 76 MB), portable MATLAB model replay, source/feature contracts, synthetic demonstrations and documented threshold history. The five negative-control cases are rejected, all 106 checkpoints load, and pick/status replay matches on the stated CPU/GPU smoke subsets. The contribution is inspectable software integration and reusable checks; grouped OOF itself is an established method. Exact waveform replay still requires the identified curated CSV exports; that limitation and the data-independent demonstrations are documented.
+## Results on this fixed split
 
-Release **[v1.4.0](https://github.com/rcw3712/ICNN_MetaPicker_Curated_STEAD_MATLAB/releases/tag/v1.4.0)** packages this software, [current manuscripts](submission_documents_20260916) and [separate artwork](presentation_20260916). It introduces no new fits, split, calibration or predictive result. The published archive is **[DOI 10.5281/zenodo.22784226](https://doi.org/10.5281/zenodo.22784226)**. Its ZIP checksum and all 265 model/replay, 51 artwork, 5 document and 367 extension-manifest hashes were verified after download. See [archive verification](ARCHIVE_VERIFICATION.md) for the immutable commit and exact scope.
-
-## Scientific results
-
-Use **[strengthening_20260916](strengthening_20260916/README.md)** for the frozen expanded experiment and numerical audit. Its manuscript snapshot predates the current software revision. It extends the original **[submission_20260915](submission_20260915/README.md)** package with 66 fits (106 overall): two additional CNN/TCN base seeds in both modes, crossed with three meta seeds, plus six standalone PhaseNet-style baseline fits.
-
-| Method | Mode | P F1 at Ã‚Â±100 ms | S F1 at Ã‚Â±100 ms |
+| Method | Mode | Accepted P F1 at 100 ms | Accepted S F1 at 100 ms |
 |---|---|---:|---:|
-| Stacking | Full3C | 0.8694 | 0.5780 |
-| Stacking | Z-only | 0.8723 | 0.3384 |
-| PhaseNetMatched | Full3C | 0.9661 | 0.6267 |
-| PhaseNetMatched | Z-only | 0.9637 | 0.3689 |
+| Stacking | Full3C | 0.8268 | 0.5536 |
+| Stacking | Z-only | 0.8134 | 0.2686 |
+| PhaseNet-style MATLAB baseline | Full3C | 0.9833 | 0.5857 |
+| PhaseNet-style MATLAB baseline | Z-only | 0.9833 | 0.2995 |
 
-The stacking S Full3C minus Z-only difference is 0.2396 (conditional 95% interval 0.1874Ã¢â‚¬â€œ0.2905). The baseline has higher mean F1 in both modes; the Z-only S advantage is not resolved by its interval. The contribution is an inspectable evaluation workflow and evidence about component access, not superior stacking performance. Findings condition on one curated source split; meta fits sharing a base are not independent pipelines, and source-cluster intervals exclude training/split uncertainty. PhaseNetMatched is a MATLAB adaptation trained from scratch, not official or pretrained PhaseNet.
+Conditional source-cluster intervals support the baseline's P advantage. Primary accepted-scoring S method differences remain unresolved; both approaches show an S component-access difference on this fixed split. The stacking difference is 0.2850 (conditional 95% interval 0.2293–0.3418). Manual-status sensitivity uses upstream metadata, not independent manual re-picking. Historical development exposure prevents an independent-confirmation claim. No general station-transfer claim is supported by the 12 unseen-station-key records. The comparator is a MATLAB adaptation, not official or pretrained PhaseNet.
 
-## Reproduction and archives
+## Start here
 
-- [Expanded audit and commands](strengthening_20260916/README.md)
-- [Current manuscript documents with verified DOI](submission_documents_20260916)
-- [Original 40-fit protocol and frozen evidence](submission_20260915/README.md)
-- [Archive verification and version scope](ARCHIVE_VERIFICATION.md)
+- [Installation, dependencies, resources and user guide](source_verified_v2/USER_GUIDE.md)
+- [No-training tutorials](source_verified_v2/TUTORIALS.md)
+- [Current documents](source_verified_v2/documents) and [separate PNG/PDF figures](source_verified_v2/figures)
+- [Frozen source protocol](source_verified_v2/inputs), [106 checkpoints and outputs](source_verified_v2/results), and [audits](source_verified_v2/audit)
+- [Computational contribution and scientific limits](source_verified_v2/COMPUTATIONAL_CONTRIBUTION.md)
+- [C&G repository requirement checklist](source_verified_v2/CG_REPOSITORY_CHECKLIST.md)
 
-Release v1.3.0 archives the expanded audit package and manuscript snapshot at **[DOI 10.5281/zenodo.22782746](https://doi.org/10.5281/zenodo.22782746)**, commit `e235f749540a56b763eca5903abb9592b9ed02b8`. All 367 extension-manifest hashes were verified against the published ZIP. DOI 10.5281/zenodo.22760733 identifies v1.2.0 only. Current manuscript documents include the v1.4.0 software demonstration and Table 3 correction; their numerical results match the archived snapshot. See the archive-verification notice for exact scope.
+Code is [MIT licensed](LICENSE). Original STEAD inputs retain their upstream terms and are not bundled. The repository supplies uncompressed source files, models, numeric outputs, provenance, synthetic examples and a byte-hash manifest; it is not a single ZIP distribution. Exact waveform replay requires the original CSV bytes identified by the manifest. Numerical checks and synthetic demonstrations require no waveform data or MATLAB.
 
-Root-level MATLAB scripts, results and older documentation are legacy material. The dated packages define the evidence and software interfaces. Raw STEAD waveforms, full probability curves and large caches are excluded. All 106 trained checkpoints are supplied in reproducibility_20260916; numerical checks and synthetic demonstrations can run without external waveforms. Code is MIT licensed; STEAD inputs retain their original distribution terms. No journal submission has been made by this synchronization.
+## Historical releases
+
+Root-level MATLAB scripts, root `results`, and all packages dated 15–16 September are **historical**, including `reproducibility_20260916`, `strengthening_20260916`, `submission_20260915`, `presentation_20260916` and `submission_documents_20260916`. Their models and reported metrics must not be mixed with source-verified v2. They remain unchanged for provenance; statements of “current” inside them refer to their historical date.
+
+DOI 10.5281/zenodo.22784226 identifies v1.4.0 only; 10.5281/zenodo.22782746 identifies v1.3.0; 10.5281/zenodo.22760733 identifies v1.2.0. **No existing DOI is asserted to archive corrected v2.** Cite the immutable Git commit and `source_verified_v2/SHA256_MANIFEST.csv` for this repository state. A new archival release remains pending. This synchronization does not submit the manuscript to a journal.

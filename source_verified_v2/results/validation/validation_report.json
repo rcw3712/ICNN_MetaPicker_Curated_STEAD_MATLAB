@@ -1,0 +1,37 @@
+{
+  "submission": {
+    "records": 2234,
+    "sources": 1477,
+    "outer_records": [
+      1544,
+      360,
+      330
+    ],
+    "five_folds_disjoint": true,
+    "row_order_invariant": true,
+    "legacy_inputs_rejected": true,
+    "wrong_source_rejected": true,
+    "overlap_rejected": true,
+    "legacy_checkpoint_rejected": true,
+    "real_csv_loaded": true
+  },
+  "strengthening": {
+    "records": 2234,
+    "sources": 1477,
+    "outer_records": [
+      1544,
+      360,
+      330
+    ],
+    "five_folds_disjoint": true,
+    "row_order_invariant": true,
+    "legacy_inputs_rejected": true,
+    "wrong_source_rejected": true,
+    "overlap_rejected": true,
+    "legacy_checkpoint_rejected": true,
+    "real_csv_loaded": true
+  },
+  "tampered_protocol_rejected": true,
+  "training_started": false,
+  "shared_folds_across_packages": true
+}
