@@ -2,14 +2,17 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it using the metadata below, and cite the associated article once published."
 type: software
 title: "Source-Grouped Evaluation of Temporal Stacking for Seismic Phase Picking with Three-Component Data"
-version: "source-verified-v2"
+version: "source-verified-v2.0.0"
+doi: "10.5281/zenodo.22824997"
+date-released: "2026-09-18"
 abstract: >
   Corrected source-verified evaluation of seismic temporal stacking on one
   fixed STEAD split, with recovered waveform identities, 106 checkpoints,
   fresh inference replay and conditional numerical audits. The PhaseNet-style
   baseline has a P advantage; primary S method differences remain unresolved.
   Historical development exposure prevents independent confirmation.
-  No existing release DOI archives this corrected repository state.
+  Release source-verified-v2.0.0 archives Git commit
+  8e82c781a1641191b6b56b15688d68e269b24918.
 license: MIT
 repository-code: "https://github.com/rcw3712/ICNN_MetaPicker_Curated_STEAD_MATLAB"
 keywords:

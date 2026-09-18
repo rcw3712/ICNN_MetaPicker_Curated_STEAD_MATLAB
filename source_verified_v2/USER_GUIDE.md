@@ -55,4 +55,4 @@ The primary decoder uses peak 0.30, quality 3 and maximum S–P window 30 s. Doc
 
 ## License and archive scope
 
-Software is MIT licensed. Upstream STEAD metadata/waveforms retain upstream terms. Manuscript/artwork are accompanying research materials. No existing release DOI is asserted for corrected v2. Use the Git commit and package manifest until a corrected archival release is published.
+Software is MIT licensed. Upstream STEAD metadata/waveforms retain upstream terms. Manuscript/artwork are accompanying research materials. Release source-verified-v2.0.0 at Git commit 8e82c781a1641191b6b56b15688d68e269b24918 is archived at [https://doi.org/10.5281/zenodo.22824997](https://doi.org/10.5281/zenodo.22824997). The archive was downloaded and verified against all 1,241 package-manifest entries and all 2,471 Git blobs, including 106 checkpoints. Current availability wording and documentation were updated after DOI assignment; those later text revisions are not claimed to be inside the immutable archive. Numerical results and computational artifacts are unchanged.

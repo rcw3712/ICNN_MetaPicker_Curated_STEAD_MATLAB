@@ -1,0 +1,32 @@
+{
+  "CG_Cover_Letter_ReplayVerified": {
+    "pages": 1,
+    "previous_pages": 1,
+    "changed_pages": [
+      1
+    ],
+    "outside": []
+  },
+  "CG_Highlights_ReplayVerified": {
+    "pages": 1,
+    "previous_pages": 1,
+    "changed_pages": [],
+    "outside": []
+  },
+  "CG_MainText_ReplayVerified": {
+    "pages": 40,
+    "previous_pages": 40,
+    "changed_pages": [
+      37
+    ],
+    "outside": []
+  },
+  "CG_Supplementary_ReplayVerified": {
+    "pages": 23,
+    "previous_pages": 23,
+    "changed_pages": [
+      16
+    ],
+    "outside": []
+  }
+}

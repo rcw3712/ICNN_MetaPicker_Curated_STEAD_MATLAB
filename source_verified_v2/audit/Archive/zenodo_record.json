@@ -1,0 +1,161 @@
+{
+  "created": "2026-09-18T13:39:28.758505+07:00",
+  "modified": "2026-09-18T13:39:28.99251+07:00",
+  "id": 22824997,
+  "conceptrecid": "21466643",
+  "doi": "10.5281/zenodo.22824997",
+  "conceptdoi": "10.5281/zenodo.21466643",
+  "doi_url": "https://doi.org/10.5281/zenodo.22824997",
+  "metadata": {
+    "title": "Source-Grouped Evaluation of Temporal Stacking for Seismic Phase Picking with Three-Component Data",
+    "doi": "10.5281/zenodo.22824997",
+    "publication_date": "2026-09-18",
+    "description": "Corrected source-verified evaluation of seismic temporal stacking on one fixed STEAD split, with recovered waveform identities, 106 checkpoints, fresh inference replay and conditional numerical audits. The PhaseNet-style baseline has a P advantage; primary S method differences remain unresolved. Historical development exposure prevents independent confirmation. No existing release DOI archives this corrected repository state.",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Wibowo, Rahmat Catur",
+        "affiliation": "Universitas Lampung"
+      },
+      {
+        "name": "Mahli, Razki Alfatah Khairu",
+        "affiliation": "Universitas Lampung"
+      },
+      {
+        "name": "Karyanto",
+        "affiliation": "Universitas Lampung"
+      },
+      {
+        "name": "Amijaya, Hendra",
+        "affiliation": "Universitas Gadjah Mada"
+      },
+      {
+        "name": "Aristoteles",
+        "affiliation": "Universitas Lampung"
+      },
+      {
+        "name": "Hermana, Maman",
+        "affiliation": "Universiti Teknologi PETRONAS"
+      },
+      {
+        "name": "Sarkowi, Muh",
+        "affiliation": "Universitas Lampung"
+      }
+    ],
+    "keywords": [
+      "seismic phase picking",
+      "P-wave",
+      "S-wave",
+      "STEAD",
+      "stacking ensemble",
+      "meta-learning",
+      "CNN",
+      "TCN",
+      "deep learning",
+      "MATLAB",
+      "seismology",
+      "source-level validation",
+      "data leakage"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/rcw3712/ICNN_MetaPicker_Curated_STEAD_MATLAB/tree/source-verified-v2.0.0",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "version": "source-verified-v2.0.0",
+    "custom": {
+      "code:codeRepository": "https://github.com/rcw3712/ICNN_MetaPicker_Curated_STEAD_MATLAB"
+    },
+    "resource_type": {
+      "title": "Software",
+      "type": "software"
+    },
+    "license": {
+      "id": "mit-license"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 5,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "21466643"
+          }
+        }
+      ]
+    },
+    "notes": "If you use this software, please cite it using the metadata below, and cite the associated article once published."
+  },
+  "title": "Source-Grouped Evaluation of Temporal Stacking for Seismic Phase Picking with Three-Component Data",
+  "links": {
+    "self": "https://zenodo.org/api/records/22824997",
+    "self_html": "https://zenodo.org/records/22824997",
+    "preview_html": "https://zenodo.org/records/22824997?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.22824997",
+    "self_doi": "https://doi.org/10.5281/zenodo.22824997",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.22824997",
+    "reserve_doi": "https://zenodo.org/api/records/22824997/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/21466643",
+    "parent_html": "https://zenodo.org/records/21466643",
+    "parent_doi": "https://doi.org/10.5281/zenodo.21466643",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21466643",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:22824997/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:22824997/sequence/default",
+    "files": "https://zenodo.org/api/records/22824997/files",
+    "media_files": "https://zenodo.org/api/records/22824997/media-files",
+    "archive": "https://zenodo.org/api/records/22824997/files-archive",
+    "archive_media": "https://zenodo.org/api/records/22824997/media-files-archive",
+    "latest": "https://zenodo.org/api/records/22824997/versions/latest",
+    "latest_html": "https://zenodo.org/records/22824997/latest",
+    "versions": "https://zenodo.org/api/records/22824997/versions",
+    "draft": "https://zenodo.org/api/records/22824997/draft",
+    "access_links": "https://zenodo.org/api/records/22824997/access/links",
+    "access_grants": "https://zenodo.org/api/records/22824997/access/grants",
+    "access_users": "https://zenodo.org/api/records/22824997/access/users",
+    "access_request": "https://zenodo.org/api/records/22824997/access/request",
+    "access": "https://zenodo.org/api/records/22824997/access",
+    "communities": "https://zenodo.org/api/records/22824997/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/22824997/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/22824997/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/22824997/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/22824997/quota-increase",
+    "requests": "https://zenodo.org/api/records/22824997/requests"
+  },
+  "updated": "2026-09-18T13:39:28.99251+07:00",
+  "recid": "22824997",
+  "revision": 4,
+  "files": [
+    {
+      "id": "abe3faa6-5441-43d0-af6c-b2881c0943bf",
+      "key": "rcw3712/ICNN_MetaPicker_Curated_STEAD_MATLAB-source-verified-v2.0.0.zip",
+      "size": 219731417,
+      "checksum": "md5:d4d4e70747cde106ecc25ae936303ec5",
+      "links": {
+        "self": "https://zenodo.org/api/records/22824997/files/rcw3712/ICNN_MetaPicker_Curated_STEAD_MATLAB-source-verified-v2.0.0.zip/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "1651845"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 5,
+    "unique_downloads": 5,
+    "views": 29,
+    "unique_views": 29,
+    "version_downloads": 0,
+    "version_unique_downloads": 0,
+    "version_unique_views": 0,
+    "version_views": 0
+  },
+  "state": "done",
+  "submitted": true
+}

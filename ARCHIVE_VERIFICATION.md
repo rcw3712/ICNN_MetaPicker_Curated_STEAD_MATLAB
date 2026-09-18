@@ -1,3 +1,11 @@
+# Corrected source-verified v2 archive verification
+
+Release source-verified-v2.0.0 at Git commit 8e82c781a1641191b6b56b15688d68e269b24918 is archived at [https://doi.org/10.5281/zenodo.22824997](https://doi.org/10.5281/zenodo.22824997). The archive was downloaded and verified against all 1,241 package-manifest entries and all 2,471 Git blobs, including 106 checkpoints. Current availability wording and documentation were updated after DOI assignment; those later text revisions are not claimed to be inside the immutable archive. Numerical results and computational artifacts are unchanged.
+
+ZIP MD5: `md5:d4d4e70747cde106ecc25ae936303ec5`. ZIP SHA-256: `951afbe182830eaef0e82579ec82248b6bb074657b3a7a1fc18a61528f45c6fe`. Zero mismatches.
+
+The Zenodo description still contains a pre-release sentence stating that no DOI archives this state. Its replacement text is provided in `source_verified_v2/audit/Archive/zenodo_description_replacement.txt`; authenticated Zenodo metadata editing remains necessary.
+
 > Historical archive verification only. The DOIs below do not archive corrected source-verified v2. Use [the current package](source_verified_v2/README.md) and its Git commit/manifest.
 
 # Verification of release v1.4.0

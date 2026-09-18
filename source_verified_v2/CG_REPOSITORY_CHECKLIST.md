@@ -16,4 +16,4 @@ Checked against the official [Computers & Geosciences description and repository
 | Highlights | Five real Word bullets, each at most 85 characters including spaces |
 | Claims match evidence | Fixed split and conditional intervals; no independent-confirmation or best-model claim |
 
-Full waveform replay requires original hash-matching CSV exports, not merely the numeric tables. Earlier DOIs are historical; corrected v2 archival publication remains pending. These limits are disclosed in the manuscript and repository. Scientific scope and novelty remain editorial judgments; this checklist is not an acceptance guarantee.
+Full waveform replay requires original hash-matching CSV exports, not merely the numeric tables. Earlier DOIs are historical. Corrected v2 is archived at https://doi.org/10.5281/zenodo.22824997 (release source-verified-v2.0.0); subsequent availability-only revisions are documented separately. These limits are disclosed in the manuscript and repository. Scientific scope and novelty remain editorial judgments; this checklist is not an acceptance guarantee.

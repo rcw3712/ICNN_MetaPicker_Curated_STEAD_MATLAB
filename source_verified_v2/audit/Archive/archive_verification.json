@@ -1,0 +1,13 @@
+{
+  "doi": "10.5281/zenodo.22824997",
+  "version": "source-verified-v2.0.0",
+  "status": "published",
+  "commit": "8e82c781a1641191b6b56b15688d68e269b24918",
+  "zip_md5": "md5:d4d4e70747cde106ecc25ae936303ec5",
+  "zip_sha256": "951afbe182830eaef0e82579ec82248b6bb074657b3a7a1fc18a61528f45c6fe",
+  "manifest_entries_verified": 1241,
+  "git_blobs_verified": 2471,
+  "checkpoint_count": 106,
+  "mismatches": 0,
+  "scope": "Entire archived Git tree and all corrected v2 manifest entries; no new inference or training."
+}
