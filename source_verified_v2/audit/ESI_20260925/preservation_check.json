@@ -1,0 +1,8 @@
+{
+  "base_commit": "f8b8f5c5d62e3941bab9610e3cc7069d71a4f462",
+  "preexisting_package_files_unchanged": 1247,
+  "checkpoint_count": 106,
+  "scope": "All previously manifested package files except package README and rolling manifest; includes scientific code, inputs, outputs, models, figures, historical documents and archived manifests.",
+  "training_performed": false,
+  "release_or_doi_modified": false
+}
