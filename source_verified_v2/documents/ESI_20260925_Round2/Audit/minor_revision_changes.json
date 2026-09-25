@@ -1,0 +1,278 @@
+[
+  {
+    "before": "Zonly",
+    "after": "Z-only"
+  },
+  {
+    "before": "Zonly",
+    "after": "Z-only"
+  },
+  {
+    "before": "Stack Full3C minus Zonly",
+    "after": "Stack Full3C minus Z-only"
+  },
+  {
+    "before": "PhaseNet Full3C minus Zonly",
+    "after": "PhaseNet Full3C minus Z-only"
+  },
+  {
+    "before": "PhaseNet Full3C minus Z-only",
+    "after": "PhaseNetMatched Full3C minus Z-only"
+  },
+  {
+    "before": "Stack minus PhaseNet Full3C",
+    "after": "Stack minus PhaseNetMatched Full3C"
+  },
+  {
+    "before": "Stack minus PhaseNet Zonly",
+    "after": "Stack minus PhaseNet Z-only"
+  },
+  {
+    "before": "Stack minus PhaseNet Z-only",
+    "after": "Stack minus PhaseNetMatched Z-only"
+  },
+  {
+    "before": "Stack Full3C minus Zonly",
+    "after": "Stack Full3C minus Z-only"
+  },
+  {
+    "before": "PhaseNet Full3C minus Zonly",
+    "after": "PhaseNet Full3C minus Z-only"
+  },
+  {
+    "before": "PhaseNet Full3C minus Z-only",
+    "after": "PhaseNetMatched Full3C minus Z-only"
+  },
+  {
+    "before": "Stack minus PhaseNet Full3C",
+    "after": "Stack minus PhaseNetMatched Full3C"
+  },
+  {
+    "before": "Stack minus PhaseNet Zonly",
+    "after": "Stack minus PhaseNet Z-only"
+  },
+  {
+    "before": "Stack minus PhaseNet Z-only",
+    "after": "Stack minus PhaseNetMatched Z-only"
+  },
+  {
+    "before": "Online Resource 1 (ESM_1.pdf) contains supplementary figures S1\u2013S14 and tables S1\u2013S30, covering feature statistics, secondary base-42 results, hyperparameters, provenance, historical roles, replay and sensitivity diagnostics. The accompanying reconstruction script and receipts document the HDF5-to-CSV check.",
+    "after": "Online Resource 1 (ESM_1.pdf) contains supplementary figures S1\u2013S14 and tables S1\u2013S31, covering feature statistics, secondary base-42 results, hyperparameters, provenance, historical roles, replay and sensitivity diagnostics. The accompanying reconstruction script and receipts document the HDF5-to-CSV check."
+  },
+  {
+    "before": "Zonly",
+    "after": "Z-only"
+  },
+  {
+    "before": "Full3C minus Zonly",
+    "after": "Full3C minus Z-only"
+  },
+  {
+    "before": "Zonly",
+    "after": "Z-only"
+  },
+  {
+    "before": "Full3C minus Zonly",
+    "after": "Full3C minus Z-only"
+  },
+  {
+    "before": "Zonly",
+    "after": "Z-only"
+  },
+  {
+    "before": "Full3C minus Zonly",
+    "after": "Full3C minus Z-only"
+  },
+  {
+    "before": "Zonly",
+    "after": "Z-only"
+  },
+  {
+    "before": "Full3C minus Zonly",
+    "after": "Full3C minus Z-only"
+  },
+  {
+    "before": "Zonly",
+    "after": "Z-only"
+  },
+  {
+    "before": "Full3C minus Zonly",
+    "after": "Full3C minus Z-only"
+  },
+  {
+    "before": "Zonly",
+    "after": "Z-only"
+  },
+  {
+    "before": "Full3C minus Zonly",
+    "after": "Full3C minus Z-only"
+  },
+  {
+    "before": "Zonly",
+    "after": "Z-only"
+  },
+  {
+    "before": "Zonly",
+    "after": "Z-only"
+  },
+  {
+    "before": "Zonly",
+    "after": "Z-only"
+  },
+  {
+    "before": "Zonly",
+    "after": "Z-only"
+  },
+  {
+    "before": "Zonly/42",
+    "after": "Z-only/42"
+  },
+  {
+    "before": "Zonly/42",
+    "after": "Z-only/42"
+  },
+  {
+    "before": "Zonly/43",
+    "after": "Z-only/43"
+  },
+  {
+    "before": "Zonly/43",
+    "after": "Z-only/43"
+  },
+  {
+    "before": "Zonly/44",
+    "after": "Z-only/44"
+  },
+  {
+    "before": "Zonly/44",
+    "after": "Z-only/44"
+  },
+  {
+    "before": "Zonly",
+    "after": "Z-only"
+  },
+  {
+    "before": "Zonly",
+    "after": "Z-only"
+  },
+  {
+    "before": "Zonly",
+    "after": "Z-only"
+  },
+  {
+    "before": "Zonly",
+    "after": "Z-only"
+  },
+  {
+    "before": "Zonly",
+    "after": "Z-only"
+  },
+  {
+    "before": "Zonly",
+    "after": "Z-only"
+  },
+  {
+    "before": "Zonly",
+    "after": "Z-only"
+  },
+  {
+    "before": "Zonly",
+    "after": "Z-only"
+  },
+  {
+    "before": "Zonly",
+    "after": "Z-only"
+  },
+  {
+    "before": "Zonly",
+    "after": "Z-only"
+  },
+  {
+    "before": "Zonly",
+    "after": "Z-only"
+  },
+  {
+    "before": "Zonly",
+    "after": "Z-only"
+  },
+  {
+    "before": "Zonly",
+    "after": "Z-only"
+  },
+  {
+    "before": "PhaseNet",
+    "after": "PhaseNetMatched"
+  },
+  {
+    "before": "PhaseNet",
+    "after": "PhaseNetMatched"
+  },
+  {
+    "before": "PhaseNet",
+    "after": "PhaseNetMatched"
+  },
+  {
+    "before": "PhaseNet",
+    "after": "PhaseNetMatched"
+  },
+  {
+    "before": "PhaseNet",
+    "after": "PhaseNetMatched"
+  },
+  {
+    "before": "PhaseNet Full3C \u2212 Z",
+    "after": "PhaseNetMatched Full3C \u2212 Z"
+  },
+  {
+    "before": "Stack \u2212 PhaseNet Full3C",
+    "after": "Stack \u2212 PhaseNetMatched Full3C"
+  },
+  {
+    "before": "Stack \u2212 PhaseNet Z",
+    "after": "Stack \u2212 PhaseNetMatched Z"
+  },
+  {
+    "before": "PhaseNet Full3C \u2212 Z",
+    "after": "PhaseNetMatched Full3C \u2212 Z"
+  },
+  {
+    "before": "Stack \u2212 PhaseNet Full3C",
+    "after": "Stack \u2212 PhaseNetMatched Full3C"
+  },
+  {
+    "before": "Stack \u2212 PhaseNet Z",
+    "after": "Stack \u2212 PhaseNetMatched Z"
+  },
+  {
+    "before": "PhaseNet Full3C \u2212 Z",
+    "after": "PhaseNetMatched Full3C \u2212 Z"
+  },
+  {
+    "before": "Stack \u2212 PhaseNet Full3C",
+    "after": "Stack \u2212 PhaseNetMatched Full3C"
+  },
+  {
+    "before": "Stack \u2212 PhaseNet Z",
+    "after": "Stack \u2212 PhaseNetMatched Z"
+  },
+  {
+    "before": "PhaseNet Full3C \u2212 Z",
+    "after": "PhaseNetMatched Full3C \u2212 Z"
+  },
+  {
+    "before": "Stack \u2212 PhaseNet Full3C",
+    "after": "Stack \u2212 PhaseNetMatched Full3C"
+  },
+  {
+    "before": "Stack \u2212 PhaseNet Z",
+    "after": "Stack \u2212 PhaseNetMatched Z"
+  },
+  {
+    "before": "Zonly",
+    "after": "Z-only"
+  },
+  {
+    "before": "Zonly",
+    "after": "Z-only"
+  }
+]

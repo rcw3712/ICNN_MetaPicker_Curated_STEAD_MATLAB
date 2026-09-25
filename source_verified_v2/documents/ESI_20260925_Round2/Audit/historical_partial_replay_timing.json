@@ -1,0 +1,25 @@
+{
+  "complete": true,
+  "failed": false,
+  "total": 14,
+  "completed": [
+    "test_Full3C_42",
+    "test_Full3C_43",
+    "test_Full3C_44",
+    "test_Zonly_42",
+    "test_Zonly_43",
+    "test_Zonly_44",
+    "phasenet_Full3C_42",
+    "phasenet_Zonly_42",
+    "oof_Full3C_42",
+    "oof_Full3C_43",
+    "oof_Zonly_42",
+    "oof_Full3C_44",
+    "oof_Zonly_43",
+    "oof_Zonly_44"
+  ],
+  "running": [],
+  "failures": [],
+  "elapsed_seconds": 1923.580518245697,
+  "maximum_parallel_audit_processes": 2
+}

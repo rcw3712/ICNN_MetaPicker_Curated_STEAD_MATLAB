@@ -15,3 +15,5 @@ Article type in the submission portal: **Methodology**. The cover letter identif
 SUBMISSION_METADATA.txt supplies the matching title, abstract and keywords. REVISION_REPORT.md describes the focused changes and scientific limits. Reconstruction contains a no-training HDF5-to-CSV utility, mapping, frozen hashes and verified receipts. Audit records document checks. These supporting process files and the package ZIP are not substitutes for selecting the individual manuscript/upload files in the portal.
 
 The DOI refers to the immutable earlier software/result archive; current ESI text, rearranged figures and the new reconstruction utility postdate it. No new release or DOI was created. All numerical model results and checkpoints are retained. No training or submission was performed.
+
+Minor revision v3: Table S31 supplies parameter counts and recorded fit timings. Use ESI_MainText.docx for submission; ESI_MainText_Review.pdf is the locally rendered proof for checking equations. The portal-generated PDF must be checked separately. Online Resource 1 now has 38 pages.

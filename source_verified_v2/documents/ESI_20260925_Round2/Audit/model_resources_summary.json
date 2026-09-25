@@ -1,0 +1,91 @@
+{
+  "checkpoint_count": 106,
+  "fit_seconds_sum": 60225.1447686,
+  "full_replay_wall_clock_available": false,
+  "partial_replay_seconds": 1923.580518245697,
+  "partial_scope": "Final four OOF groups only; at most two concurrent MATLAB processes",
+  "training_performed": false,
+  "inference_performed": false,
+  "groups": {
+    "CNN": {
+      "fits": 36,
+      "parameters": [
+        "16611"
+      ],
+      "median_seconds": 179.3979072,
+      "min_seconds": 147.1217569,
+      "max_seconds": 406.3982172,
+      "sum_seconds": 7469.2912768
+    },
+    "full15ch": {
+      "fits": 18,
+      "parameters": [
+        "108355"
+      ],
+      "median_seconds": 742.58509595,
+      "min_seconds": 419.7610969,
+      "max_seconds": 1215.1485643,
+      "sum_seconds": 14187.6107294
+    },
+    "TCN": {
+      "fits": 36,
+      "parameters": [
+        "10467"
+      ],
+      "median_seconds": 249.60313535,
+      "min_seconds": 199.5034864,
+      "max_seconds": 370.8743617,
+      "sum_seconds": 10003.1399731
+    },
+    "PhaseNetMatched": {
+      "fits": 6,
+      "parameters": [
+        "269051"
+      ],
+      "median_seconds": 3705.6750273999996,
+      "min_seconds": 3021.5938839,
+      "max_seconds": 4470.1589384,
+      "sum_seconds": 22413.4523999
+    },
+    "logistic": {
+      "fits": 1,
+      "parameters": [
+        "NaN"
+      ],
+      "median_seconds": 68.3347501,
+      "min_seconds": 68.3347501,
+      "max_seconds": 68.3347501,
+      "sum_seconds": 68.3347501
+    },
+    "nodilation": {
+      "fits": 3,
+      "parameters": [
+        "108355"
+      ],
+      "median_seconds": 552.1518189,
+      "min_seconds": 471.0457976,
+      "max_seconds": 781.5605912,
+      "sum_seconds": 1804.7582077
+    },
+    "probonly12": {
+      "fits": 3,
+      "parameters": [
+        "107395"
+      ],
+      "median_seconds": 466.0444633,
+      "min_seconds": 304.3145355,
+      "max_seconds": 720.6428866,
+      "sum_seconds": 1491.0018854
+    },
+    "waveonly3": {
+      "fits": 3,
+      "parameters": [
+        "104515"
+      ],
+      "median_seconds": 940.1041291,
+      "min_seconds": 878.3267447,
+      "max_seconds": 969.1246724,
+      "sum_seconds": 2787.5555462
+    }
+  }
+}

@@ -35,3 +35,7 @@ The previous ESI document set, fitted checkpoints, frozen input/results artifact
 ## Article-type alignment
 
 The author selected Methodology, a category explicitly supported by the ESI author guidelines. The cover letter, abstract, Introduction and submission metadata were aligned accordingly. This does not assert a new stacking algorithm or superior picker performance; the contribution remains a case-tested evaluation/provenance methodology. https://link.springer.com/journal/12145/submission-guidelines
+
+## Minor revision v3
+
+Main text remains 37 pages. Online Resource 1 now has 31 tables and 38 pages after adding checkpoint-derived model sizes and recorded fit times. Model names and Z-only labels in tables were standardized without changing numeric values. See MINOR_REVISION_NOTES.md and Audit/model_resources_summary.json. Original equations and historical-exposure limitations were preserved exactly.

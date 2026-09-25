@@ -41,3 +41,5 @@ The ESI revision foregrounds waveform identity, data lineage and numerical repro
 The round-2 revision adds explicit workflow-contract and reproduction-level tables, a redrawn Fig. 1, literature on validation and provenance, and a shorter primary Results presentation. A no-training HDF5-to-CSV check matched 2,234 source IDs, 2,234 waveform fingerprints and all 2,234 complete CSV byte hashes. Historical filtering/subset-selection decisions remain unresolved. The check does not add predictive evidence or claim cross-device replay.
 
 Article type for the current ESI submission: **Methodology**. The cover letter and manuscript framing describe a case-tested evaluation/provenance methodology. The PhaseNet-style model is a case-study comparator.
+
+The minor pre-upload revision adds checkpoint-derived parameter counts and successful-fit timings (Supplementary Table S31). The 106 fits sum to 16.73 h, excluding pipeline overhead and interrupted attempts. Complete replay wall-clock time is unavailable; the retained partial timer is explicitly scoped. No training or inference was performed for this update.
