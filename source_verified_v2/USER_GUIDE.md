@@ -5,7 +5,7 @@
 Clone the repository normally. The active package is `source_verified_v2`; do not add the historical root `src` to the MATLAB path.
 
 - Python 3.10 or later, standard library only: package verification, numeric recomputation and synthetic contracts.
-- NumPy and h5py: optional waveform inspection; see `requirements.txt`.
+- NumPy and h5py: optional waveform inspection; see `requirements.txt`. The optional retained-CSV reconstruction utility also needs pandas; its separately pinned environment is documented in the [reconstruction companion](documents/ESI_20260925_Round2/Reconstruction/README.md).
 - MATLAB R2024a, Deep Learning Toolbox and Signal Processing Toolbox: model loading, waveform conditioning and replay. GPU execution additionally requires Parallel Computing Toolbox and a supported CUDA GPU. The custom `PhaseSkipCrop` layer is included under `training/strengthening/clean`.
 - The recorded replay used an RTX 3060 Laptop GPU with 6 GiB VRAM. The author's machine had 32 GiB system RAM and an enabled pagefile. These are a reference configuration, not measured minimum requirements. Use one MATLAB process at a time. No claim of bitwise portability across hardware or MATLAB versions is made.
 
@@ -15,7 +15,7 @@ Clone the repository normally. The active package is `source_verified_v2`; do no
 
 The fixed split has train/validation/test record counts 1544/360/330 and source counts 1034/222/221. Five OOF folds hold out complete training sources; inner-validation memberships are frozen in `inputs/folds`. Modes and seeds share this partition. The 106 fits comprise 40 main/ablation, 60 additional base/meta and six PhaseNet-style fits.
 
-Original waveform CSVs are not bundled. Exact replay requires all selected CSV bytes from `inputs/waveform_hashes.csv`; columns are `time,sec,E,N,Z,p_arrival,s_arrival`, 6000 rows at 100 Hz. For a smoke test only the selected records are needed. Upstream data are available from [STEAD](https://github.com/smousavi05/STEAD) under its distribution terms. The mapping identifies retained waveforms; the historical extraction notebook/selection recipe is unavailable. A newly formatted CSV can represent the same float32 waveform but differ in parsed double precision or time-grid rounding, so the exact replay command rejects changed file hashes. Do not claim that an arbitrary re-export reproduces these artifacts. The published outputs support numerical review without external waveforms; synthetic tests support software inspection without STEAD.
+Original waveform CSVs are not bundled. Exact replay requires all selected CSV bytes from `inputs/waveform_hashes.csv`; columns are `time,sec,E,N,Z,p_arrival,s_arrival`, 6000 rows at 100 Hz. For a smoke test only the selected records are needed. Upstream data are available from [STEAD](https://github.com/smousavi05/STEAD) under its distribution terms. The mapping identifies retained waveforms. The [tested reconstruction utility](documents/ESI_20260925_Round2/Reconstruction/README.md) regenerated all 2,234 selected CSV byte hashes directly from the tested local HDF5. The historical filtering/subset-selection procedure remains unavailable. A newly formatted CSV can represent the same float32 waveform but differ in parsed double precision or time-grid rounding, so the exact replay command rejects changed file hashes. Do not claim that an arbitrary re-export reproduces these artifacts. The published outputs support numerical review without external waveforms; synthetic tests support software inspection without STEAD.
 
 `model_manifest.csv` identifies every checkpoint by mode, kind, base/meta seed and fold, with SHA-256. `test_jobs.csv` identifies each of the 70 output sets. `results` contains their original predictions and metrics. `feature_hashes` contains column-major little-endian float32 SHA-256 values from existing OOF/test caches. `audit/Replay` preserves original receipts and hash checks; paths in historical receipts describe the author's machine and are not executable configuration.
 
@@ -27,7 +27,7 @@ In MATLAB, call `replay_v2(waveDir,outDir,stage,mode,base,maxRecords,device)`. A
 
 | Argument | Values and meaning |
 |---|---|
-| waveDir | Folder of original, hash-matching waveform CSVs |
+| waveDir | Folder of original or verified-regenerated, hash-matching waveform CSVs |
 | outDir | New writable folder outside the published package |
 | stage | `test`, `phasenet`, or `oof`; never training |
 | mode | `Full3C` or `Zonly` |
@@ -55,4 +55,4 @@ The primary decoder uses peak 0.30, quality 3 and maximum S–P window 30 s. Doc
 
 ## License and archive scope
 
-Software is MIT licensed. Upstream STEAD metadata/waveforms retain upstream terms. Manuscript/artwork are accompanying research materials. Release source-verified-v2.0.0 at Git commit 8e82c781a1641191b6b56b15688d68e269b24918 is archived at [https://doi.org/10.5281/zenodo.22824997](https://doi.org/10.5281/zenodo.22824997). The archive was downloaded and verified against all 1,241 package-manifest entries and all 2,471 Git blobs, including 106 checkpoints. Current availability wording and documentation were updated after DOI assignment; those later text revisions are not claimed to be inside the immutable archive. Numerical results and computational artifacts are unchanged.
+Software is MIT licensed. Upstream STEAD metadata/waveforms retain upstream terms. Manuscript/artwork are accompanying research materials. Release source-verified-v2.0.0 at Git commit 8e82c781a1641191b6b56b15688d68e269b24918 is archived at [https://doi.org/10.5281/zenodo.22824997](https://doi.org/10.5281/zenodo.22824997). The archive was downloaded and verified against all 1,241 package-manifest entries and all 2,471 Git blobs, including 106 checkpoints. Current availability wording and documentation were updated after DOI assignment; those later text revisions are not claimed to be inside the immutable archive. Fitted checkpoints, frozen inputs and numerical model results are unchanged. The later reconstruction utility and receipts are separate additions and are not claimed to be inside the existing DOI archive.

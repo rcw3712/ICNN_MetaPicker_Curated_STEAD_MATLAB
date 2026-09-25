@@ -1,0 +1,18 @@
+{
+  "records": 2234,
+  "source_matches": 2234,
+  "waveform_matches": 2234,
+  "csv_byte_matches": 2234,
+  "errors": 0,
+  "elapsed_seconds": 145.3,
+  "write_csv": false,
+  "training_performed": false,
+  "profile": "float32 E/N/Z; float64 arange(6000)*0.01; int(arrival_sample)*0.01; pandas default float serialization; UTF-8 CRLF",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.1",
+    "h5py": "3.16.0"
+  },
+  "scope": "Reconstructs retained CSV bytes from supplied trace mapping in tested HDF5; does not reconstruct original selection/filtering or assert another archive version."
+}

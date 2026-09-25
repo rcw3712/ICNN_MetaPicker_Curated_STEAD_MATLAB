@@ -1,0 +1,7 @@
+{
+  "write_smoke_records": 2,
+  "written_file_hashes_match": true,
+  "tampered_csv_hash_rejected": true,
+  "mismatched_file_not_written": true,
+  "training_performed": false
+}
