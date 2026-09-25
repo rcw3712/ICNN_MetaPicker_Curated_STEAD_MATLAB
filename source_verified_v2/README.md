@@ -17,3 +17,5 @@ Use [documents/ESI_20260925_Round2](documents/ESI_20260925_Round2/README.md) for
 ## Verified HDF5-to-CSV route
 
 See the [reconstruction companion](documents/ESI_20260925_Round2/Reconstruction/README.md). All 2,234 retained exports matched frozen complete-file hashes in the tested local HDF5; no original CSV contents were used to generate the outputs. A separate write smoke check and tampered-hash rejection passed. This recovers the selected exports, not the historical subset-selection procedure. No training or new inference was performed. Current manuscript figure numbering follows the round-2 document folder; the original `figures` folder remains unchanged for provenance.
+
+Article type for the current ESI submission: **Methodology**. The cover letter and manuscript framing describe a case-tested evaluation/provenance methodology. The PhaseNet-style model is a case-study comparator.

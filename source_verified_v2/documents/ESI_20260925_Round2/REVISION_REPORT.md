@@ -31,3 +31,7 @@ Old main Figs. 2/3/4 retain their numbers; old 11/12/14 become main 5/6/7. Old m
 All four DOCX files were rendered with Microsoft Word; all pages were visually inspected and checked for out-of-page text. Main text: 37 pages; Online Resource 1: 37 pages; cover letter: one page; optional highlights: one page. The supplemental PDF is the Word export of the final DOCX. Cross-reference/caption checks and table/equation preservation are recorded in Audit.
 
 The previous ESI document set, fitted checkpoints, frozen input/results artifacts and DOI archive remain preserved. The current companion utility and document presentation are later additions, not contents asserted to be in the existing DOI archive.
+
+## Article-type alignment
+
+The author selected Methodology, a category explicitly supported by the ESI author guidelines. The cover letter, abstract, Introduction and submission metadata were aligned accordingly. This does not assert a new stacking algorithm or superior picker performance; the contribution remains a case-tested evaluation/provenance methodology. https://link.springer.com/journal/12145/submission-guidelines

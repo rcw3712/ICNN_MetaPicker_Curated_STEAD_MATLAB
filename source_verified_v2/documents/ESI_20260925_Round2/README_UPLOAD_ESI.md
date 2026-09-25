@@ -1,6 +1,6 @@
 # Upload map - Earth Science Informatics
 
-Use this round-2 folder instead of the previous ESI revision.
+Article type in the submission portal: **Methodology**. The cover letter identifies a **Methodology Article**. Use this Methodology package instead of the earlier Research-labelled version.
 
 | Submission item | File |
 |---|---|
