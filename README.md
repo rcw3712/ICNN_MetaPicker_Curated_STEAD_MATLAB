@@ -2,7 +2,7 @@
 
 ## Dedicated Python audit repository
 
-The current Python tool and targeted Path A revision are maintained at [rcw3712/seismic-eval-audit](https://github.com/rcw3712/seismic-eval-audit). Version v0.1.3 adds presentation, attribution and CI documentation refinements; it changes no model results and performs no training or inference. The historical model archive and its DOI remain unchanged.
+The current Python tool and targeted Path A revision are maintained at [rcw3712/seismic-eval-audit](https://github.com/rcw3712/seismic-eval-audit). Version v0.1.3 adds presentation, attribution and CI documentation refinements; it changes no model results and performs no training or inference. The historical model archive and its DOI remain unchanged. The separate Python v0.1.3 source/evidence archive is verified at [DOI 10.5281/zenodo.23684054](https://doi.org/10.5281/zenodo.23684054).
 
 ## Preserved Python audit package v0.1.2
 
