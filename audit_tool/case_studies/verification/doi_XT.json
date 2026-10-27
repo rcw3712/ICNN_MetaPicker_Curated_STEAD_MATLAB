@@ -1,0 +1,246 @@
+{
+  "data": {
+    "id": "10.12686/alparray/xt_2014",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.12686/alparray/xt_2014",
+      "prefix": "10.12686",
+      "suffix": "alparray/xt_2014",
+      "identifiers": [],
+      "alternateIdentifiers": [],
+      "creators": [
+        {
+          "name": "AlpArray Seismic Network",
+          "nameType": null,
+          "givenName": null,
+          "familyName": null,
+          "affiliation": [],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "lang": null,
+          "title": "Eastern Alpine Seismic Investigation (EASI) - AlpArray Complimentary Experiment",
+          "titleType": null
+        }
+      ],
+      "publisher": "AlpArray Working Group",
+      "container": {},
+      "publicationYear": 2014,
+      "subjects": [],
+      "contributors": [
+        {
+          "name": "DataManager: EIDA Node At ETHZ Switzerland",
+          "nameType": null,
+          "givenName": null,
+          "familyName": null,
+          "affiliation": [],
+          "contributorType": "Other",
+          "nameIdentifiers": [
+            {
+              "schemeUri": null,
+              "nameIdentifier": null,
+              "nameIdentifierScheme": null
+            }
+          ]
+        },
+        {
+          "name": "HostongInstitution: EIDA Node At ETHZ Switzerland",
+          "nameType": null,
+          "givenName": null,
+          "familyName": null,
+          "affiliation": [],
+          "contributorType": "Other",
+          "nameIdentifiers": [
+            {
+              "schemeUri": null,
+              "nameIdentifier": null,
+              "nameIdentifierScheme": null
+            }
+          ]
+        },
+        {
+          "name": "ContactPerson: Eida_maint@Gfz-Potsdam.De",
+          "nameType": null,
+          "givenName": null,
+          "familyName": null,
+          "affiliation": [],
+          "contributorType": "Other",
+          "nameIdentifiers": [
+            {
+              "schemeUri": null,
+              "nameIdentifier": null,
+              "nameIdentifierScheme": null
+            }
+          ]
+        },
+        {
+          "name": "EIDA node at ETH Zurich",
+          "nameType": "Organizational",
+          "givenName": null,
+          "familyName": null,
+          "affiliation": [],
+          "contributorType": "Distributor",
+          "nameIdentifiers": [
+            {
+              "schemeUri": null,
+              "nameIdentifier": null,
+              "nameIdentifierScheme": null
+            }
+          ]
+        },
+        {
+          "name": "Hetenyi, Gyorgy",
+          "nameType": "Personal",
+          "givenName": "Gyorgy",
+          "familyName": "Hetenyi",
+          "affiliation": [],
+          "contributorType": "RelatedPerson",
+          "nameIdentifiers": [
+            {
+              "schemeUri": null,
+              "nameIdentifier": null,
+              "nameIdentifierScheme": null
+            }
+          ]
+        },
+        {
+          "name": "Kissling, Edi",
+          "nameType": "Personal",
+          "givenName": "Edi",
+          "familyName": "Kissling",
+          "affiliation": [],
+          "contributorType": "RelatedPerson",
+          "nameIdentifiers": [
+            {
+              "schemeUri": null,
+              "nameIdentifier": null,
+              "nameIdentifierScheme": null
+            }
+          ]
+        }
+      ],
+      "dates": [
+        {
+          "date": "2014-05-21",
+          "dateType": "Available",
+          "dateInformation": null
+        },
+        {
+          "date": "2015-10-22",
+          "dateType": "Available",
+          "dateInformation": null
+        },
+        {
+          "date": "2014",
+          "dateType": "Issued",
+          "dateInformation": null
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceTypeGeneral": "Other"
+      },
+      "relatedIdentifiers": [],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [
+        "SEED data",
+        "Size: 1GB/day"
+      ],
+      "version": null,
+      "rightsList": [],
+      "descriptions": [
+        {
+          "lang": null,
+          "description": "Location: N-S swath along 13.35\u00b0E from Eastern Bavaria to the Adriatic See",
+          "descriptionType": "Other"
+        },
+        {
+          "lang": null,
+          "description": "The project aims to investigate the origin of the slab beneath the Eastern Alps (European? Adriatic?), to perform tomographic calculations, the characterize the fabric of the lower crust, compute receiver functions at the crustal and lithospheric scale, to investigate the previously reported Moho gap, and to map the relationship of the Alpine orogen with the adjacent basins and lithospheric blocks.",
+          "descriptionType": "Other"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00L21ldGFkYXRhLnhzZCI+CiAgPGlkZW50aWZpZXIgaWRlbnRpZmllclR5cGU9IkRPSSI+MTAuMTI2ODYvQUxQQVJSQVkvWFRfMjAxNDwvaWRlbnRpZmllcj4KICA8Y3JlYXRvcnM+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lPkFscEFycmF5IFNlaXNtaWMgTmV0d29yazwvY3JlYXRvck5hbWU+CiAgICA8L2NyZWF0b3I+CiAgPC9jcmVhdG9ycz4KICA8dGl0bGVzPgogICAgPHRpdGxlPkVhc3Rlcm4gQWxwaW5lIFNlaXNtaWMgSW52ZXN0aWdhdGlvbiAoRUFTSSkgLSBBbHBBcnJheSBDb21wbGltZW50YXJ5IEV4cGVyaW1lbnQ8L3RpdGxlPgogIDwvdGl0bGVzPgogIDxwdWJsaXNoZXI+QWxwQXJyYXkgV29ya2luZyBHcm91cDwvcHVibGlzaGVyPgogIDxwdWJsaWNhdGlvblllYXI+MjAxNDwvcHVibGljYXRpb25ZZWFyPgogIDxyZXNvdXJjZVR5cGUgcmVzb3VyY2VUeXBlR2VuZXJhbD0iT3RoZXIiPkNyZWF0aXZlV29yazwvcmVzb3VyY2VUeXBlPgogIDxjb250cmlidXRvcnM+CiAgICA8Y29udHJpYnV0b3IgY29udHJpYnV0b3JUeXBlPSJPdGhlciI+CiAgICAgIDxjb250cmlidXRvck5hbWU+RGF0YU1hbmFnZXI6IEVJREEgTm9kZSBBdCBFVEhaIFN3aXR6ZXJsYW5kPC9jb250cmlidXRvck5hbWU+CiAgICAgIDxuYW1lSWRlbnRpZmllciBuYW1lSWRlbnRpZmllclNjaGVtZT0iIiBzY2hlbWVVUkk9IiIvPgogICAgICA8YWZmaWxpYXRpb24vPgogICAgPC9jb250cmlidXRvcj4KICAgIDxjb250cmlidXRvciBjb250cmlidXRvclR5cGU9Ik90aGVyIj4KICAgICAgPGNvbnRyaWJ1dG9yTmFtZT5Ib3N0b25nSW5zdGl0dXRpb246IEVJREEgTm9kZSBBdCBFVEhaIFN3aXR6ZXJsYW5kPC9jb250cmlidXRvck5hbWU+CiAgICAgIDxuYW1lSWRlbnRpZmllciBuYW1lSWRlbnRpZmllclNjaGVtZT0iIiBzY2hlbWVVUkk9IiIvPgogICAgICA8YWZmaWxpYXRpb24vPgogICAgPC9jb250cmlidXRvcj4KICAgIDxjb250cmlidXRvciBjb250cmlidXRvclR5cGU9Ik90aGVyIj4KICAgICAgPGNvbnRyaWJ1dG9yTmFtZT5Db250YWN0UGVyc29uOiBFaWRhX21haW50QEdmei1Qb3RzZGFtLkRlPC9jb250cmlidXRvck5hbWU+CiAgICAgIDxuYW1lSWRlbnRpZmllciBuYW1lSWRlbnRpZmllclNjaGVtZT0iIiBzY2hlbWVVUkk9IiIvPgogICAgICA8YWZmaWxpYXRpb24vPgogICAgPC9jb250cmlidXRvcj4KICAgIDxjb250cmlidXRvciBjb250cmlidXRvclR5cGU9IkRpc3RyaWJ1dG9yIj4KICAgICAgPGNvbnRyaWJ1dG9yTmFtZSBuYW1lVHlwZT0iT3JnYW5pemF0aW9uYWwiPkVJREEgbm9kZSBhdCBFVEggWnVyaWNoPC9jb250cmlidXRvck5hbWU+CiAgICAgIDxuYW1lSWRlbnRpZmllciBuYW1lSWRlbnRpZmllclNjaGVtZT0iIiBzY2hlbWVVUkk9IiIvPgogICAgICA8YWZmaWxpYXRpb24vPgogICAgPC9jb250cmlidXRvcj4KICAgIDxjb250cmlidXRvciBjb250cmlidXRvclR5cGU9IlJlbGF0ZWRQZXJzb24iPgogICAgICA8Y29udHJpYnV0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+SGV0ZW55aSwgR3lvcmd5PC9jb250cmlidXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+R3lvcmd5PC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPkhldGVueWk8L2ZhbWlseU5hbWU+CiAgICAgIDxuYW1lSWRlbnRpZmllciBuYW1lSWRlbnRpZmllclNjaGVtZT0iIiBzY2hlbWVVUkk9IiIvPgogICAgICA8YWZmaWxpYXRpb24vPgogICAgPC9jb250cmlidXRvcj4KICAgIDxjb250cmlidXRvciBjb250cmlidXRvclR5cGU9IlJlbGF0ZWRQZXJzb24iPgogICAgICA8Y29udHJpYnV0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+S2lzc2xpbmcsIEVkaTwvY29udHJpYnV0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPkVkaTwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5LaXNzbGluZzwvZmFtaWx5TmFtZT4KICAgICAgPG5hbWVJZGVudGlmaWVyIG5hbWVJZGVudGlmaWVyU2NoZW1lPSIiIHNjaGVtZVVSST0iIi8+CiAgICAgIDxhZmZpbGlhdGlvbi8+CiAgICA8L2NvbnRyaWJ1dG9yPgogIDwvY29udHJpYnV0b3JzPgogIDxkYXRlcz4KICAgIDxkYXRlIGRhdGVUeXBlPSJBdmFpbGFibGUiPjIwMTQtMDUtMjE8L2RhdGU+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iQXZhaWxhYmxlIj4yMDE1LTEwLTIyPC9kYXRlPgogICAgPGRhdGUgZGF0ZVR5cGU9Iklzc3VlZCI+MjAxNDwvZGF0ZT4KICA8L2RhdGVzPgogIDxzaXplcy8+CiAgPGZvcm1hdHM+CiAgICA8Zm9ybWF0PlNFRUQgZGF0YTwvZm9ybWF0PgogICAgPGZvcm1hdD5TaXplOiAxR0IvZGF5PC9mb3JtYXQ+CiAgPC9mb3JtYXRzPgogIDx2ZXJzaW9uLz4KICA8ZGVzY3JpcHRpb25zPgogICAgPGRlc2NyaXB0aW9uIGRlc2NyaXB0aW9uVHlwZT0iT3RoZXIiPkxvY2F0aW9uOiBOLVMgc3dhdGggYWxvbmcgMTMuMzXCsEUgZnJvbSBFYXN0ZXJuIEJhdmFyaWEgdG8gdGhlIEFkcmlhdGljIFNlZTwvZGVzY3JpcHRpb24+CiAgICA8ZGVzY3JpcHRpb24gZGVzY3JpcHRpb25UeXBlPSJPdGhlciI+VGhlIHByb2plY3QgYWltcyB0byBpbnZlc3RpZ2F0ZSB0aGUgb3JpZ2luIG9mIHRoZSBzbGFiIGJlbmVhdGggdGhlIEVhc3Rlcm4gQWxwcyAoRXVyb3BlYW4/IEFkcmlhdGljPyksIHRvIHBlcmZvcm0gdG9tb2dyYXBoaWMgY2FsY3VsYXRpb25zLCB0aGUgY2hhcmFjdGVyaXplIHRoZSBmYWJyaWMgb2YgdGhlIGxvd2VyIGNydXN0LCBjb21wdXRlIHJlY2VpdmVyIGZ1bmN0aW9ucyBhdCB0aGUgY3J1c3RhbCBhbmQgbGl0aG9zcGhlcmljIHNjYWxlLCB0byBpbnZlc3RpZ2F0ZSB0aGUgcHJldmlvdXNseSByZXBvcnRlZCBNb2hvIGdhcCwgYW5kIHRvIG1hcCB0aGUgcmVsYXRpb25zaGlwIG9mIHRoZSBBbHBpbmUgb3JvZ2VuIHdpdGggdGhlIGFkamFjZW50IGJhc2lucyBhbmQgbGl0aG9zcGhlcmljIGJsb2Nrcy48L2Rlc2NyaXB0aW9uPgogIDwvZGVzY3JpcHRpb25zPgo8L3Jlc291cmNlPgo=",
+      "url": "http://networks.seismo.ethz.ch/networks/xt/",
+      "contentUrl": [],
+      "metadataVersion": 6,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "fabricaForm",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 1,
+      "citationsOverTime": [
+        {
+          "year": "2022",
+          "total": 1
+        }
+      ],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2016-09-02T13:04:47.000Z",
+      "registered": "2016-09-02T13:04:48.000Z",
+      "published": "2014",
+      "updated": "2023-08-11T13:12:50.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "ethz.sed",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "stdp",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.12686/alparray/xt_2014",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": [
+          {
+            "id": "10.5194/se-13-251-2022",
+            "type": "dois"
+          }
+        ]
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

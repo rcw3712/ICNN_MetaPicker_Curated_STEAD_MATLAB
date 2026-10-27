@@ -1,0 +1,26 @@
+name: Seismic audit tests
+on:
+  push:
+    branches: [main]
+    paths: ['audit_tool/**', '.github/workflows/seismic-audit-tests.yml']
+  pull_request:
+    paths: ['audit_tool/**', '.github/workflows/seismic-audit-tests.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  tests:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ['3.10', '3.12']
+    runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        working-directory: audit_tool
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m unittest discover -s tests -v

@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "violations": [],
+  "files": 93,
+  "scope": "Public code copies against previously recorded public_sha256; not comparison to pre-portability original bytes"
+}

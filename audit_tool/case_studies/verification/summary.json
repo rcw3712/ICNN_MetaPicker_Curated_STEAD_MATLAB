@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-27",
+  "training_performed": false,
+  "inference_performed": false,
+  "local_tests": 27,
+  "installed_wheel_tests": 27,
+  "real_artifact_checks": {
+    "historical": "FAIL expected",
+    "current_split": "PASS",
+    "history": "WARNING expected",
+    "oof_configuration_folds": 30,
+    "checkpoint_hashes": 106,
+    "code_hashes": 93,
+    "receipt_derived_lineage_links": 9264
+  },
+  "station_train_test_shared_keys": 180,
+  "visual_qa": {
+    "main_pages": 9,
+    "supplement_pages": 4,
+    "revision_record_pages": 1,
+    "all_pages_inspected": true
+  },
+  "lineage_scope": "Reconstructed audit keys and partition labels from prior OOF replay receipts, not original augmentation logs",
+  "schema_scope": "Synthetic tests only",
+  "prior_commit": "395d566e7ecaf1dba8d53e3680bd6ac9c499dfaf",
+  "new_zenodo_doi": null
+}

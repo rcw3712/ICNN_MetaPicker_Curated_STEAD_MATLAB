@@ -1,6 +1,14 @@
-# Waveform identity and reproducible source-grouped evaluation of seismic phase pickers
+# Seismic evaluation audits and the source-verified phase-picking case study
 
-**Current manuscript: [Earth Science Informatics revision, 25 September 2026, round 2](source_verified_v2/documents/ESI_20260925_Round2/README.md). Computational results: [source_verified_v2](source_verified_v2/README.md).** This corrected package supersedes the numerical results and source assignments in every earlier dated package and release. Use its models, inputs and commands together.
+## Python audit tool and Path A manuscript
+
+The new [seismic-eval-audit v0.1.1 package](audit_tool/README.md) audits memberships and existing artifacts without training or inference. [Release](https://github.com/rcw3712/ICNN_MetaPicker_Curated_STEAD_MATLAB/releases/tag/seismic-eval-audit-v0.1.1), [revised manuscript](audit_tool/manuscript), [real-artifact reports](audit_tool/case_studies/results), and [27 tests](audit_tool/tests).
+
+The recovered historical STEAD partition fails source exclusion; the corrected partition passes, while historical development exposure remains. ETHZ's supplied split passes source exclusion but shares station keys across subsets. Receipt-derived lineage and synthetic schema tests have explicitly limited scope. The older DOI archive is unchanged and is not asserted to archive this new tool. The model/results case study below remains preserved separately.
+
+## Preserved computational case
+
+**Prior computational manuscript: [Earth Science Informatics revision, 25 September 2026, round 2](source_verified_v2/documents/ESI_20260925_Round2/README.md). Computational results: [source_verified_v2](source_verified_v2/README.md).** This corrected package supersedes the numerical results and source assignments in every earlier dated package and release. Use its models, inputs and commands together.
 
 An exhaustive audit of the local STEAD HDF5 archive uniquely matches all 2,234 retained records to 1,477 sources. The fixed source-disjoint split contains 1,544 training records (1,034 sources), 360 validation records (222 sources), and 330 test records (221 sources). Fresh replay loads all 106 checkpoints and reproduces OOF features and 70 test prediction sets. These checks establish artifact consistency, not independent predictive confirmation.
 
@@ -19,7 +27,7 @@ Conditional source-cluster intervals support the baseline's P advantage. Primary
 
 - [Installation, dependencies, resources and user guide](source_verified_v2/USER_GUIDE.md)
 - [No-training tutorials](source_verified_v2/TUTORIALS.md)
-- [Current ESI documents](source_verified_v2/documents/ESI_20260925_Round2) and [separate PNG/PDF figures](source_verified_v2/documents/ESI_20260925_Round2/Figures)
+- [Prior ESI documents](source_verified_v2/documents/ESI_20260925_Round2) and [separate PNG/PDF figures](source_verified_v2/documents/ESI_20260925_Round2/Figures)
 - [Frozen source protocol](source_verified_v2/inputs), [106 checkpoints and outputs](source_verified_v2/results), and [audits](source_verified_v2/audit)
 - [Computational contribution and scientific limits](source_verified_v2/COMPUTATIONAL_CONTRIBUTION.md)
 - [Historical C&G repository requirement checklist](source_verified_v2/CG_REPOSITORY_CHECKLIST.md)

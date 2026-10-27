@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "status": "PASS",
+      "violations": [],
+      "group": "Full3C_base42_oof",
+      "children": 1544
+    },
+    {
+      "status": "PASS",
+      "violations": [],
+      "group": "Full3C_base43_oof",
+      "children": 1544
+    },
+    {
+      "status": "PASS",
+      "violations": [],
+      "group": "Full3C_base44_oof",
+      "children": 1544
+    },
+    {
+      "status": "PASS",
+      "violations": [],
+      "group": "Zonly_base42_oof",
+      "children": 1544
+    },
+    {
+      "status": "PASS",
+      "violations": [],
+      "group": "Zonly_base43_oof",
+      "children": 1544
+    },
+    {
+      "status": "PASS",
+      "violations": [],
+      "group": "Zonly_base44_oof",
+      "children": 1544
+    }
+  ],
+  "children": 9264,
+  "scope": "Audit keys and train labels reconstructed from OOF replay receipt context; source/fold checked against frozen parent table. Not an original training-time augmentation manifest; does not verify augmented waveform bytes."
+}

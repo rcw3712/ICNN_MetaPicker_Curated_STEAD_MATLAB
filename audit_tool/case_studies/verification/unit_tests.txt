@@ -1,0 +1,32 @@
+test_bad_fractions (test_audit.AuditTests.test_bad_fractions) ... ok
+test_bytes (test_audit.AuditTests.test_bytes) ... ok
+test_cli (test_audit.AuditTests.test_cli) ... ok
+test_duplicate_ambiguous (test_audit.AuditTests.test_duplicate_ambiguous) ... ok
+test_empty (test_audit.AuditTests.test_empty) ... ok
+test_exact_text_ids (test_audit.AuditTests.test_exact_text_ids) ... ok
+test_grouped_order_independent (test_audit.AuditTests.test_grouped_order_independent) ... ok
+test_history_missing (test_audit.AuditTests.test_history_missing) ... ok
+test_inner_oof (test_audit.AuditTests.test_inner_oof) ... ok
+test_missing (test_audit.AuditTests.test_missing) ... ok
+test_missing_parent (test_audit.AuditTests.test_missing_parent) ... ok
+test_oof (test_audit.AuditTests.test_oof) ... ok
+test_overlap (test_audit.AuditTests.test_overlap) ... ok
+test_parent (test_audit.AuditTests.test_parent) ... ok
+test_parent_split (test_audit.AuditTests.test_parent_split) ... ok
+test_path_escape (test_audit.AuditTests.test_path_escape) ... ok
+test_schema (test_audit.AuditTests.test_schema) ... ok
+test_single_split_warning (test_audit.AuditTests.test_single_split_warning) ... ok
+test_small_group_count (test_audit.AuditTests.test_small_group_count) ... ok
+test_valid (test_audit.AuditTests.test_valid) ... ok
+test_bad_role_rejected (test_history_strict.HistoryTests.test_bad_role_rejected) ... ok
+test_categories_are_exclusive_and_record_weighted (test_history_strict.HistoryTests.test_categories_are_exclusive_and_record_weighted) ... ok
+test_custom_development_label (test_history_strict.HistoryTests.test_custom_development_label) ... ok
+test_duplicate_history_does_not_multiply_counts (test_history_strict.HistoryTests.test_duplicate_history_does_not_multiply_counts) ... ok
+test_empty_history_has_unknown_count (test_history_strict.HistoryTests.test_empty_history_has_unknown_count) ... ok
+test_no_test_rejected (test_history_strict.HistoryTests.test_no_test_rejected) ... ok
+test_strict_cli_warning (test_history_strict.HistoryTests.test_strict_cli_warning) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.377s
+
+OK

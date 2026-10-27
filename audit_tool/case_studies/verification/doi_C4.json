@@ -1,0 +1,166 @@
+{
+  "data": {
+    "id": "10.12686/sed/networks/c4",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.12686/sed/networks/c4",
+      "prefix": "10.12686",
+      "suffix": "sed/networks/c4",
+      "identifiers": [],
+      "alternateIdentifiers": [],
+      "creators": [
+        {
+          "name": "CERN",
+          "nameType": null,
+          "givenName": null,
+          "familyName": null,
+          "affiliation": [],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "lang": null,
+          "title": "CERN Seismic Network",
+          "titleType": null
+        }
+      ],
+      "publisher": "ETH Zurich",
+      "container": {},
+      "publicationYear": 2016,
+      "subjects": [
+        {
+          "subject": "Seismic Network",
+          "valueUri": ""
+        }
+      ],
+      "contributors": [
+        {
+          "name": "EIDA node at ETH Zurich",
+          "nameType": "Organizational",
+          "givenName": null,
+          "familyName": null,
+          "affiliation": [],
+          "contributorType": "Distributor",
+          "nameIdentifiers": [
+            {
+              "schemeUri": null,
+              "nameIdentifier": null,
+              "nameIdentifierScheme": null
+            }
+          ]
+        }
+      ],
+      "dates": [
+        {
+          "date": "2016",
+          "dateType": "Available",
+          "dateInformation": null
+        },
+        {
+          "date": "2016",
+          "dateType": "Issued",
+          "dateInformation": null
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceTypeGeneral": "Other"
+      },
+      "relatedIdentifiers": [],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [
+        "stationXML",
+        "miniseed"
+      ],
+      "version": null,
+      "rightsList": [],
+      "descriptions": [
+        {
+          "lang": null,
+          "description": "CERN Seismic Network consists of co-lcoated broadband and strong motion stations in and around the CERN experiment perimeter crossing France and Switzerland. Sites are free-field and at-depth along the ring.",
+          "descriptionType": "Other"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00L21ldGFkYXRhLnhzZCI+CiAgPGlkZW50aWZpZXIgaWRlbnRpZmllclR5cGU9IkRPSSI+MTAuMTI2ODYvU0VEL05FVFdPUktTL0M0PC9pZGVudGlmaWVyPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+Q0VSTjwvY3JlYXRvck5hbWU+CiAgICA8L2NyZWF0b3I+CiAgPC9jcmVhdG9ycz4KICA8dGl0bGVzPgogICAgPHRpdGxlPkNFUk4gU2Vpc21pYyBOZXR3b3JrPC90aXRsZT4KICA8L3RpdGxlcz4KICA8cHVibGlzaGVyPkVUSCBadXJpY2g8L3B1Ymxpc2hlcj4KICA8cHVibGljYXRpb25ZZWFyPjIwMTY8L3B1YmxpY2F0aW9uWWVhcj4KICA8cmVzb3VyY2VUeXBlIHJlc291cmNlVHlwZUdlbmVyYWw9Ik90aGVyIj5DcmVhdGl2ZVdvcms8L3Jlc291cmNlVHlwZT4KICA8c3ViamVjdHM+CiAgICA8c3ViamVjdCB2YWx1ZVVSST0iIj5TZWlzbWljIE5ldHdvcms8L3N1YmplY3Q+CiAgPC9zdWJqZWN0cz4KICA8Y29udHJpYnV0b3JzPgogICAgPGNvbnRyaWJ1dG9yIGNvbnRyaWJ1dG9yVHlwZT0iRGlzdHJpYnV0b3IiPgogICAgICA8Y29udHJpYnV0b3JOYW1lIG5hbWVUeXBlPSJPcmdhbml6YXRpb25hbCI+RUlEQSBub2RlIGF0IEVUSCBadXJpY2g8L2NvbnRyaWJ1dG9yTmFtZT4KICAgICAgPG5hbWVJZGVudGlmaWVyIG5hbWVJZGVudGlmaWVyU2NoZW1lPSIiIHNjaGVtZVVSST0iIi8+CiAgICAgIDxhZmZpbGlhdGlvbi8+CiAgICA8L2NvbnRyaWJ1dG9yPgogIDwvY29udHJpYnV0b3JzPgogIDxkYXRlcz4KICAgIDxkYXRlIGRhdGVUeXBlPSJBdmFpbGFibGUiPjIwMTY8L2RhdGU+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iSXNzdWVkIj4yMDE2PC9kYXRlPgogIDwvZGF0ZXM+CiAgPHNpemVzLz4KICA8Zm9ybWF0cz4KICAgIDxmb3JtYXQ+c3RhdGlvblhNTDwvZm9ybWF0PgogICAgPGZvcm1hdD5taW5pc2VlZDwvZm9ybWF0PgogIDwvZm9ybWF0cz4KICA8dmVyc2lvbi8+CiAgPGRlc2NyaXB0aW9ucz4KICAgIDxkZXNjcmlwdGlvbiBkZXNjcmlwdGlvblR5cGU9Ik90aGVyIj5DRVJOIFNlaXNtaWMgTmV0d29yayBjb25zaXN0cyBvZiBjby1sY29hdGVkIGJyb2FkYmFuZCBhbmQgc3Ryb25nIG1vdGlvbiBzdGF0aW9ucyBpbiBhbmQgYXJvdW5kIHRoZSBDRVJOIGV4cGVyaW1lbnQgcGVyaW1ldGVyIGNyb3NzaW5nIEZyYW5jZSBhbmQgU3dpdHplcmxhbmQuIFNpdGVzIGFyZSBmcmVlLWZpZWxkIGFuZCBhdC1kZXB0aCBhbG9uZyB0aGUgcmluZy48L2Rlc2NyaXB0aW9uPgogIDwvZGVzY3JpcHRpb25zPgo8L3Jlc291cmNlPgo=",
+      "url": "http://networks.seismo.ethz.ch/networks/c4/",
+      "contentUrl": null,
+      "metadataVersion": 2,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "fabricaForm",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 1,
+      "citationsOverTime": [
+        {
+          "year": "2025",
+          "total": 1
+        }
+      ],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2017-03-03T08:37:43.000Z",
+      "registered": "2017-03-03T08:37:43.000Z",
+      "published": "2016",
+      "updated": "2025-04-16T16:14:44.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "ethz.sed",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "stdp",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.12686/sed/networks/c4",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": [
+          {
+            "id": "10.13127/itaca.4.0",
+            "type": "dois"
+          }
+        ]
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

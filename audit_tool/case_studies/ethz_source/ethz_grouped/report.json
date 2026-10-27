@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "scope": "Exact equality of supplied group identifiers only",
+  "records": 36743,
+  "sources": 2231,
+  "shared_sources": 0,
+  "affected_records": 0,
+  "pairs": [
+    {
+      "a": "dev",
+      "b": "test",
+      "shared_sources": 0,
+      "a_records": 0,
+      "b_records": 0
+    },
+    {
+      "a": "dev",
+      "b": "train",
+      "shared_sources": 0,
+      "a_records": 0,
+      "b_records": 0
+    },
+    {
+      "a": "test",
+      "b": "train",
+      "shared_sources": 0,
+      "a_records": 0,
+      "b_records": 0
+    }
+  ],
+  "violations": [],
+  "splits": {
+    "dev": {
+      "records": 5850,
+      "sources": 334
+    },
+    "test": {
+      "records": 5371,
+      "sources": 336
+    },
+    "train": {
+      "records": 25522,
+      "sources": 1561
+    }
+  },
+  "audit_seconds": 0.05231509986333549,
+  "seed": 42
+}

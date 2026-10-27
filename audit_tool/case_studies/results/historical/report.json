@@ -1,0 +1,3743 @@
+{
+  "status": "FAIL",
+  "scope": "Exact equality of supplied group identifiers only",
+  "group_column": "source_id",
+  "records": 2234,
+  "sources": 1477,
+  "shared_sources": 283,
+  "affected_records": 739,
+  "pairs": [
+    {
+      "a": "test",
+      "b": "train",
+      "shared_sources": 137,
+      "a_records": 151,
+      "b_records": 204
+    },
+    {
+      "a": "test",
+      "b": "val",
+      "shared_sources": 39,
+      "a_records": 45,
+      "b_records": 44
+    },
+    {
+      "a": "train",
+      "b": "val",
+      "shared_sources": 153,
+      "a_records": 228,
+      "b_records": 161
+    }
+  ],
+  "violations": [
+    {
+      "record_id": "stead_event_00024",
+      "source_id": "16012717",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00025",
+      "source_id": "16012717",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00033",
+      "source_id": "13487328",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00035",
+      "source_id": "13487328",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00050",
+      "source_id": "371473",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00051",
+      "source_id": "449393",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00052",
+      "source_id": "427423",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00053",
+      "source_id": "405375",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00056",
+      "source_id": "338507",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00058",
+      "source_id": "429464",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00059",
+      "source_id": "39672",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00061",
+      "source_id": "40969",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00062",
+      "source_id": "419718",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00065",
+      "source_id": "427431",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00066",
+      "source_id": "413582",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00067",
+      "source_id": "334594",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00069",
+      "source_id": "428454",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00070",
+      "source_id": "474506",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00074",
+      "source_id": "441362",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00075",
+      "source_id": "458505",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00076",
+      "source_id": "45392",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00084",
+      "source_id": "371473",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00085",
+      "source_id": "449393",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00086",
+      "source_id": "427423",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00087",
+      "source_id": "405375",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00088",
+      "source_id": "419718",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00091",
+      "source_id": "427431",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00092",
+      "source_id": "413582",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00093",
+      "source_id": "408473",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00095",
+      "source_id": "334594",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00100",
+      "source_id": "441362",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00102",
+      "source_id": "45392",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00107",
+      "source_id": "371473",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00108",
+      "source_id": "449393",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00109",
+      "source_id": "427423",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00110",
+      "source_id": "405375",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00113",
+      "source_id": "338507",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00115",
+      "source_id": "429464",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00118",
+      "source_id": "39672",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00120",
+      "source_id": "40969",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00121",
+      "source_id": "419718",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00124",
+      "source_id": "427431",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00126",
+      "source_id": "413582",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00127",
+      "source_id": "408473",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00129",
+      "source_id": "428454",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00130",
+      "source_id": "474506",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00134",
+      "source_id": "441362",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00135",
+      "source_id": "458505",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00140",
+      "source_id": "602347413",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00141",
+      "source_id": "602347413",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00148",
+      "source_id": "606932637",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00149",
+      "source_id": "606932637",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00150",
+      "source_id": "606932637",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00151",
+      "source_id": "606932637",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00152",
+      "source_id": "606732084",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00153",
+      "source_id": "606732084",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00154",
+      "source_id": "606732084",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00156",
+      "source_id": "610587346",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00157",
+      "source_id": "610587346",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00158",
+      "source_id": "607215166",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00159",
+      "source_id": "607215166",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00160",
+      "source_id": "607215166",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00186",
+      "source_id": "603962507",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00187",
+      "source_id": "603962507",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00199",
+      "source_id": "12099896",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00200",
+      "source_id": "14188784",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00202",
+      "source_id": "600734280",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00203",
+      "source_id": "600734280",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00206",
+      "source_id": "603808634",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00214",
+      "source_id": "604048568",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00215",
+      "source_id": "604048568",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00217",
+      "source_id": "pr2018175002",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00225",
+      "source_id": "602562570",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00226",
+      "source_id": "602562570",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00227",
+      "source_id": "603798149",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00228",
+      "source_id": "603798149",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00235",
+      "source_id": "hv61004481",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00236",
+      "source_id": "hv61010506",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00237",
+      "source_id": "hv61023526",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00240",
+      "source_id": "hv61190256",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00241",
+      "source_id": "hv61190896",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00242",
+      "source_id": "hv61199221",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00245",
+      "source_id": "hv61238131",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00248",
+      "source_id": "hv61404066",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00249",
+      "source_id": "hv61414371",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00252",
+      "source_id": "hv61437156",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00253",
+      "source_id": "hv61468921",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00259",
+      "source_id": "hv61568526",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00264",
+      "source_id": "hv61631096",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00265",
+      "source_id": "hv61631916",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00266",
+      "source_id": "hv61636536",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00267",
+      "source_id": "hv61672961",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00270",
+      "source_id": "hv61720621",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00271",
+      "source_id": "hv61804466",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00272",
+      "source_id": "hv61866736",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00273",
+      "source_id": "hv62007486",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00283",
+      "source_id": "hv70259221",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00335",
+      "source_id": "hv61004481",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00336",
+      "source_id": "hv61010506",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00337",
+      "source_id": "hv61023526",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00339",
+      "source_id": "hv61190256",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00340",
+      "source_id": "hv61190896",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00341",
+      "source_id": "hv61199221",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00342",
+      "source_id": "hv61238131",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00343",
+      "source_id": "hv61404066",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00344",
+      "source_id": "hv61414371",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00346",
+      "source_id": "hv61437156",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00347",
+      "source_id": "hv61468921",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00351",
+      "source_id": "hv61568526",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00354",
+      "source_id": "hv61631096",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00355",
+      "source_id": "hv61631916",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00356",
+      "source_id": "hv61636536",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00357",
+      "source_id": "hv61672961",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00358",
+      "source_id": "hv61684426",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00360",
+      "source_id": "hv61720621",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00365",
+      "source_id": "hv61866736",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00366",
+      "source_id": "hv61971871",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00367",
+      "source_id": "hv61972721",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00369",
+      "source_id": "hv62007486",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00372",
+      "source_id": "12975248",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00374",
+      "source_id": "17442844",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00375",
+      "source_id": "603350930",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00376",
+      "source_id": "603350930",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00377",
+      "source_id": "606436866",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00378",
+      "source_id": "606436866",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00379",
+      "source_id": "607177816",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00380",
+      "source_id": "607177816",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00381",
+      "source_id": "607177816",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00382",
+      "source_id": "600874530",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00383",
+      "source_id": "600874530",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00387",
+      "source_id": "600979522",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00388",
+      "source_id": "600979522",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00389",
+      "source_id": "601351778",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00390",
+      "source_id": "601351778",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00393",
+      "source_id": "601253314",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00394",
+      "source_id": "601253314",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00397",
+      "source_id": "601253816",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00398",
+      "source_id": "601253816",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00399",
+      "source_id": "601454781",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00400",
+      "source_id": "601454781",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00402",
+      "source_id": "601455028",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00403",
+      "source_id": "601455028",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00404",
+      "source_id": "601456130",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00405",
+      "source_id": "601456130",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00418",
+      "source_id": "602952357",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00419",
+      "source_id": "602952357",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00427",
+      "source_id": "603081285",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00428",
+      "source_id": "603081285",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00431",
+      "source_id": "603248061",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00432",
+      "source_id": "603248061",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00434",
+      "source_id": "603077591",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00435",
+      "source_id": "603077591",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00436",
+      "source_id": "603248826",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00437",
+      "source_id": "603248826",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00438",
+      "source_id": "605609723",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00439",
+      "source_id": "605609723",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00441",
+      "source_id": "603374662",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00442",
+      "source_id": "603374662",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00444",
+      "source_id": "603310010",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00445",
+      "source_id": "603310010",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00446",
+      "source_id": "603463363",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00447",
+      "source_id": "603463363",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00449",
+      "source_id": "603794207",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00450",
+      "source_id": "603794207",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00453",
+      "source_id": "603758915",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00454",
+      "source_id": "603758915",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00462",
+      "source_id": "603793476",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00463",
+      "source_id": "603793476",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00468",
+      "source_id": "604106204",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00469",
+      "source_id": "604106204",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00470",
+      "source_id": "604398772",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00471",
+      "source_id": "604398772",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00477",
+      "source_id": "603350930",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00478",
+      "source_id": "603350930",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00479",
+      "source_id": "606436866",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00480",
+      "source_id": "606436866",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00481",
+      "source_id": "606436866",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00482",
+      "source_id": "607177816",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00483",
+      "source_id": "607177816",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00484",
+      "source_id": "609849690",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00485",
+      "source_id": "609849690",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00486",
+      "source_id": "606436866",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00487",
+      "source_id": "606436866",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00488",
+      "source_id": "606436866",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00489",
+      "source_id": "606436866",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00497",
+      "source_id": "603336626",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00498",
+      "source_id": "603336626",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00499",
+      "source_id": "603350930",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00500",
+      "source_id": "603350930",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00501",
+      "source_id": "609849690",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00502",
+      "source_id": "609849690",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00503",
+      "source_id": "606436866",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00504",
+      "source_id": "606436866",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00505",
+      "source_id": "606436866",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00509",
+      "source_id": "607177816",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00510",
+      "source_id": "607177816",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00511",
+      "source_id": "607177816",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00518",
+      "source_id": "12975248",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00524",
+      "source_id": "17442844",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00530",
+      "source_id": "601468019",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00531",
+      "source_id": "601468019",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00532",
+      "source_id": "603336626",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00533",
+      "source_id": "603336626",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00534",
+      "source_id": "603244209",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00535",
+      "source_id": "603244209",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00536",
+      "source_id": "604162151",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00537",
+      "source_id": "604162151",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00543",
+      "source_id": "hv61004481",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00546",
+      "source_id": "hv61190256",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00547",
+      "source_id": "hv61190896",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00548",
+      "source_id": "hv61199221",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00551",
+      "source_id": "hv61468921",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00554",
+      "source_id": "hv61568526",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00557",
+      "source_id": "hv61631096",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00558",
+      "source_id": "hv61636536",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00560",
+      "source_id": "hv61684426",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00563",
+      "source_id": "hv61720621",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00566",
+      "source_id": "hv61804466",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00570",
+      "source_id": "hv61971871",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00571",
+      "source_id": "hv61972721",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00572",
+      "source_id": "hv62007486",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00577",
+      "source_id": "hv70259221",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00613",
+      "source_id": "604021892",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00614",
+      "source_id": "604021892",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00651",
+      "source_id": "601710309",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00652",
+      "source_id": "601710309",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00653",
+      "source_id": "601736119",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00654",
+      "source_id": "601736119",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00661",
+      "source_id": "606932485",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00662",
+      "source_id": "606932485",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00663",
+      "source_id": "606932485",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00668",
+      "source_id": "606939528",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00669",
+      "source_id": "606939528",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00684",
+      "source_id": "14757199",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00685",
+      "source_id": "14757199",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00703",
+      "source_id": "17497818",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00704",
+      "source_id": "17497818",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00718",
+      "source_id": "602860175",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00719",
+      "source_id": "602860175",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00720",
+      "source_id": "602758695",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00721",
+      "source_id": "602758695",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00724",
+      "source_id": "603757041",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00725",
+      "source_id": "603757041",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00740",
+      "source_id": "603779201",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00741",
+      "source_id": "603779201",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00742",
+      "source_id": "606183937",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00743",
+      "source_id": "606183937",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00749",
+      "source_id": "606441677",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00750",
+      "source_id": "606441677",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00755",
+      "source_id": "11499509",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00758",
+      "source_id": "13894230",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00761",
+      "source_id": "603389939",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00762",
+      "source_id": "603389939",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00765",
+      "source_id": "pr2018175002",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00776",
+      "source_id": "13397870",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00782",
+      "source_id": "14189018",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00800",
+      "source_id": "16334314",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00801",
+      "source_id": "16334314",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_00808",
+      "source_id": "604648532",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_00809",
+      "source_id": "604648532",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00978",
+      "source_id": "13380899",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_00979",
+      "source_id": "13380899",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01034",
+      "source_id": "9135869",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01035",
+      "source_id": "9135869",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01084",
+      "source_id": "13839898",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01085",
+      "source_id": "13839898",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01118",
+      "source_id": "15965576",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01119",
+      "source_id": "15965576",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01127",
+      "source_id": "600015024",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01128",
+      "source_id": "600015024",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01129",
+      "source_id": "600015024",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01134",
+      "source_id": "601032756",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01135",
+      "source_id": "601032756",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01146",
+      "source_id": "602748753",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01147",
+      "source_id": "602748753",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01148",
+      "source_id": "602748753",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01180",
+      "source_id": "606963938",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01181",
+      "source_id": "606963938",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01182",
+      "source_id": "606963938",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01183",
+      "source_id": "606963938",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01191",
+      "source_id": "600676076",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01192",
+      "source_id": "600676076",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01201",
+      "source_id": "601109598",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01202",
+      "source_id": "601109598",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01209",
+      "source_id": "601769282",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01210",
+      "source_id": "601769282",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01216",
+      "source_id": "602583922",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01217",
+      "source_id": "602583922",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01218",
+      "source_id": "602560580",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01219",
+      "source_id": "602560580",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01220",
+      "source_id": "602761323",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01221",
+      "source_id": "602761323",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01223",
+      "source_id": "603981335",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01224",
+      "source_id": "603981335",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01225",
+      "source_id": "603984761",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01226",
+      "source_id": "603984761",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01228",
+      "source_id": "604101080",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01229",
+      "source_id": "604101080",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01245",
+      "source_id": "607719471",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01246",
+      "source_id": "607719471",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01253",
+      "source_id": "11499509",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01255",
+      "source_id": "13894230",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01264",
+      "source_id": "12099896",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01267",
+      "source_id": "13397870",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01270",
+      "source_id": "14188784",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01271",
+      "source_id": "14189018",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01279",
+      "source_id": "602726488",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01280",
+      "source_id": "602726488",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01288",
+      "source_id": "603808388",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01289",
+      "source_id": "603808388",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01300",
+      "source_id": "603499254",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01301",
+      "source_id": "603499254",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01310",
+      "source_id": "608588544",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01311",
+      "source_id": "608588544",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01312",
+      "source_id": "603808634",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01313",
+      "source_id": "603808634",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01316",
+      "source_id": "603499328",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01317",
+      "source_id": "603499328",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01320",
+      "source_id": "603808693",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01321",
+      "source_id": "603808693",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01333",
+      "source_id": "603337785",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01334",
+      "source_id": "603337785",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01338",
+      "source_id": "603808979",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01339",
+      "source_id": "603808979",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01340",
+      "source_id": "603758707",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01341",
+      "source_id": "603758707",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01345",
+      "source_id": "603809489",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01346",
+      "source_id": "603809489",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01347",
+      "source_id": "603438465",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01348",
+      "source_id": "603438465",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01349",
+      "source_id": "603759349",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01350",
+      "source_id": "603759349",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01363",
+      "source_id": "606843620",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01364",
+      "source_id": "606843620",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01365",
+      "source_id": "606843620",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01366",
+      "source_id": "606843620",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01367",
+      "source_id": "607120300",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01368",
+      "source_id": "607120300",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01369",
+      "source_id": "607120300",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01404",
+      "source_id": "601459527",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01405",
+      "source_id": "601459527",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01406",
+      "source_id": "602058468",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01407",
+      "source_id": "602058468",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01408",
+      "source_id": "602059953",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01409",
+      "source_id": "602059953",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01410",
+      "source_id": "602954416",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01411",
+      "source_id": "602954416",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01412",
+      "source_id": "603041376",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01413",
+      "source_id": "603041376",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01423",
+      "source_id": "607187931",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01424",
+      "source_id": "607187931",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01425",
+      "source_id": "607187931",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01426",
+      "source_id": "607259897",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01427",
+      "source_id": "607259897",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01428",
+      "source_id": "607214421",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01429",
+      "source_id": "607214421",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01432",
+      "source_id": "603928538",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01433",
+      "source_id": "603928538",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01434",
+      "source_id": "603956739",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01435",
+      "source_id": "603956739",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01436",
+      "source_id": "604014486",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01440",
+      "source_id": "604107855",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01441",
+      "source_id": "604107855",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01444",
+      "source_id": "604400615",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01445",
+      "source_id": "604400615",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01449",
+      "source_id": "606745841",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01450",
+      "source_id": "606745841",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01451",
+      "source_id": "606977455",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01452",
+      "source_id": "606977455",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01453",
+      "source_id": "606977455",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01456",
+      "source_id": "ak17134644",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01461",
+      "source_id": "ak18567491",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01462",
+      "source_id": "ak19111454",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01463",
+      "source_id": "ak19702124",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01465",
+      "source_id": "606977455",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01466",
+      "source_id": "606977455",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01467",
+      "source_id": "606977455",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01468",
+      "source_id": "606977455",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01469",
+      "source_id": "606977455",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01475",
+      "source_id": "16398544",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01476",
+      "source_id": "16398544",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01477",
+      "source_id": "17435477",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01478",
+      "source_id": "17435477",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01481",
+      "source_id": "600671340",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01482",
+      "source_id": "600671340",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01485",
+      "source_id": "600734618",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01486",
+      "source_id": "600734618",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01487",
+      "source_id": "600319669",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01488",
+      "source_id": "600319669",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01495",
+      "source_id": "601032288",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01496",
+      "source_id": "601032288",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01501",
+      "source_id": "602754703",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01504",
+      "source_id": "603334673",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01505",
+      "source_id": "603334673",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01511",
+      "source_id": "16398544",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01512",
+      "source_id": "16398544",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01513",
+      "source_id": "601712537",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01514",
+      "source_id": "601712537",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01519",
+      "source_id": "602854337",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01520",
+      "source_id": "602854337",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01521",
+      "source_id": "602754703",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01526",
+      "source_id": "603334673",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01527",
+      "source_id": "603334673",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01540",
+      "source_id": "ak11184848",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01541",
+      "source_id": "604400615",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01542",
+      "source_id": "604400615",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01545",
+      "source_id": "ak17134644",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01549",
+      "source_id": "ak18378155",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01550",
+      "source_id": "ak18567491",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01551",
+      "source_id": "ak18740223",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01552",
+      "source_id": "ak19111454",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01553",
+      "source_id": "ak19702124",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01558",
+      "source_id": "603928538",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01559",
+      "source_id": "603928538",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01560",
+      "source_id": "603956739",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01561",
+      "source_id": "603956739",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01562",
+      "source_id": "604014486",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01566",
+      "source_id": "604107855",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01567",
+      "source_id": "604107855",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01569",
+      "source_id": "604400615",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01570",
+      "source_id": "604400615",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01571",
+      "source_id": "ak11184848",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01577",
+      "source_id": "ak18378155",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01578",
+      "source_id": "ak18740223",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01579",
+      "source_id": "ak19702124",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01581",
+      "source_id": "ak18378155",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01584",
+      "source_id": "16012717",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01585",
+      "source_id": "16012717",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01587",
+      "source_id": "606505114",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01588",
+      "source_id": "606505114",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01589",
+      "source_id": "606505114",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01590",
+      "source_id": "606505114",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01600",
+      "source_id": "nc71788691",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01601",
+      "source_id": "nc71789946",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01602",
+      "source_id": "nc71790466",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01606",
+      "source_id": "nc71819331",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01607",
+      "source_id": "nc71831291",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01610",
+      "source_id": "nc71840145",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01611",
+      "source_id": "nc71840145",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01613",
+      "source_id": "nc71842255",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01614",
+      "source_id": "nc71842260",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01623",
+      "source_id": "nc71917146",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01625",
+      "source_id": "nc71937430",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01627",
+      "source_id": "nc71940295",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01630",
+      "source_id": "nc71960855",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01631",
+      "source_id": "nc71962080",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01632",
+      "source_id": "nc71967375",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01633",
+      "source_id": "nc71968695",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01634",
+      "source_id": "nc71973570",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01636",
+      "source_id": "nc71980360",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01640",
+      "source_id": "nc71980540",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01641",
+      "source_id": "nc71992936",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01642",
+      "source_id": "nc71993646",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01645",
+      "source_id": "nc71996146",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01648",
+      "source_id": "nc72018865",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01650",
+      "source_id": "nc72021945",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01651",
+      "source_id": "nc72036165",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01653",
+      "source_id": "nc72046966",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01654",
+      "source_id": "nc72052081",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01655",
+      "source_id": "nc72054076",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01656",
+      "source_id": "nc72055081",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01657",
+      "source_id": "nc72056176",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01658",
+      "source_id": "nc72063471",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01659",
+      "source_id": "nc72066376",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01662",
+      "source_id": "nc72080926",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01663",
+      "source_id": "nc72083511",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01664",
+      "source_id": "nc72083516",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01666",
+      "source_id": "nc72095851",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01667",
+      "source_id": "nc72096591",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01668",
+      "source_id": "nc72099381",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01670",
+      "source_id": "nc72108751",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01674",
+      "source_id": "nc72114295",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01675",
+      "source_id": "nc72132331",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01676",
+      "source_id": "nc72134626",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01677",
+      "source_id": "nc72142395",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01678",
+      "source_id": "nc72144950",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01679",
+      "source_id": "nc72147535",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01680",
+      "source_id": "nc72157001",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01682",
+      "source_id": "nc72181116",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01684",
+      "source_id": "nc72185936",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01686",
+      "source_id": "nc72187866",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01688",
+      "source_id": "nc72188586",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01689",
+      "source_id": "nc72185210",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01692",
+      "source_id": "nc72202190",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01694",
+      "source_id": "nc72499496",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01695",
+      "source_id": "nc72516481",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01700",
+      "source_id": "nc71788691",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01701",
+      "source_id": "nc71790466",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01703",
+      "source_id": "nc71797161",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01707",
+      "source_id": "nc71819331",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01708",
+      "source_id": "nc71822636",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01710",
+      "source_id": "nc71831291",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01713",
+      "source_id": "nc71840145",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01714",
+      "source_id": "nc71840145",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01715",
+      "source_id": "nc71842255",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01716",
+      "source_id": "nc71842260",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01724",
+      "source_id": "nc71903411",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01726",
+      "source_id": "nc71917146",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01727",
+      "source_id": "nc71918476",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01730",
+      "source_id": "nc71937430",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01732",
+      "source_id": "nc71940295",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01735",
+      "source_id": "nc71947735",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01738",
+      "source_id": "nc71960855",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01739",
+      "source_id": "nc71962080",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01740",
+      "source_id": "nc71967375",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01741",
+      "source_id": "nc71968695",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01742",
+      "source_id": "nc71973570",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01743",
+      "source_id": "nc71976060",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01744",
+      "source_id": "nc71980360",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01747",
+      "source_id": "nc71980540",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01749",
+      "source_id": "nc71989086",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01751",
+      "source_id": "nc71992936",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01752",
+      "source_id": "nc71993641",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01753",
+      "source_id": "nc71993646",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01756",
+      "source_id": "nc71996146",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01759",
+      "source_id": "nc72015000",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01763",
+      "source_id": "nc72029540",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01764",
+      "source_id": "nc72029540",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01765",
+      "source_id": "nc72036165",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01768",
+      "source_id": "nc72046966",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01770",
+      "source_id": "nc72052066",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01771",
+      "source_id": "nc72054076",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01772",
+      "source_id": "nc72055081",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01773",
+      "source_id": "nc72056176",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01776",
+      "source_id": "nc72063471",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01777",
+      "source_id": "nc72066376",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01779",
+      "source_id": "nc72080926",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01781",
+      "source_id": "nc72095851",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01782",
+      "source_id": "nc72096591",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01783",
+      "source_id": "nc72099381",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01787",
+      "source_id": "nc72108751",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01788",
+      "source_id": "nc72109096",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01791",
+      "source_id": "nc72114295",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01792",
+      "source_id": "nc72116145",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01794",
+      "source_id": "nc72122010",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01797",
+      "source_id": "nc72132331",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01798",
+      "source_id": "nc72134626",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01800",
+      "source_id": "nc72142395",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01801",
+      "source_id": "nc72144950",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01802",
+      "source_id": "nc72147535",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01803",
+      "source_id": "nc72157001",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01808",
+      "source_id": "nc72177626",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01811",
+      "source_id": "nc72181116",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01812",
+      "source_id": "nc72181141",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01814",
+      "source_id": "nc72185141",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01815",
+      "source_id": "nc72185936",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01816",
+      "source_id": "nc72187661",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01818",
+      "source_id": "nc72187796",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01819",
+      "source_id": "nc72187796",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01820",
+      "source_id": "nc72187831",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01821",
+      "source_id": "nc72187851",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01822",
+      "source_id": "nc72187866",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01824",
+      "source_id": "nc72188586",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01825",
+      "source_id": "nc72185210",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01829",
+      "source_id": "nc72202190",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01832",
+      "source_id": "nc72499496",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01833",
+      "source_id": "nc72516481",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01836",
+      "source_id": "nc71788691",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01837",
+      "source_id": "nc71789946",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01838",
+      "source_id": "nc71790466",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01839",
+      "source_id": "nc71797161",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01840",
+      "source_id": "nc71819331",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01842",
+      "source_id": "nc71831291",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01846",
+      "source_id": "nc71840145",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01847",
+      "source_id": "nc71840145",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01848",
+      "source_id": "nc71842255",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01852",
+      "source_id": "nc71903411",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01853",
+      "source_id": "nc71918476",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01854",
+      "source_id": "nc71937430",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01856",
+      "source_id": "nc71940295",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01858",
+      "source_id": "nc71947735",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01861",
+      "source_id": "nc71967375",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01862",
+      "source_id": "nc71968695",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01863",
+      "source_id": "nc71973570",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01864",
+      "source_id": "nc71976060",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01865",
+      "source_id": "nc71980360",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01869",
+      "source_id": "nc71989086",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01871",
+      "source_id": "nc71992936",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01872",
+      "source_id": "nc71993641",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01873",
+      "source_id": "nc71993646",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01875",
+      "source_id": "nc71996146",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01877",
+      "source_id": "nc72015000",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01880",
+      "source_id": "nc72018865",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01882",
+      "source_id": "nc72021945",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01883",
+      "source_id": "nc72029540",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01884",
+      "source_id": "nc72029540",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01886",
+      "source_id": "nc72046966",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01888",
+      "source_id": "nc72052066",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01889",
+      "source_id": "nc72052071",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01890",
+      "source_id": "nc72052081",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01891",
+      "source_id": "nc72054076",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01892",
+      "source_id": "nc72055081",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01893",
+      "source_id": "nc72056176",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01896",
+      "source_id": "nc72063471",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01897",
+      "source_id": "nc72066376",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01899",
+      "source_id": "nc72080926",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01900",
+      "source_id": "nc72083511",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01901",
+      "source_id": "nc72083516",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01903",
+      "source_id": "nc72095851",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01904",
+      "source_id": "nc72096591",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01905",
+      "source_id": "nc72099381",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01909",
+      "source_id": "nc72108751",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01910",
+      "source_id": "nc72109096",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01914",
+      "source_id": "nc72114295",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01915",
+      "source_id": "nc72116145",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01917",
+      "source_id": "nc72122010",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01918",
+      "source_id": "nc72132331",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01919",
+      "source_id": "nc72134626",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01922",
+      "source_id": "nc72142395",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01923",
+      "source_id": "nc72147535",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01924",
+      "source_id": "nc72157001",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01927",
+      "source_id": "nc72177626",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01929",
+      "source_id": "nc72181116",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01930",
+      "source_id": "nc72181141",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01932",
+      "source_id": "nc72185141",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01933",
+      "source_id": "nc72185936",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01934",
+      "source_id": "nc72187661",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01936",
+      "source_id": "nc72187796",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01937",
+      "source_id": "nc72187831",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01938",
+      "source_id": "nc72187851",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01939",
+      "source_id": "nc72187866",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01941",
+      "source_id": "nc72188586",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01943",
+      "source_id": "nc72185210",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01945",
+      "source_id": "nc72202190",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01948",
+      "source_id": "nc72499496",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01950",
+      "source_id": "nc71790466",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01951",
+      "source_id": "nc71822636",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01953",
+      "source_id": "nc71842255",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01954",
+      "source_id": "nc71842260",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01956",
+      "source_id": "nc71917146",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01958",
+      "source_id": "nc71937430",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01959",
+      "source_id": "nc71940295",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01960",
+      "source_id": "nc71973570",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01961",
+      "source_id": "nc71980360",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01962",
+      "source_id": "nc72018865",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01964",
+      "source_id": "nc72052066",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01965",
+      "source_id": "nc72052071",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01966",
+      "source_id": "nc72052081",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01967",
+      "source_id": "nc72054076",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01968",
+      "source_id": "nc72055081",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01969",
+      "source_id": "nc72066376",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01971",
+      "source_id": "nc72080926",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01972",
+      "source_id": "nc72108751",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01973",
+      "source_id": "nc72144950",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01974",
+      "source_id": "nc72147535",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_01977",
+      "source_id": "nc72185936",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_01979",
+      "source_id": "nc72516481",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01989",
+      "source_id": "nc71811071",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01993",
+      "source_id": "nc71874555",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01994",
+      "source_id": "nc71888511",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_01995",
+      "source_id": "nc71892581",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02001",
+      "source_id": "nc71968790",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_02003",
+      "source_id": "nc72002511",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_02008",
+      "source_id": "nc72090601",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_02009",
+      "source_id": "nc72099826",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_02012",
+      "source_id": "nc72121000",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_02015",
+      "source_id": "nc72143896",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_02024",
+      "source_id": "nc71676146",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_02026",
+      "source_id": "nc71795781",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_02028",
+      "source_id": "nc71813076",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02032",
+      "source_id": "nc71860050",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_02033",
+      "source_id": "nc71871740",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02035",
+      "source_id": "nc71874555",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_02036",
+      "source_id": "nc71888511",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_02038",
+      "source_id": "nc71892581",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02048",
+      "source_id": "nc71968790",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02052",
+      "source_id": "nc71984641",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02053",
+      "source_id": "nc72002511",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02057",
+      "source_id": "nc72020150",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_02063",
+      "source_id": "nc72090601",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_02064",
+      "source_id": "nc72099826",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_02068",
+      "source_id": "nc72121000",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02073",
+      "source_id": "nc72143896",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_02074",
+      "source_id": "nc72142850",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_02086",
+      "source_id": "nc71811071",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02088",
+      "source_id": "nc71860050",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02098",
+      "source_id": "nc71984641",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_02102",
+      "source_id": "nc72177791",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02104",
+      "source_id": "nc71676146",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02106",
+      "source_id": "nc71795781",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_02110",
+      "source_id": "nc71813076",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_02113",
+      "source_id": "nc71860050",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02114",
+      "source_id": "nc71871740",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_02115",
+      "source_id": "nc71874555",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02116",
+      "source_id": "nc71892581",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_02123",
+      "source_id": "nc71968790",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02128",
+      "source_id": "nc72020150",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02134",
+      "source_id": "nc72090601",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02135",
+      "source_id": "nc72099826",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02137",
+      "source_id": "nc72143896",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_02138",
+      "source_id": "nc72142850",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02142",
+      "source_id": "nc72177791",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_02147",
+      "source_id": "nc71795396",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_02151",
+      "source_id": "nc71924341",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02152",
+      "source_id": "nc71935341",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02153",
+      "source_id": "nc72044591",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_02155",
+      "source_id": "nc72129776",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02156",
+      "source_id": "nc72129776",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02158",
+      "source_id": "nc72167161",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02159",
+      "source_id": "nc72418550",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02160",
+      "source_id": "nc72947676",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_02162",
+      "source_id": "nc71795396",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02167",
+      "source_id": "nc71935341",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_02169",
+      "source_id": "nc71977970",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02171",
+      "source_id": "nc72011795",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02172",
+      "source_id": "nc72044591",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02173",
+      "source_id": "nc72046281",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_02174",
+      "source_id": "nc72121135",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_02175",
+      "source_id": "nc72167161",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02177",
+      "source_id": "nc72947676",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02185",
+      "source_id": "nc71977970",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_02187",
+      "source_id": "nc72011795",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02190",
+      "source_id": "nc72067636",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_02192",
+      "source_id": "nc72129776",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02193",
+      "source_id": "nc72129776",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_02195",
+      "source_id": "nc72165381",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_02196",
+      "source_id": "nc72167161",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02198",
+      "source_id": "nc71795396",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_02202",
+      "source_id": "nc71935341",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02207",
+      "source_id": "nc72046281",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02209",
+      "source_id": "nc72121135",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02210",
+      "source_id": "nc72165381",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_02211",
+      "source_id": "nc72167161",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_02213",
+      "source_id": "nc72947676",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02215",
+      "source_id": "nc71795396",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_02218",
+      "source_id": "nc71924341",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_02220",
+      "source_id": "nc72011795",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_02222",
+      "source_id": "nc72044591",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02223",
+      "source_id": "nc72129776",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02224",
+      "source_id": "nc72129776",
+      "split": "val"
+    },
+    {
+      "record_id": "stead_event_02225",
+      "source_id": "nc72165381",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02226",
+      "source_id": "nc72167161",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_02227",
+      "source_id": "nc72418550",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_02228",
+      "source_id": "nc71795396",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02229",
+      "source_id": "nc71924341",
+      "split": "test"
+    },
+    {
+      "record_id": "stead_event_02230",
+      "source_id": "nc72067636",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02231",
+      "source_id": "nc72129776",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02232",
+      "source_id": "nc72129776",
+      "split": "train"
+    },
+    {
+      "record_id": "stead_event_02233",
+      "source_id": "nc72167161",
+      "split": "test"
+    }
+  ],
+  "splits": {
+    "test": {
+      "records": 335,
+      "sources": 310
+    },
+    "train": {
+      "records": 1556,
+      "sources": 1158
+    },
+    "val": {
+      "records": 343,
+      "sources": 315
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "violations": [],
+  "files": 106,
+  "scope": "Actual checkpoint bytes against existing frozen SHA-256 values"
+}

@@ -1,0 +1,429 @@
+{
+  "status": "PASS",
+  "manifests": 6,
+  "distinct_fold_assignments": 5,
+  "configuration_fold_checks": 30,
+  "checks": [
+    {
+      "status": "PASS",
+      "violations": {
+        "held_fit": [],
+        "held_inner_validation": [],
+        "fit_inner_validation": []
+      },
+      "mode": "Full3C",
+      "base": 42,
+      "fold": 1,
+      "held_records": 319,
+      "fit_records": 1044,
+      "inner_validation_records": 181
+    },
+    {
+      "status": "PASS",
+      "violations": {
+        "held_fit": [],
+        "held_inner_validation": [],
+        "fit_inner_validation": []
+      },
+      "mode": "Full3C",
+      "base": 42,
+      "fold": 2,
+      "held_records": 315,
+      "fit_records": 1044,
+      "inner_validation_records": 185
+    },
+    {
+      "status": "PASS",
+      "violations": {
+        "held_fit": [],
+        "held_inner_validation": [],
+        "fit_inner_validation": []
+      },
+      "mode": "Full3C",
+      "base": 42,
+      "fold": 3,
+      "held_records": 301,
+      "fit_records": 1067,
+      "inner_validation_records": 176
+    },
+    {
+      "status": "PASS",
+      "violations": {
+        "held_fit": [],
+        "held_inner_validation": [],
+        "fit_inner_validation": []
+      },
+      "mode": "Full3C",
+      "base": 42,
+      "fold": 4,
+      "held_records": 312,
+      "fit_records": 1046,
+      "inner_validation_records": 186
+    },
+    {
+      "status": "PASS",
+      "violations": {
+        "held_fit": [],
+        "held_inner_validation": [],
+        "fit_inner_validation": []
+      },
+      "mode": "Full3C",
+      "base": 42,
+      "fold": 5,
+      "held_records": 297,
+      "fit_records": 1052,
+      "inner_validation_records": 195
+    },
+    {
+      "status": "PASS",
+      "violations": {
+        "held_fit": [],
+        "held_inner_validation": [],
+        "fit_inner_validation": []
+      },
+      "mode": "Zonly",
+      "base": 42,
+      "fold": 1,
+      "held_records": 319,
+      "fit_records": 1044,
+      "inner_validation_records": 181
+    },
+    {
+      "status": "PASS",
+      "violations": {
+        "held_fit": [],
+        "held_inner_validation": [],
+        "fit_inner_validation": []
+      },
+      "mode": "Zonly",
+      "base": 42,
+      "fold": 2,
+      "held_records": 315,
+      "fit_records": 1044,
+      "inner_validation_records": 185
+    },
+    {
+      "status": "PASS",
+      "violations": {
+        "held_fit": [],
+        "held_inner_validation": [],
+        "fit_inner_validation": []
+      },
+      "mode": "Zonly",
+      "base": 42,
+      "fold": 3,
+      "held_records": 301,
+      "fit_records": 1067,
+      "inner_validation_records": 176
+    },
+    {
+      "status": "PASS",
+      "violations": {
+        "held_fit": [],
+        "held_inner_validation": [],
+        "fit_inner_validation": []
+      },
+      "mode": "Zonly",
+      "base": 42,
+      "fold": 4,
+      "held_records": 312,
+      "fit_records": 1046,
+      "inner_validation_records": 186
+    },
+    {
+      "status": "PASS",
+      "violations": {
+        "held_fit": [],
+        "held_inner_validation": [],
+        "fit_inner_validation": []
+      },
+      "mode": "Zonly",
+      "base": 42,
+      "fold": 5,
+      "held_records": 297,
+      "fit_records": 1052,
+      "inner_validation_records": 195
+    },
+    {
+      "status": "PASS",
+      "violations": {
+        "held_fit": [],
+        "held_inner_validation": [],
+        "fit_inner_validation": []
+      },
+      "mode": "Full3C",
+      "base": 43,
+      "fold": 1,
+      "held_records": 319,
+      "fit_records": 1044,
+      "inner_validation_records": 181
+    },
+    {
+      "status": "PASS",
+      "violations": {
+        "held_fit": [],
+        "held_inner_validation": [],
+        "fit_inner_validation": []
+      },
+      "mode": "Full3C",
+      "base": 43,
+      "fold": 2,
+      "held_records": 315,
+      "fit_records": 1044,
+      "inner_validation_records": 185
+    },
+    {
+      "status": "PASS",
+      "violations": {
+        "held_fit": [],
+        "held_inner_validation": [],
+        "fit_inner_validation": []
+      },
+      "mode": "Full3C",
+      "base": 43,
+      "fold": 3,
+      "held_records": 301,
+      "fit_records": 1067,
+      "inner_validation_records": 176
+    },
+    {
+      "status": "PASS",
+      "violations": {
+        "held_fit": [],
+        "held_inner_validation": [],
+        "fit_inner_validation": []
+      },
+      "mode": "Full3C",
+      "base": 43,
+      "fold": 4,
+      "held_records": 312,
+      "fit_records": 1046,
+      "inner_validation_records": 186
+    },
+    {
+      "status": "PASS",
+      "violations": {
+        "held_fit": [],
+        "held_inner_validation": [],
+        "fit_inner_validation": []
+      },
+      "mode": "Full3C",
+      "base": 43,
+      "fold": 5,
+      "held_records": 297,
+      "fit_records": 1052,
+      "inner_validation_records": 195
+    },
+    {
+      "status": "PASS",
+      "violations": {
+        "held_fit": [],
+        "held_inner_validation": [],
+        "fit_inner_validation": []
+      },
+      "mode": "Zonly",
+      "base": 43,
+      "fold": 1,
+      "held_records": 319,
+      "fit_records": 1044,
+      "inner_validation_records": 181
+    },
+    {
+      "status": "PASS",
+      "violations": {
+        "held_fit": [],
+        "held_inner_validation": [],
+        "fit_inner_validation": []
+      },
+      "mode": "Zonly",
+      "base": 43,
+      "fold": 2,
+      "held_records": 315,
+      "fit_records": 1044,
+      "inner_validation_records": 185
+    },
+    {
+      "status": "PASS",
+      "violations": {
+        "held_fit": [],
+        "held_inner_validation": [],
+        "fit_inner_validation": []
+      },
+      "mode": "Zonly",
+      "base": 43,
+      "fold": 3,
+      "held_records": 301,
+      "fit_records": 1067,
+      "inner_validation_records": 176
+    },
+    {
+      "status": "PASS",
+      "violations": {
+        "held_fit": [],
+        "held_inner_validation": [],
+        "fit_inner_validation": []
+      },
+      "mode": "Zonly",
+      "base": 43,
+      "fold": 4,
+      "held_records": 312,
+      "fit_records": 1046,
+      "inner_validation_records": 186
+    },
+    {
+      "status": "PASS",
+      "violations": {
+        "held_fit": [],
+        "held_inner_validation": [],
+        "fit_inner_validation": []
+      },
+      "mode": "Zonly",
+      "base": 43,
+      "fold": 5,
+      "held_records": 297,
+      "fit_records": 1052,
+      "inner_validation_records": 195
+    },
+    {
+      "status": "PASS",
+      "violations": {
+        "held_fit": [],
+        "held_inner_validation": [],
+        "fit_inner_validation": []
+      },
+      "mode": "Full3C",
+      "base": 44,
+      "fold": 1,
+      "held_records": 319,
+      "fit_records": 1044,
+      "inner_validation_records": 181
+    },
+    {
+      "status": "PASS",
+      "violations": {
+        "held_fit": [],
+        "held_inner_validation": [],
+        "fit_inner_validation": []
+      },
+      "mode": "Full3C",
+      "base": 44,
+      "fold": 2,
+      "held_records": 315,
+      "fit_records": 1044,
+      "inner_validation_records": 185
+    },
+    {
+      "status": "PASS",
+      "violations": {
+        "held_fit": [],
+        "held_inner_validation": [],
+        "fit_inner_validation": []
+      },
+      "mode": "Full3C",
+      "base": 44,
+      "fold": 3,
+      "held_records": 301,
+      "fit_records": 1067,
+      "inner_validation_records": 176
+    },
+    {
+      "status": "PASS",
+      "violations": {
+        "held_fit": [],
+        "held_inner_validation": [],
+        "fit_inner_validation": []
+      },
+      "mode": "Full3C",
+      "base": 44,
+      "fold": 4,
+      "held_records": 312,
+      "fit_records": 1046,
+      "inner_validation_records": 186
+    },
+    {
+      "status": "PASS",
+      "violations": {
+        "held_fit": [],
+        "held_inner_validation": [],
+        "fit_inner_validation": []
+      },
+      "mode": "Full3C",
+      "base": 44,
+      "fold": 5,
+      "held_records": 297,
+      "fit_records": 1052,
+      "inner_validation_records": 195
+    },
+    {
+      "status": "PASS",
+      "violations": {
+        "held_fit": [],
+        "held_inner_validation": [],
+        "fit_inner_validation": []
+      },
+      "mode": "Zonly",
+      "base": 44,
+      "fold": 1,
+      "held_records": 319,
+      "fit_records": 1044,
+      "inner_validation_records": 181
+    },
+    {
+      "status": "PASS",
+      "violations": {
+        "held_fit": [],
+        "held_inner_validation": [],
+        "fit_inner_validation": []
+      },
+      "mode": "Zonly",
+      "base": 44,
+      "fold": 2,
+      "held_records": 315,
+      "fit_records": 1044,
+      "inner_validation_records": 185
+    },
+    {
+      "status": "PASS",
+      "violations": {
+        "held_fit": [],
+        "held_inner_validation": [],
+        "fit_inner_validation": []
+      },
+      "mode": "Zonly",
+      "base": 44,
+      "fold": 3,
+      "held_records": 301,
+      "fit_records": 1067,
+      "inner_validation_records": 176
+    },
+    {
+      "status": "PASS",
+      "violations": {
+        "held_fit": [],
+        "held_inner_validation": [],
+        "fit_inner_validation": []
+      },
+      "mode": "Zonly",
+      "base": 44,
+      "fold": 4,
+      "held_records": 312,
+      "fit_records": 1046,
+      "inner_validation_records": 186
+    },
+    {
+      "status": "PASS",
+      "violations": {
+        "held_fit": [],
+        "held_inner_validation": [],
+        "fit_inner_validation": []
+      },
+      "mode": "Zonly",
+      "base": 44,
+      "fold": 5,
+      "held_records": 297,
+      "fit_records": 1052,
+      "inner_validation_records": 195
+    }
+  ],
+  "scope": "Saved membership and inner-fold tables; no new fitting or model execution"
+}

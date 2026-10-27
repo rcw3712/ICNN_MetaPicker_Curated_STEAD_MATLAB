@@ -1,0 +1,156 @@
+{
+  "data": {
+    "id": "10.12686/sed/networks/s",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.12686/sed/networks/s",
+      "prefix": "10.12686",
+      "suffix": "sed/networks/s",
+      "identifiers": [],
+      "alternateIdentifiers": [],
+      "creators": [
+        {
+          "name": "Swiss Seismological Service (SED) At ETH Zurich",
+          "nameType": null,
+          "givenName": null,
+          "familyName": null,
+          "affiliation": [],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "lang": null,
+          "title": "Seismology at School Program, ETH Zurich",
+          "titleType": null
+        }
+      ],
+      "publisher": "ETH Zurich",
+      "container": {},
+      "publicationYear": 2008,
+      "subjects": [
+        {
+          "subject": "Seismic network for schools",
+          "valueUri": ""
+        }
+      ],
+      "contributors": [
+        {
+          "name": "EIDA node at ETH Zurich",
+          "nameType": "Organizational",
+          "givenName": null,
+          "familyName": null,
+          "affiliation": [],
+          "contributorType": "Distributor",
+          "nameIdentifiers": [
+            {
+              "schemeUri": null,
+              "nameIdentifier": null,
+              "nameIdentifierScheme": null
+            }
+          ]
+        }
+      ],
+      "dates": [
+        {
+          "date": "2008",
+          "dateType": "Available",
+          "dateInformation": null
+        },
+        {
+          "date": "2008",
+          "dateType": "Issued",
+          "dateInformation": null
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceTypeGeneral": "Other"
+      },
+      "relatedIdentifiers": [],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [
+        "StationXML",
+        "miniseed"
+      ],
+      "version": null,
+      "rightsList": [],
+      "descriptions": [
+        {
+          "lang": null,
+          "description": "Seismo-at-school stations (Switzerland and some other station globally)",
+          "descriptionType": "Other"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00L21ldGFkYXRhLnhzZCI+CiAgPGlkZW50aWZpZXIgaWRlbnRpZmllclR5cGU9IkRPSSI+MTAuMTI2ODYvU0VEL05FVFdPUktTL1M8L2lkZW50aWZpZXI+CiAgPGNyZWF0b3JzPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZT5Td2lzcyBTZWlzbW9sb2dpY2FsIFNlcnZpY2UgKFNFRCkgQXQgRVRIIFp1cmljaDwvY3JlYXRvck5hbWU+CiAgICA8L2NyZWF0b3I+CiAgPC9jcmVhdG9ycz4KICA8dGl0bGVzPgogICAgPHRpdGxlPlNlaXNtb2xvZ3kgYXQgU2Nob29sIFByb2dyYW0sIEVUSCBadXJpY2g8L3RpdGxlPgogIDwvdGl0bGVzPgogIDxwdWJsaXNoZXI+RVRIIFp1cmljaDwvcHVibGlzaGVyPgogIDxwdWJsaWNhdGlvblllYXI+MjAwODwvcHVibGljYXRpb25ZZWFyPgogIDxyZXNvdXJjZVR5cGUgcmVzb3VyY2VUeXBlR2VuZXJhbD0iT3RoZXIiPkNyZWF0aXZlV29yazwvcmVzb3VyY2VUeXBlPgogIDxzdWJqZWN0cz4KICAgIDxzdWJqZWN0IHZhbHVlVVJJPSIiPlNlaXNtaWMgbmV0d29yayBmb3Igc2Nob29sczwvc3ViamVjdD4KICA8L3N1YmplY3RzPgogIDxjb250cmlidXRvcnM+CiAgICA8Y29udHJpYnV0b3IgY29udHJpYnV0b3JUeXBlPSJEaXN0cmlidXRvciI+CiAgICAgIDxjb250cmlidXRvck5hbWUgbmFtZVR5cGU9Ik9yZ2FuaXphdGlvbmFsIj5FSURBIG5vZGUgYXQgRVRIIFp1cmljaDwvY29udHJpYnV0b3JOYW1lPgogICAgICA8bmFtZUlkZW50aWZpZXIgbmFtZUlkZW50aWZpZXJTY2hlbWU9IiIgc2NoZW1lVVJJPSIiLz4KICAgICAgPGFmZmlsaWF0aW9uLz4KICAgIDwvY29udHJpYnV0b3I+CiAgPC9jb250cmlidXRvcnM+CiAgPGRhdGVzPgogICAgPGRhdGUgZGF0ZVR5cGU9IkF2YWlsYWJsZSI+MjAwODwvZGF0ZT4KICAgIDxkYXRlIGRhdGVUeXBlPSJJc3N1ZWQiPjIwMDg8L2RhdGU+CiAgPC9kYXRlcz4KICA8c2l6ZXMvPgogIDxmb3JtYXRzPgogICAgPGZvcm1hdD5TdGF0aW9uWE1MPC9mb3JtYXQ+CiAgICA8Zm9ybWF0Pm1pbmlzZWVkPC9mb3JtYXQ+CiAgPC9mb3JtYXRzPgogIDx2ZXJzaW9uLz4KICA8ZGVzY3JpcHRpb25zPgogICAgPGRlc2NyaXB0aW9uIGRlc2NyaXB0aW9uVHlwZT0iT3RoZXIiPlNlaXNtby1hdC1zY2hvb2wgc3RhdGlvbnMgKFN3aXR6ZXJsYW5kIGFuZCBzb21lIG90aGVyIHN0YXRpb24gZ2xvYmFsbHkpPC9kZXNjcmlwdGlvbj4KICA8L2Rlc2NyaXB0aW9ucz4KPC9yZXNvdXJjZT4K",
+      "url": "http://networks.seismo.ethz.ch/networks/s/",
+      "contentUrl": null,
+      "metadataVersion": 2,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "fabricaForm",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2016-04-12T09:05:12.000Z",
+      "registered": "2016-04-12T09:05:13.000Z",
+      "published": "2008",
+      "updated": "2023-08-11T07:01:41.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "ethz.sed",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "stdp",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.12686/sed/networks/s",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

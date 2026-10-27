@@ -1,0 +1,284 @@
+{
+  "data": {
+    "id": "10.12686/sed/networks/ch",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.12686/sed/networks/ch",
+      "prefix": "10.12686",
+      "suffix": "sed/networks/ch",
+      "identifiers": [],
+      "alternateIdentifiers": [],
+      "creators": [
+        {
+          "name": "Swiss Seismological Service (SED) At ETH Zurich",
+          "nameType": null,
+          "givenName": null,
+          "familyName": null,
+          "affiliation": [],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "lang": null,
+          "title": "National Seismic Networks of Switzerland",
+          "titleType": null
+        }
+      ],
+      "publisher": "ETH Z\u00fcrich",
+      "container": {},
+      "publicationYear": 1983,
+      "subjects": [
+        {
+          "subject": "Seismic Network"
+        },
+        {
+          "subject": "Seismic Monitoring"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "EIDA node at ETH Zurich",
+          "nameType": "Organizational",
+          "givenName": null,
+          "familyName": null,
+          "affiliation": [],
+          "contributorType": "Distributor",
+          "nameIdentifiers": [
+            {
+              "schemeUri": null,
+              "nameIdentifier": null,
+              "nameIdentifierScheme": null
+            }
+          ]
+        },
+        {
+          "name": "Clinton, John",
+          "nameType": "Personal",
+          "givenName": "John",
+          "familyName": "Clinton",
+          "affiliation": [],
+          "contributorType": "RelatedPerson",
+          "nameIdentifiers": [
+            {
+              "schemeUri": null,
+              "nameIdentifier": null,
+              "nameIdentifierScheme": null
+            }
+          ]
+        },
+        {
+          "name": "Haslinger, Florian",
+          "nameType": "Personal",
+          "givenName": "Florian",
+          "familyName": "Haslinger",
+          "affiliation": [],
+          "contributorType": "RelatedPerson",
+          "nameIdentifiers": [
+            {
+              "schemeUri": null,
+              "nameIdentifier": null,
+              "nameIdentifierScheme": null
+            }
+          ]
+        },
+        {
+          "name": "Wiemer, Stefan",
+          "nameType": "Personal",
+          "givenName": "Stefan",
+          "familyName": "Wiemer",
+          "affiliation": [],
+          "contributorType": "RelatedPerson",
+          "nameIdentifiers": [
+            {
+              "schemeUri": null,
+              "nameIdentifier": null,
+              "nameIdentifierScheme": null
+            }
+          ]
+        },
+        {
+          "name": "SED Seismic Network",
+          "nameType": null,
+          "givenName": null,
+          "familyName": null,
+          "affiliation": [],
+          "contributorType": "DataManager",
+          "nameIdentifiers": [
+            {
+              "schemeUri": null,
+              "nameIdentifier": null,
+              "nameIdentifierScheme": null
+            }
+          ]
+        },
+        {
+          "name": "sed_data_access@sed.ethz.ch",
+          "nameType": null,
+          "givenName": null,
+          "familyName": null,
+          "affiliation": [],
+          "contributorType": "ContactPerson",
+          "nameIdentifiers": [
+            {
+              "schemeUri": null,
+              "nameIdentifier": null,
+              "nameIdentifierScheme": null
+            }
+          ]
+        },
+        {
+          "name": "ETH Zu\u0308rich",
+          "nameType": "Organizational",
+          "givenName": null,
+          "familyName": null,
+          "affiliation": [],
+          "contributorType": "HostingInstitution",
+          "nameIdentifiers": [
+            {
+              "schemeUri": null,
+              "nameIdentifier": null,
+              "nameIdentifierScheme": null
+            }
+          ]
+        }
+      ],
+      "dates": [
+        {
+          "date": "1983",
+          "dateType": "Available",
+          "dateInformation": null
+        },
+        {
+          "date": "1983",
+          "dateType": "Issued",
+          "dateInformation": null
+        }
+      ],
+      "language": "en",
+      "types": {
+        "ris": "GEN",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "CreativeWork",
+        "resourceType": "Seismic Network",
+        "resourceTypeGeneral": "Other"
+      },
+      "relatedIdentifiers": [
+        {
+          "schemeUri": null,
+          "schemeType": null,
+          "relationType": "References",
+          "relatedIdentifier": "10.1007/s00015-014-0171-y",
+          "resourceTypeGeneral": null,
+          "relatedIdentifierType": "DOI",
+          "relatedMetadataScheme": null
+        },
+        {
+          "schemeUri": null,
+          "schemeType": null,
+          "relationType": "References",
+          "relatedIdentifier": "10.1193/1.4000107",
+          "resourceTypeGeneral": null,
+          "relatedIdentifierType": "DOI",
+          "relatedMetadataScheme": null
+        }
+      ],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [
+        "SEED data"
+      ],
+      "version": null,
+      "rightsList": [],
+      "descriptions": [
+        {
+          "lang": null,
+          "description": "National Seismic Networks of Switzerland, comprising all permanent high gain (short period and broadband) and low gain strong motion stations.",
+          "descriptionType": "Other"
+        }
+      ],
+      "geoLocations": [
+        {
+          "geoLocationPlace": "Switzerland and bordering region"
+        }
+      ],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00L21ldGFkYXRhLnhzZCI+CiAgPGlkZW50aWZpZXIgaWRlbnRpZmllclR5cGU9IkRPSSI+MTAuMTI2ODYvU0VEL05FVFdPUktTL0NIPC9pZGVudGlmaWVyPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+U3dpc3MgU2Vpc21vbG9naWNhbCBTZXJ2aWNlIChTRUQpIEF0IEVUSCBadXJpY2g8L2NyZWF0b3JOYW1lPgogICAgPC9jcmVhdG9yPgogIDwvY3JlYXRvcnM+CiAgPHRpdGxlcz4KICAgIDx0aXRsZT5OYXRpb25hbCBTZWlzbWljIE5ldHdvcmtzIG9mIFN3aXR6ZXJsYW5kPC90aXRsZT4KICA8L3RpdGxlcz4KICA8cHVibGlzaGVyPkVUSCBaw7xyaWNoPC9wdWJsaXNoZXI+CiAgPHB1YmxpY2F0aW9uWWVhcj4xOTgzPC9wdWJsaWNhdGlvblllYXI+CiAgPHJlc291cmNlVHlwZSByZXNvdXJjZVR5cGVHZW5lcmFsPSJPdGhlciI+U2Vpc21pYyBOZXR3b3JrPC9yZXNvdXJjZVR5cGU+CiAgPHN1YmplY3RzPgogICAgPHN1YmplY3Q+U2Vpc21pYyBOZXR3b3JrPC9zdWJqZWN0PgogICAgPHN1YmplY3Q+U2Vpc21pYyBNb25pdG9yaW5nPC9zdWJqZWN0PgogIDwvc3ViamVjdHM+CiAgPGNvbnRyaWJ1dG9ycz4KICAgIDxjb250cmlidXRvciBjb250cmlidXRvclR5cGU9IkRpc3RyaWJ1dG9yIj4KICAgICAgPGNvbnRyaWJ1dG9yTmFtZSBuYW1lVHlwZT0iT3JnYW5pemF0aW9uYWwiPkVJREEgbm9kZSBhdCBFVEggWnVyaWNoPC9jb250cmlidXRvck5hbWU+CiAgICAgIDxuYW1lSWRlbnRpZmllciBuYW1lSWRlbnRpZmllclNjaGVtZT0iIiBzY2hlbWVVUkk9IiIvPgogICAgICA8YWZmaWxpYXRpb24vPgogICAgPC9jb250cmlidXRvcj4KICAgIDxjb250cmlidXRvciBjb250cmlidXRvclR5cGU9IlJlbGF0ZWRQZXJzb24iPgogICAgICA8Y29udHJpYnV0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+Q2xpbnRvbiwgSm9objwvY29udHJpYnV0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPkpvaG48L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+Q2xpbnRvbjwvZmFtaWx5TmFtZT4KICAgICAgPG5hbWVJZGVudGlmaWVyIG5hbWVJZGVudGlmaWVyU2NoZW1lPSIiIHNjaGVtZVVSST0iIi8+CiAgICAgIDxhZmZpbGlhdGlvbi8+CiAgICA8L2NvbnRyaWJ1dG9yPgogICAgPGNvbnRyaWJ1dG9yIGNvbnRyaWJ1dG9yVHlwZT0iUmVsYXRlZFBlcnNvbiI+CiAgICAgIDxjb250cmlidXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5IYXNsaW5nZXIsIEZsb3JpYW48L2NvbnRyaWJ1dG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5GbG9yaWFuPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPkhhc2xpbmdlcjwvZmFtaWx5TmFtZT4KICAgICAgPG5hbWVJZGVudGlmaWVyIG5hbWVJZGVudGlmaWVyU2NoZW1lPSIiIHNjaGVtZVVSST0iIi8+CiAgICAgIDxhZmZpbGlhdGlvbi8+CiAgICA8L2NvbnRyaWJ1dG9yPgogICAgPGNvbnRyaWJ1dG9yIGNvbnRyaWJ1dG9yVHlwZT0iUmVsYXRlZFBlcnNvbiI+CiAgICAgIDxjb250cmlidXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5XaWVtZXIsIFN0ZWZhbjwvY29udHJpYnV0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPlN0ZWZhbjwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5XaWVtZXI8L2ZhbWlseU5hbWU+CiAgICAgIDxuYW1lSWRlbnRpZmllciBuYW1lSWRlbnRpZmllclNjaGVtZT0iIiBzY2hlbWVVUkk9IiIvPgogICAgICA8YWZmaWxpYXRpb24vPgogICAgPC9jb250cmlidXRvcj4KICAgIDxjb250cmlidXRvciBjb250cmlidXRvclR5cGU9IkRhdGFNYW5hZ2VyIj4KICAgICAgPGNvbnRyaWJ1dG9yTmFtZT5TRUQgU2Vpc21pYyBOZXR3b3JrPC9jb250cmlidXRvck5hbWU+CiAgICAgIDxuYW1lSWRlbnRpZmllciBuYW1lSWRlbnRpZmllclNjaGVtZT0iIiBzY2hlbWVVUkk9IiIvPgogICAgICA8YWZmaWxpYXRpb24vPgogICAgPC9jb250cmlidXRvcj4KICAgIDxjb250cmlidXRvciBjb250cmlidXRvclR5cGU9IkNvbnRhY3RQZXJzb24iPgogICAgICA8Y29udHJpYnV0b3JOYW1lPnNlZF9kYXRhX2FjY2Vzc0BzZWQuZXRoei5jaDwvY29udHJpYnV0b3JOYW1lPgogICAgICA8bmFtZUlkZW50aWZpZXIgbmFtZUlkZW50aWZpZXJTY2hlbWU9IiIgc2NoZW1lVVJJPSIiLz4KICAgICAgPGFmZmlsaWF0aW9uLz4KICAgIDwvY29udHJpYnV0b3I+CiAgICA8Y29udHJpYnV0b3IgY29udHJpYnV0b3JUeXBlPSJIb3N0aW5nSW5zdGl0dXRpb24iPgogICAgICA8Y29udHJpYnV0b3JOYW1lIG5hbWVUeXBlPSJPcmdhbml6YXRpb25hbCI+RVRIIFp1zIhyaWNoPC9jb250cmlidXRvck5hbWU+CiAgICAgIDxuYW1lSWRlbnRpZmllciBuYW1lSWRlbnRpZmllclNjaGVtZT0iIiBzY2hlbWVVUkk9IiIvPgogICAgICA8YWZmaWxpYXRpb24vPgogICAgPC9jb250cmlidXRvcj4KICA8L2NvbnRyaWJ1dG9ycz4KICA8ZGF0ZXM+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iQXZhaWxhYmxlIj4xOTgzPC9kYXRlPgogICAgPGRhdGUgZGF0ZVR5cGU9Iklzc3VlZCI+MTk4MzwvZGF0ZT4KICA8L2RhdGVzPgogIDxsYW5ndWFnZT5lbjwvbGFuZ3VhZ2U+CiAgPHJlbGF0ZWRJZGVudGlmaWVycz4KICAgIDxyZWxhdGVkSWRlbnRpZmllciByZWxhdGVkSWRlbnRpZmllclR5cGU9IkRPSSIgcmVsYXRpb25UeXBlPSJSZWZlcmVuY2VzIj4xMC4xMDA3L3MwMDAxNS0wMTQtMDE3MS15PC9yZWxhdGVkSWRlbnRpZmllcj4KICAgIDxyZWxhdGVkSWRlbnRpZmllciByZWxhdGVkSWRlbnRpZmllclR5cGU9IkRPSSIgcmVsYXRpb25UeXBlPSJSZWZlcmVuY2VzIj4xMC4xMTkzLzEuNDAwMDEwNzwvcmVsYXRlZElkZW50aWZpZXI+CiAgPC9yZWxhdGVkSWRlbnRpZmllcnM+CiAgPHNpemVzLz4KICA8Zm9ybWF0cz4KICAgIDxmb3JtYXQ+U0VFRCBkYXRhPC9mb3JtYXQ+CiAgPC9mb3JtYXRzPgogIDx2ZXJzaW9uLz4KICA8ZGVzY3JpcHRpb25zPgogICAgPGRlc2NyaXB0aW9uIGRlc2NyaXB0aW9uVHlwZT0iT3RoZXIiPk5hdGlvbmFsIFNlaXNtaWMgTmV0d29ya3Mgb2YgU3dpdHplcmxhbmQsIGNvbXByaXNpbmcgYWxsIHBlcm1hbmVudCBoaWdoIGdhaW4gKHNob3J0IHBlcmlvZCBhbmQgYnJvYWRiYW5kKSBhbmQgbG93IGdhaW4gc3Ryb25nIG1vdGlvbiBzdGF0aW9ucy48L2Rlc2NyaXB0aW9uPgogIDwvZGVzY3JpcHRpb25zPgogIDxnZW9Mb2NhdGlvbnM+CiAgICA8Z2VvTG9jYXRpb24+CiAgICAgIDxnZW9Mb2NhdGlvblBsYWNlPlN3aXR6ZXJsYW5kIGFuZCBib3JkZXJpbmcgcmVnaW9uPC9nZW9Mb2NhdGlvblBsYWNlPgogICAgPC9nZW9Mb2NhdGlvbj4KICA8L2dlb0xvY2F0aW9ucz4KPC9yZXNvdXJjZT4K",
+      "url": "http://networks.seismo.ethz.ch/networks/ch/",
+      "contentUrl": null,
+      "metadataVersion": 4,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "fabricaForm",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 3,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2016-09-02T13:13:56.000Z",
+      "registered": "2016-09-02T13:13:56.000Z",
+      "published": "1983",
+      "updated": "2025-03-07T17:45:55.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "ethz.sed",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "stdp",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.12686/sed/networks/ch",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": [
+          {
+            "id": "10.15778/resif.9m2022",
+            "type": "dois"
+          },
+          {
+            "id": "10.1193/1.4000107",
+            "type": "dois"
+          },
+          {
+            "id": "10.1007/s00015-014-0171-y",
+            "type": "dois"
+          }
+        ]
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

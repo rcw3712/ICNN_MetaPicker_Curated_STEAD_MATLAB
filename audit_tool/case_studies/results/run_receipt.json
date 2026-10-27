@@ -1,0 +1,13 @@
+{
+  "training_performed": false,
+  "inference_performed": false,
+  "ethz_input_sha256": "542d2e9cfc35847668521fe335bc955b00a42f59f06eaa921ffb92f6009a1dee",
+  "historical_counts": {
+    "test_records": 335,
+    "test_records_sharing_train_source": 151,
+    "test_records_sharing_train_or_val_source": 168
+  },
+  "checks_complete": true,
+  "schema_real_data_check": "Not performed; schema API remains supported by synthetic controls only",
+  "lineage_evidence": "Adapted from recorded OOF replay receipts, not a training-time lineage log"
+}
