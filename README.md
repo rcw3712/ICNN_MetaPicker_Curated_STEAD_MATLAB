@@ -1,6 +1,10 @@
 # Seismic evaluation audits and the source-verified phase-picking case study
 
-## Python audit tool and Path A manuscript
+## Dedicated Python audit repository
+
+The current Python tool and targeted Path A revision are maintained at [rcw3712/seismic-eval-audit](https://github.com/rcw3712/seismic-eval-audit). Version v0.1.3 adds presentation, attribution and CI documentation refinements; it changes no model results and performs no training or inference. The historical model archive and its DOI remain unchanged.
+
+## Preserved Python audit package v0.1.2
 
 The new [seismic-eval-audit v0.1.2 package](audit_tool/README.md) audits memberships and existing artifacts without training or inference. [Release](https://github.com/rcw3712/ICNN_MetaPicker_Curated_STEAD_MATLAB/releases/tag/seismic-eval-audit-v0.1.2), [revised manuscript](audit_tool/manuscript), [real-artifact reports](audit_tool/case_studies/results), and [27 tests](audit_tool/tests).
 
