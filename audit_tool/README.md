@@ -1,6 +1,6 @@
 # Seismic evaluation audit
 
-A small Python tool for checking supplied earthquake identifiers across data splits. It does not train or recommend a picker. Python 3.10+; core checks use only the standard library. MIT software license. Version 0.1.1. Versioned source and assets: https://github.com/rcw3712/ICNN_MetaPicker_Curated_STEAD_MATLAB/releases/tag/seismic-eval-audit-v0.1.1
+A small Python tool for checking supplied earthquake identifiers across data splits. It does not train or recommend a picker. Python 3.10+; core checks use only the standard library. MIT software license. Version 0.1.2. Versioned source and assets: https://github.com/rcw3712/ICNN_MetaPicker_Curated_STEAD_MATLAB/releases/tag/seismic-eval-audit-v0.1.2
 
 ## Five-minute start
 

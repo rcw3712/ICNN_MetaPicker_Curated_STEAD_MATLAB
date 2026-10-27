@@ -14,3 +14,6 @@ submission_documents_20260916/** -text
 
 # Preserve exact provenance bytes for the corrected v2 package.
 source_verified_v2/** -text
+
+# Preserve exact audit tool and evidence bytes across operating systems.
+audit_tool/** -text

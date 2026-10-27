@@ -2,7 +2,7 @@
 
 ## Python audit tool and Path A manuscript
 
-The new [seismic-eval-audit v0.1.1 package](audit_tool/README.md) audits memberships and existing artifacts without training or inference. [Release](https://github.com/rcw3712/ICNN_MetaPicker_Curated_STEAD_MATLAB/releases/tag/seismic-eval-audit-v0.1.1), [revised manuscript](audit_tool/manuscript), [real-artifact reports](audit_tool/case_studies/results), and [27 tests](audit_tool/tests).
+The new [seismic-eval-audit v0.1.2 package](audit_tool/README.md) audits memberships and existing artifacts without training or inference. [Release](https://github.com/rcw3712/ICNN_MetaPicker_Curated_STEAD_MATLAB/releases/tag/seismic-eval-audit-v0.1.2), [revised manuscript](audit_tool/manuscript), [real-artifact reports](audit_tool/case_studies/results), and [27 tests](audit_tool/tests).
 
 The recovered historical STEAD partition fails source exclusion; the corrected partition passes, while historical development exposure remains. ETHZ's supplied split passes source exclusion but shares station keys across subsets. Receipt-derived lineage and synthetic schema tests have explicitly limited scope. The older DOI archive is unchanged and is not asserted to archive this new tool. The model/results case study below remains preserved separately.
 

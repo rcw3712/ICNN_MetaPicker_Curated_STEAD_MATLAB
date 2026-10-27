@@ -1,4 +1,4 @@
-# seismic-eval-audit 0.1.1
+# seismic-eval-audit 0.1.2
 
 Python audit package for supplied source memberships, lineage, OOF exclusions, feature order, artifact hashes and historical roles. This version adds real STEAD artifact checks and an ETHZ station-key audit. No training or inference was performed.
 
@@ -12,3 +12,5 @@ Python audit package for supplied source memberships, lineage, OOF exclusions, f
 Core runtime: Python 3.10+, standard library only. MIT software license; original dataset terms remain applicable. Standalone wheel and source package are attached. The full historical model archive remains available under the older DOI 10.5281/zenodo.22824997. That DOI does not identify this new tool. No new Zenodo DOI is asserted.
 
 Feature-schema tests are synthetic; no new real-tensor schema validation or independent predictive confirmation is claimed. See case_studies/results and manuscript for evidence boundaries.
+
+Packaging correction: v0.1.2 preserves exact file bytes across Git checkouts and adds a package-manifest verifier. The earlier v0.1.1 tag is retained; use v0.1.2 for checksum verification. Scientific results are unchanged.

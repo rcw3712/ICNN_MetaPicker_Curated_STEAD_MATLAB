@@ -27,6 +27,6 @@ test_no_test_rejected (test_history_strict.HistoryTests.test_no_test_rejected) .
 test_strict_cli_warning (test_history_strict.HistoryTests.test_strict_cli_warning) ... ok
 
 ----------------------------------------------------------------------
-Ran 27 tests in 0.388s
+Ran 27 tests in 0.416s
 
 OK
